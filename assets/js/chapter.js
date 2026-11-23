@@ -1,10 +1,3 @@
-const narrowReader = matchMedia('(max-width: 760px)');
-function adaptContents() {
-  const contents = Q('#toc');
-  if (contents) contents.open = !narrowReader.matches;
-}
-narrowReader.addEventListener('change', adaptContents);
-
 function pageNote(page, continuing = false) {
   return `<a class="page-note${continuing ? ' continuing' : ''}" href="${bookURL('onbeing', page)}" aria-label="Open PDF page ${page}">p.&nbsp;${page}</a>`;
 }
@@ -39,7 +32,7 @@ async function reader() {
           return `<div class="turn ${b.speaker || 'prose'}">${start}<p>${b.html}</p>${end}</div>`;
         })
         .join('');
-      return `<section id="${segment.id}" class="segment"><h2>${esc(segment.title)}</h2>${body}
+      return `<section id="${segment.id}" class="segment" tabindex="-1"><h2>${esc(segment.title)}</h2>${body}
       <label class="mark"><input type="checkbox" data-segment="${segment.id}" ${marks[segment.id]?.read ? 'checked' : ''}>Mark as read</label></section>`;
     })
     .join('');
@@ -63,11 +56,11 @@ async function reader() {
   app.innerHTML = `<div class="reading-layout"><header class="reader-heading">
     <nav class="inline-meta" aria-label="Chapter location"><a href="onbeing.html">On Being</a> · ${part} · <a href="${bookURL('onbeing', chapter.printedPages[0])}">PDF&nbsp;${range(chapter.printedPages)}</a></nav>
     <h1>${esc(chapter.title)}</h1>${hasDialogue ? '<p class="speaker-key"><em>Italics for Bill Jay</em>, roman for David Hurn.</p>' : ''}</header>
-    <aside class="reader-contents"><details id="toc"><summary>In this chapter</summary><span class="toc-heading" aria-hidden="true">In this chapter</span><nav aria-label="Chapter segments">${contents}</nav></details></aside>
+    <details id="toc"><summary>Chapter contents</summary><nav aria-label="Chapter segments">${contents}</nav></details>
     <article class="reader-text">${chapter.epigraph ? `<blockquote>${chapter.epigraph.lines.map(esc).join('<br>')}<cite>${esc(chapter.epigraph.attribution)}</cite></blockquote>` : ''}${reading}
     <section class="ruled">${sectionHead('Try next')}${suggestions}</section>
     ${chapter.id === 'ob-04' ? '<a class="text-link" href="subjects.html">Start your subject list</a>' : ''}</article></div>`;
-  Q('#toc').open = wasOpen ?? !narrowReader.matches;
+  Q('#toc').open = wasOpen ?? false;
   for (const input of QA('[data-segment]'))
     input.onchange = () => {
       setSegmentRead(input.dataset.segment, input.checked);
@@ -76,7 +69,7 @@ async function reader() {
       check.setAttribute('aria-label', input.checked ? 'Read' : '');
     };
   Q('#toc nav').onclick = (e) => {
-    if (narrowReader.matches && e.target.closest('a')) Q('#toc').open = false;
+    if (e.target.closest('a')) Q('#toc').open = false;
   };
   if (firstRender && location.hash)
     document.getElementById(location.hash.slice(1))?.scrollIntoView();
