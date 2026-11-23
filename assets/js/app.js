@@ -80,7 +80,11 @@ const sectionHead = (title, link = '', label = '') =>
   esc(title) +
   '</h2>' +
   (link
-    ? '<a class="text-link" href="' + esc(link) + '">' + esc(label) + '</a>'
+    ? '<a class="text-link chevron" href="' +
+      esc(link) +
+      '">' +
+      esc(label) +
+      '</a>'
     : '') +
   '</div>';
 function photoURL(value) {

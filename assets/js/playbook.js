@@ -19,7 +19,7 @@ async function library() {
   app.innerHTML = `<header class="book-heading"><h1>The Photographer’s Playbook</h1><p>Jason Fulford &amp; Gregory Halpern</p></header>
     <details class="intro"><summary>About This Book</summary><div class="prose-body"><a class="text-link" href="${bookURL('playbook', intro.pdfPages[0], true)}">Open PDF ${intro.pdfPages[0]}</a>${intro.blocks.map((b) => `<p>${esc(b.text)}</p>`).join('')}<p>${esc(intro.plateNote)}</p><a class="text-link" href="${bookURL('playbook', intro.pdfPages[1], true)}">Plate note · PDF ${intro.pdfPages[1]}</a></div></details>
     <div class="library-tools"><label class="sr" for="query">Search assignments by title, contributor or text</label><input id="query" type="search" placeholder="Search assignments" value="${esc(filters.search)}">
-    <button class="text-btn" type="button" id="filter-toggle" aria-controls="library-filters" aria-expanded="${editingFilters}">Filters</button><button id="draw" class="btn">Draw one</button></div>
+    <button class="text-btn" type="button" id="filter-toggle" aria-controls="library-filters" aria-expanded="${editingFilters}">Filters</button><button id="draw" class="btn primary">Draw one</button></div>
     <section id="library-filters" aria-label="Assignment filters" ${editingFilters ? '' : 'hidden'}><div class="filters">
     <label>Status<select id="status"><option value="">All statuses</option>${Object.entries(
       statusLabels
@@ -76,10 +76,6 @@ async function library() {
     Q('#results').innerHTML =
       results
         .map((a) => {
-          const words = flatText(a, ' · ').trim().split(/\s+/);
-          const summary =
-            words.slice(0, 30).join(' ').replace(/ ·$/, '') +
-            (words.length > 30 ? '…' : '');
           const status = assignmentState(p, a.id).status;
           const count = photosFor(p, a.id).length;
           const notes = [];
@@ -87,7 +83,7 @@ async function library() {
             notes.push(statusLabels[status]);
           if (count) notes.push(count + (count === 1 ? ' photo' : ' photos'));
           return `<li><a class="assignment-row" href="${assignmentURL(a.id)}"><div class="row-title"><h2>${esc(a.title)}</h2>${notes.length ? `<small>${notes.join(' · ')}</small>` : ''}</div>
-            <span class="row-author">${esc(a.contributor)}</span><span class="page-ref">PDF&nbsp;${range(a.pdfPages)}</span><p class="row-summary">${esc(summary)}</p></a></li>`;
+            <span class="row-author">${esc(a.contributor)}</span><span class="page-ref">PDF&nbsp;${range(a.pdfPages)}</span></a></li>`;
         })
         .join('') ||
       '<li class="muted">No assignments match these filters.</li>';

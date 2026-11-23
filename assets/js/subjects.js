@@ -16,8 +16,8 @@ async function subjectsPage() {
         return a ? `<a href="${assignmentURL(key)}">${esc(a.title)}</a>` : '';
       })
       .join('')}</div></div>
-    <div class="actions"><button class="btn" data-star="${esc(id)}" aria-pressed="${s.starred}" aria-label="${s.starred ? 'Unstar' : 'Star'} subject">${s.starred ? '★' : '☆'}</button>
-    <button class="btn" data-kind="${esc(id)}">${s.kind === 'interest' ? 'Make project' : 'Mark interest'}</button><button class="btn" data-edit="${esc(id)}">Edit</button><button class="text-btn" data-remove="${esc(id)}">Delete</button></div></article>`
+    <div class="actions"><button class="icon-btn" data-star="${esc(id)}" aria-pressed="${s.starred}" aria-label="${s.starred ? 'Unstar' : 'Star'} subject">${s.starred ? '★' : '☆'}</button>
+    <button class="text-btn" data-kind="${esc(id)}">${s.kind === 'interest' ? 'Make project' : 'Mark interest'}</button><button class="text-btn" data-edit="${esc(id)}">Edit</button><button class="text-btn destructive" data-remove="${esc(id)}">Delete</button></div></article>`
         )
         .join('') ||
       '<p class="empty">Your subject list is empty. Add a place, person or question you keep returning to.</p>'

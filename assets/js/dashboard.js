@@ -25,12 +25,12 @@ async function dashboard() {
   app.innerHTML = `<header class="heading week-heading"><h1>This Week</h1><p>${esc(new Intl.DateTimeFormat('en', { weekday: 'long', month: 'long', day: 'numeric' }).format(new Date()))}</p></header>
     <div class="workbench"><section class="feature assignment-feature"><p class="eyebrow">This week's assignment</p>
     <h2>${esc(current?.title || 'Choose an assignment')}</h2><p>${current ? esc(current.contributor) + ' · Started ' + dateLabel(states[current.id].currentSince || states[current.id].statusAt) + (photoCount ? ' · ' + photoCount + (photoCount === 1 ? ' photo' : ' photos') : '') : 'Draw from The Photographer’s Playbook.'}</p>
-    <div class="actions">${current ? `<a class="text-link" href="${assignmentURL(current.id)}">Open assignment</a><button id="done" class="text-btn">Mark done</button><button id="draw" class="text-btn">Draw another</button>` : `<button id="draw" class="text-btn">Draw one</button><a class="text-link" href="playbook.html">Browse Playbook</a>`}</div></section>
+    <div class="actions">${current ? `<a class="btn primary" href="${assignmentURL(current.id)}">Open assignment</a><button id="done" class="text-btn">Mark done</button><button id="draw" class="text-btn">Draw another</button>` : `<button id="draw" class="btn primary">Draw one</button><a class="text-link chevron" href="playbook.html">Browse Playbook</a>`}</div></section>
     <section class="feature reading-feature"><p class="eyebrow">On Being a Photographer</p><h2>${esc(next?.c.title || 'Reading complete')}</h2>
     <p>${next ? esc(next.s.title) + ' · <span class="page-ref">PDF&nbsp;' + range(next.s.pages) + '</span>' : 'All core segments are marked as read.'}</p>
-    <div class="reading-action"><a class="text-link" href="${next ? chapterURL(next.c.id, next.s.id) : 'onbeing.html'}">${next ? 'Continue reading' : 'Review reading'}</a><span class="read-meter">${progressBar(read, segments.length)}<small>${read} of ${segments.length} segments</small></span></div></section></div>
-    <section class="ruled">${sectionHead('Subjects', 'subjects.html', 'View all subjects')}${subjectForm()}
-    ${recent.map(([, s]) => `<p class="subject-line">${s.starred ? '★ ' : ''}${esc(s.text)}</p>`).join('')}</section>
+    <div class="reading-action"><a class="btn primary" href="${next ? chapterURL(next.c.id, next.s.id) : 'onbeing.html'}">${next ? 'Continue reading' : 'Review reading'}</a><span class="read-meter">${progressBar(read, segments.length)}<small>${read} of ${segments.length} segments</small></span></div></section></div>
+    <section class="ruled">${sectionHead('Subjects', 'subjects.html', 'View all')}<div class="group">${subjectForm()}
+    ${recent.map(([, s]) => `<p class="subject-line">${s.starred ? '★ ' : ''}${esc(s.text)}</p>`).join('')}</div></section>
     <section class="ruled">${sectionHead('Recent photos')}${StudyPhotos.controls()}${
       photos.length
         ? `<div class="photo-grid">${photos

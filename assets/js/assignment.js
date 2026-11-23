@@ -122,7 +122,7 @@ async function assignment() {
         : ''
     }</section>
     <dialog id="lightbox" aria-label="Photo"><div id="full-photo" tabindex="-1" autofocus></div>
-    <div class="light-meta"><input id="light-caption" maxlength="140" placeholder="Add a caption" aria-label="Caption" autocomplete="off"><input id="light-date" type="date" aria-label="Taken on"><span id="light-folder"></span><button class="text-btn" id="light-delete" type="button">Delete</button><button class="text-btn" id="close-light" type="button">Close</button></div></dialog>`;
+    <div class="light-meta"><input id="light-caption" maxlength="140" placeholder="Add a caption" aria-label="Caption" autocomplete="off"><input id="light-date" type="date" aria-label="Taken on"><span id="light-folder"></span><button class="text-btn destructive" id="light-delete" type="button">Delete</button><button class="text-btn" id="close-light" type="button">Close</button></div></dialog>`;
   Q('#assignment-status').onchange = (e) => {
     setAssignmentStatus(a.id, e.target.value);
     notice('Assignment status saved.');

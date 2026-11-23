@@ -75,7 +75,7 @@ async function reader() {
     <h1>${esc(chapter.title)}</h1>${hasDialogue ? '<p class="speaker-key"><em>Italics for Bill Jay</em>, roman for David Hurn.</p>' : ''}</header>
     <article class="reader-text">${chapter.epigraph ? `<blockquote>${chapter.epigraph.lines.map(esc).join('<br>')}<cite>${esc(chapter.epigraph.attribution)}</cite></blockquote>` : ''}${reading}
     <section class="ruled">${sectionHead('Try next')}${suggestions}</section>
-    ${chapter.id === 'ob-04' ? '<a class="text-link" href="subjects.html">Start your subject list</a>' : ''}</article></div></div>`;
+    ${chapter.id === 'ob-04' ? '<a class="text-link chevron" href="subjects.html">Start your subject list</a>' : ''}</article></div></div>`;
   Q('#toc').open = wasOpen ?? false;
   for (const input of QA('[data-segment]'))
     input.onchange = () => {
