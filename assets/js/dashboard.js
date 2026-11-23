@@ -20,23 +20,14 @@ async function dashboard() {
   const recent = sortedSubjects(p)
     .sort(([, a], [, b]) => b.createdAt.localeCompare(a.createdAt))
     .slice(0, 5);
-  const week =
-    1 +
-    Math.max(
-      0,
-      Math.floor((Date.parse(localDay()) - Date.parse(p.startedAt)) / 604800000)
-    );
-  const done = Object.values(states).filter((a) => a.status === 'done').length;
-  app.innerHTML = `<header class="heading"><div><p class="eyebrow">${esc(new Intl.DateTimeFormat('en', { weekday: 'long', month: 'long', day: 'numeric' }).format(new Date()))}</p><h1>This Week</h1></div>
-    <div class="metrics"><span><b>${week}</b>Week</span><span><b>${done}</b>Completed</span><span><b>${photos.length}</b>Photos</span></div></header>
-    <div class="workbench"><section class="feature assignment-feature"><div class="feature-copy"><p class="eyebrow">This week's assignment</p>
-    <h2>${esc(current?.title || 'Choose an assignment')}</h2><p>${current ? esc(current.contributor) + ' · Started ' + dateLabel(states[current.id].currentSince || states[current.id].statusAt) + ' · ' + photosFor(p, current.id).length + ' photos' : 'Draw from the 307 assignments in The Photographer’s Playbook.'}</p>
-    <div class="actions">${current ? `<a class="btn primary" href="${assignmentURL(current.id)}">Open</a><button id="done" class="btn">Mark done</button><button id="draw" class="text-btn">Draw another</button>` : `<button id="draw" class="btn primary">Draw one</button><a class="text-link" href="playbook.html">Browse Playbook</a>`}</div></div>
-    <img class="book-cover" src="assets/images/photographers-playbook.jpg" alt="The Photographer’s Playbook cover"></section>
-    <section class="feature reading-feature"><div class="feature-copy"><p class="eyebrow">On Being a Photographer</p><h2>${esc(next?.c.title || 'Reading complete')}</h2>
-    <p>${next ? esc(next.s.title) + ' · PDF ' + range(next.s.pages) : 'All core segments are marked as read.'}</p>
-    ${progressBar(read, segments.length)}<div class="reading-action"><small>${read} of ${segments.length} segments</small><a class="text-link" href="${next ? chapterURL(next.c.id, next.s.id) : 'onbeing.html'}">${next ? 'Continue' : 'Review'}</a></div></div>
-    <img class="book-cover" src="assets/images/on-being-a-photographer.jpg" alt="On Being a Photographer cover"></section></div>
+  const photoCount = current ? photosFor(p, current.id).length : 0;
+  app.innerHTML = `<header class="heading week-heading"><h1>This Week</h1><p>${esc(new Intl.DateTimeFormat('en', { weekday: 'long', month: 'long', day: 'numeric' }).format(new Date()))}</p></header>
+    <div class="workbench"><section class="feature assignment-feature"><p class="eyebrow">This week's assignment</p>
+    <h2>${esc(current?.title || 'Choose an assignment')}</h2><p>${current ? esc(current.contributor) + ' · Started ' + dateLabel(states[current.id].currentSince || states[current.id].statusAt) + (photoCount ? ' · ' + photoCount + (photoCount === 1 ? ' photo' : ' photos') : '') : 'Draw from The Photographer’s Playbook.'}</p>
+    <div class="actions">${current ? `<a class="text-link" href="${assignmentURL(current.id)}">Open assignment</a><button id="done" class="text-btn">Mark done</button><button id="draw" class="text-btn">Draw another</button>` : `<button id="draw" class="text-btn">Draw one</button><a class="text-link" href="playbook.html">Browse Playbook</a>`}</div></section>
+    <section class="feature reading-feature"><p class="eyebrow">On Being a Photographer</p><h2>${esc(next?.c.title || 'Reading complete')}</h2>
+    <p>${next ? esc(next.s.title) + ' · <span class="page-ref">PDF&nbsp;' + range(next.s.pages) + '</span>' : 'All core segments are marked as read.'}</p>
+    <div class="reading-action"><a class="text-link" href="${next ? chapterURL(next.c.id, next.s.id) : 'onbeing.html'}">${next ? 'Continue reading' : 'Review reading'}</a><span class="read-meter">${progressBar(read, segments.length)}<small>${read} of ${segments.length} segments</small></span></div></section></div>
     <section class="ruled">${sectionHead('Subjects', 'subjects.html', 'View all subjects')}${subjectForm()}
     ${recent.map(([, s]) => `<p class="subject-line">${s.starred ? '★ ' : ''}${esc(s.text)}</p>`).join('')}</section>
     <section class="ruled">${sectionHead('Recent photos')}${
@@ -50,11 +41,7 @@ async function dashboard() {
             .join('')}</div>`
         : '<p class="muted">Photos you add to assignments will appear here.</p>'
     }</section>
-    <details id="sync-settings" class="settings"><summary>Sync settings &amp; progress backups</summary><div class="settings-inner"><div><h3>Sync settings</h3>
-    <p class="muted" data-sync-status></p><label for="sync-code">Sync code</label>
-    <input type="password" id="sync-code" autocomplete="off" spellcheck="false" placeholder="Enter your private code">
-    <div class="actions"><button class="btn" id="connect">Save code</button><button class="btn" id="generate">Generate</button><button class="btn" id="disconnect">Clear code</button></div><p class="muted" id="sync-feedback"></p></div>
-    <div><h3>Progress backups</h3><p class="muted">Includes reading marks, assignments, subjects and private photo links.</p><div class="actions"><button class="btn" id="export">Export progress</button><label class="btn" for="import-file">Import progress</label><input class="file-input" id="import-file" type="file" accept=".json,application/json"></div></div></div></details>`;
+`;
   Q('#draw').onclick = () => draw(assignments, getProgress());
   if (current)
     Q('#done').onclick = () => {

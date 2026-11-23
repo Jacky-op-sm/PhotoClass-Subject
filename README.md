@@ -20,11 +20,11 @@ The server listens on 127.0.0.1 and normally opens **http://localhost:8000/**. O
 - **On Being** has 46 core segments and three reference segments. Mark segments as read at their ends. Chapter recommendations have links back from the corresponding assignments.
 - **Playbook** has 307 assignments. Search by title, author or text. Combine topics, status and photo filters, then draw from the matching to-do assignments. The original-page link shows the physical PDF page number used by Notability.
 - **Subjects** accepts 200 characters per entry. Star an interest, mark it as a project candidate, or use Edit to connect it to assignments.
-- **Original pages** show the physical PDF number first. The viewer’s page input takes that number. A link with `?book=playbook&page=17` uses printed page 17 and looks up its physical page in the book-specific map.
+- **Original pages** show the physical PDF number first. The viewer opens at full-page size. Press Enter in the page field to jump, or use the arrow keys to turn a page. Fit width toggles a closer view. A link with `?book=playbook&page=17` uses printed page 17 and looks up its physical page in the book-specific map.
 
 ## Progress and photos
 
-Progress is written first to the browser’s localStorage under `photoclass-subject-progress-v1`. Use **Sync settings & progress backups** at the bottom of This Week to export or restore a JSON backup. It includes private photo URLs and metadata. Keep the backup private. Image files stay in Storage.
+Progress is written first to the browser’s localStorage under `photoclass-subject-progress-v1`. Use **Sync settings** in the footer of This Week to export or restore a JSON backup. It includes private photo URLs and metadata. Keep the backup private. Image files stay in Storage.
 
 Firebase sync is optional. To enable it, register the Web App, install the Firestore and Storage rules and enter the same sync code under **Sync settings** in each browser. The site can generate a code using Web Crypto. Keep it in your password manager and set it directly in the Firebase console rules. The checked-in configuration starts empty. [Firebase setup](docs/firebase-setup.md)
 

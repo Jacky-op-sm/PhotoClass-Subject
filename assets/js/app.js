@@ -73,14 +73,8 @@ function dateLabel(value) {
     year: 'numeric',
   }).format(date);
 }
-const flatText = (a) =>
-  a.blocks.map((b) => b.text ?? b.items.join(' ')).join(' ');
-const badge = (status) =>
-  '<span class="badge ' +
-  esc(status) +
-  '">' +
-  esc(statusLabels[status]) +
-  '</span>';
+const flatText = (a, separator = ' ') =>
+  a.blocks.map((b) => b.text ?? b.items.join(separator)).join(' ');
 const sectionHead = (title, link = '', label = '') =>
   '<div class="section-head"><h2>' +
   esc(title) +

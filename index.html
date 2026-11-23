@@ -28,17 +28,55 @@
           ><a href="playbook.html">Playbook</a
           ><a href="subjects.html">Subjects</a>
         </nav>
-        <a class="sync-indicator" href="index.html#sync-settings"
-          ><i aria-hidden="true"></i><span>Local only</span></a
+        <span class="sync-indicator" role="status"
+          ><i aria-hidden="true"></i><span>Local only</span></span
         >
       </div>
     </header>
     <main id="app" class="page-shell" tabindex="-1">
       <p role="status">Loading this week…</p>
     </main>
-    <footer class="site-footer">
-      <span>PhotoClass: Subject</span
-      ><a href="index.html#sync-settings">Sync settings</a>
+    <footer class="site-footer home-footer">
+      <span>PhotoClass: Subject</span>
+      <details id="sync-settings" class="footer-settings">
+        <summary>Sync settings</summary>
+        <div class="settings-inner">
+          <div>
+            <p class="muted" data-sync-status></p>
+            <label for="sync-code">Sync code</label>
+            <input
+              type="password"
+              id="sync-code"
+              autocomplete="off"
+              spellcheck="false"
+              placeholder="Enter your private code"
+            />
+            <div class="actions">
+              <button class="btn" id="connect">Save code</button
+              ><button class="btn" id="generate">Generate</button
+              ><button class="btn" id="disconnect">Clear code</button>
+            </div>
+            <p class="muted" id="sync-feedback"></p>
+          </div>
+          <div>
+            <h3>Progress backups</h3>
+            <p class="muted">
+              Includes reading marks, assignments, subjects and private photo
+              links.
+            </p>
+            <div class="actions">
+              <button class="btn" id="export">Export progress</button
+              ><label class="btn" for="import-file">Import progress</label
+              ><input
+                class="file-input"
+                id="import-file"
+                type="file"
+                accept=".json,application/json"
+              />
+            </div>
+          </div>
+        </div>
+      </details>
     </footer>
     <div id="notice" role="status" aria-live="polite"></div>
   </body>

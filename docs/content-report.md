@@ -35,6 +35,8 @@ The [On Being audit](onbeing-review.md) includes the page sample table, the firs
 - In a separate race test, two Chrome profiles started with 11 photos. Both uploaded display and thumbnail JPEGs. A Firestore transaction admitted one pair. The other pair was removed from Storage. The cloud document and both profiles ended at 12 photos. The real assignment page displayed the 480 px thumbnail, opened the 1600 px lightbox and disabled the full picker.
 - The original books and generated text are served from this Mac. The launcher binds only to 127.0.0.1. The runtime and test images were kept outside iCloud.
 
+The simplified interface was checked again at 390, 1280, 1440 and 1600 px in Chrome and WebKit. All 56 page/width checks passed. Full lines in *Selecting a Subject* had a median of 68 characters at 1440 px. Tests covered the complete 307-row library, numeric list continuations, compact list previews, assignment status, the mobile contents disclosure, and the single footer settings control. Native macOS Safari opened the chapter, followed its page link, and turned from PDF 28 to 29. In the updated assignment page, two isolated Chrome profiles used the local Firebase emulators to upload three photos, sync their captions, open the lightbox and delete a photo. Both profiles then showed 2/12 and both stored derivatives of the deleted image were gone.
+
 ## Chapter recommendations
 
 ### Introduction

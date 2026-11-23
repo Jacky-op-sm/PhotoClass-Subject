@@ -2,7 +2,7 @@ async function subjectsPage() {
   const [assignments] = await bookData('assignments'),
     p = getProgress(),
     entries = sortedSubjects(p);
-  app.innerHTML = `<header class="heading"><div><p class="eyebrow">Subject list</p><h1>Subjects</h1><p>Keep a list of things you want to photograph, as Hurn and Jay suggest in <a class="text-link" href="${chapterURL('ob-04')}">Selecting a Subject</a>.</p></div></header>
+  app.innerHTML = `<header class="heading"><div><h1>Subjects</h1><p>Keep a list of things you want to photograph, as Hurn and Jay suggest in <a class="text-link" href="${chapterURL('ob-04')}">Selecting a Subject</a>.</p></div></header>
     ${subjectForm()}<div class="subject-list">${
       entries
         .map(

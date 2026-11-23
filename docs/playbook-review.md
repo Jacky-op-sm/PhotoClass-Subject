@@ -12,7 +12,7 @@ The 26 Polaroid plates form an A–Z sequence. The first photograph appears on P
 
 602 of 605 individual references resolve to an assignment (99.50%). All 307 contributions have a printed **See also** line. The scan of PDF 236 (Meeks) confirms the 307th occurrence: the embedded OCR reads “See alse Brouzws, Sultan.” The printed names are Brouws and Sultan.
 
-Three references say only “Brown.” Both Able Brown and Michael Christopher Brown have assignments. These records keep the printed label, an empty destination, and `needsReview: true`.
+Three references say only “Brown.” Both Able Brown and Michael Christopher Brown have assignments. These records keep the printed label, an empty destination, and `needsReview: true`. The assignment page offers links to both contributors. Elsewhere the editors use initials to distinguish the two. Neither contributor points back to any of these three entries.
 
 | Seq | Source | PDF |
 |---:|---|---:|

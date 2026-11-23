@@ -1,4 +1,38 @@
 let uploading = false;
+function assignmentBlock(block) {
+  if (block.kind !== 'list')
+    return `<p${block.format === 'verse' ? ' class="verse"' : ''}>${esc(block.text)}</p>`;
+  const { items } = block;
+  if (block.format === 'word-search')
+    return `<ul class="word-search" role="list">${items.map((s) => `<li>${esc(s)}</li>`).join('')}</ul>`;
+  // Use the book's numbers, including continuations after prose and skipped values.
+  const numbered = items.map((s) => s.match(/^(?:-\s*)?(\d+)\.\s+(.+)$/s));
+  if (numbered.every(Boolean)) {
+    return `<ol start="${Number(numbered[0][1])}">${numbered.map(([, n, s]) => `<li value="${Number(n)}">${esc(s)}</li>`).join('')}</ol>`;
+  }
+  // Mixed labels (e.g. "8–10.", "a)", or "Rule One") carry meaning in the source.
+  const printed = items.every((s) =>
+    /^(?:(?:\d+(?:[-–]\d+)?|[a-z])[.)]\s+|[-•]\s+|(?:Rule|Number)\s+\w+:)/i.test(
+      s
+    )
+  );
+  return `<ul${printed ? ' class="printed-list" role="list"' : ''}>${items.map((s) => `<li>${esc(s)}</li>`).join('')}</ul>`;
+}
+function referenceLine(label, links) {
+  if (!links.length) return '';
+  return `<div class="reference-line"><h2>${esc(label)}</h2><p>${links.join(' <span aria-hidden="true">·</span> ')}</p></div>`;
+}
+function contributorLink(ref, all) {
+  const target = all.find((entry) => entry.id === ref.id);
+  const link = (entry) =>
+    `<a href="${assignmentURL(entry.id)}">${esc(entry.contributor)}</a>`;
+  if (target) return link(target);
+  const candidates = all.filter(
+    (entry) => entry.contributor.split(/\s+/).at(-1) === ref.raw
+  );
+  if (candidates.length < 2) return esc(ref.raw);
+  return `<span class="ambiguous-ref">${esc(ref.raw)} <small>(${candidates.map(link).join(' or ')})</small></span>`;
+}
 async function assignment() {
   const [all, chapters, guide, bios] = await bookData(
     'assignments',
@@ -13,38 +47,45 @@ async function assignment() {
     photos = photosFor(p, a.id),
     state = assignmentState(p, a.id),
     bio = bios[a.bioId];
-  const reference = (id) => all.find((x) => x.id === id);
   const suggested = chapters.filter((c) =>
     guide[c.id].tryNext.some((rec) => rec.assignment === a.id)
   );
-  app.innerHTML = `<a class="crumb" href="playbook.html">Playbook</a><header class="heading"><div><p class="eyebrow">Assignment ${String(a.seq).padStart(3, '0')} / 307</p><h1>${esc(a.title)}</h1><p class="byline">${esc(a.contributor)}</p></div></header>
-    <div class="detail-layout"><article class="prose-body">${a.blocks
-      .map((b) =>
-        b.kind === 'list'
-          ? `<ul class="${b.format === 'word-search' ? 'word-search' : ''}">${b.items.map((s) => `<li>${esc(s)}</li>`).join('')}</ul>`
-          : `<p class="${b.format === 'verse' ? 'verse' : ''}">${esc(b.text)}</p>`
+  const controls = Object.entries(statusLabels)
+    .map(
+      ([key, label]) =>
+        `<label><input type="radio" class="sr" name="status" value="${key}" ${state.status === key ? 'checked' : ''}><span>${label}</span></label>`
+    )
+    .join('');
+  app.innerHTML = `<header class="assignment-heading"><nav class="inline-meta" aria-label="Assignment location"><a href="playbook.html">Playbook</a> · Assignment ${String(a.seq).padStart(3, '0')}</nav>
+    <h1>${esc(a.title)}</h1><div class="inline-meta assignment-byline"><span>${esc(a.contributor)}</span> · <span class="page-ref">${pages(a)}</span> · <a href="${bookURL('playbook', a.printedPages[0])}">Open original page</a></div></header>
+    <fieldset id="assignment-status"><legend class="sr">Assignment status</legend>${controls}</fieldset>
+    <article class="prose-body assignment-text">${a.blocks.map(assignmentBlock).join('')}</article>
+    <section class="assignment-references" aria-label="Assignment references">
+    ${referenceLine(
+      'Subject Guide',
+      a.topics.map(
+        (t) =>
+          `<a href="playbook.html?topic=${encodeURIComponent(t)}">${esc(t)}</a>`
       )
-      .join('')}
-    ${a.seeAlso.length ? `<section class="subsection"><h3>See also</h3><div class="chips">${a.seeAlso.map((ref) => (ref.id ? `<a href="${assignmentURL(ref.id)}">${esc(reference(ref.id)?.contributor || ref.raw)}</a>` : `<span>${esc(ref.raw)} (see original)</span>`)).join('')}</div></section>` : ''}
+    )}
+    ${referenceLine(
+      'See also',
+      a.seeAlso.map((ref) => contributorLink(ref, all))
+    )}
+    ${referenceLine(
+      'Suggested after',
+      suggested.map((c) => `<a href="${chapterURL(c.id)}">${esc(c.title)}</a>`)
+    )}
     ${
       bio
-        ? `<details class="intro"><summary>About the contributor</summary>${bio.text
+        ? `<details class="contributor"><summary>About the contributor</summary>${bio.text
             .split(/\n\n+/)
             .map((s) => `<p>${esc(s)}</p>`)
             .join(
               ''
-            )}<div class="chips">${bio.sourcePages.map((pair) => `<a href="${bookURL('playbook', pair[0], true)}">PDF ${range(pair)}</a>`).join('')}</div></details>`
+            )}<p>${bio.sourcePages.map((pair) => `<a href="${bookURL('playbook', pair[0], true)}">PDF&nbsp;${range(pair)}</a>`).join(' · ')}</p></details>`
         : ''
-    }
-    </article><aside class="details-panel"><h3>Assignment details</h3><p>${pages(a)}</p><a class="btn" href="${bookURL('playbook', a.printedPages[0])}">Open original page</a>
-    <label>Status<select id="assignment-status">${Object.entries(statusLabels)
-      .map(
-        ([k, v]) =>
-          `<option value="${k}" ${state.status === k ? 'selected' : ''}>${v}</option>`
-      )
-      .join('')}</select></label>
-    ${a.topics.length ? `<h4>Subject Guide</h4><div class="chips">${a.topics.map((t) => `<a href="playbook.html?topic=${encodeURIComponent(t)}">${esc(t)}</a>`).join('')}</div>` : ''}
-    ${suggested.length ? `<h4>Suggested after</h4>${suggested.map((c) => `<a class="text-link" href="${chapterURL(c.id)}">${esc(c.title)}</a>`).join(' ')}` : ''}</aside></div>
+    }</section>
     <section class="ruled" id="photos"><div class="section-head"><h2>Photos <small>${photos.length} / ${StudyPhotos.MAX_PHOTOS}</small></h2><label class="btn" id="upload-label" for="photo-files">Add photos</label><input class="file-input" id="photo-files" type="file" accept="image/*" multiple></div>
     <p id="upload-reason" class="muted"></p><progress id="upload-progress" aria-label="Upload progress" max="1" value="0" ${uploading ? '' : 'hidden'}></progress>
     <div class="photo-grid">${photos

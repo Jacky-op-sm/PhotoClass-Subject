@@ -1,69 +1,84 @@
-let sidebarHidden = false;
+const narrowReader = matchMedia('(max-width: 760px)');
+function adaptContents() {
+  const contents = Q('#toc');
+  if (contents) contents.open = !narrowReader.matches;
+}
+narrowReader.addEventListener('change', adaptContents);
+
+function pageNote(page, continuing = false) {
+  return `<a class="page-note${continuing ? ' continuing' : ''}" href="${bookURL('onbeing', page)}" aria-label="Open PDF page ${page}">p.&nbsp;${page}</a>`;
+}
+
 async function reader() {
   const [chapters, guide, assignments] = await bookData(
     'chapters',
     'guide',
     'assignments'
   );
-  const c = chapters.find((c) => c.id === params.get('id'));
-  if (!c) throw Error('Choose a chapter from On Being.');
-  const p = getProgress(),
-    { segments, tryNext } = guide[c.id];
-  document.title = 'PhotoClass: Subject — ' + c.title;
-  const blockIndex = new Map(c.blocks.map((b, i) => [b.id, i]));
+  const chapter = chapters.find((c) => c.id === params.get('id'));
+  if (!chapter) throw Error('Choose a chapter from On Being.');
+  const { segments, tryNext } = guide[chapter.id];
+  const marks = getProgress().onbeing.segments;
+  const wasOpen = Q('#toc')?.open;
+  const firstRender = wasOpen === undefined;
+  document.title = 'PhotoClass: Subject — ' + chapter.title;
+  const indices = new Map(chapter.blocks.map((b, i) => [b.id, i]));
   const reading = segments
-    .map((s) => {
-      const blocks = c.blocks.slice(
-        blockIndex.get(s.from),
-        blockIndex.get(s.to) + 1
+    .map((segment) => {
+      const blocks = chapter.blocks.slice(
+        indices.get(segment.from),
+        indices.get(segment.to) + 1
       );
-      let lastPage = null,
-        lastSpeaker = null;
-      return `<section id="${esc(s.id)}" class="segment"><h2>${esc(s.title)}</h2>${blocks
+      let page;
+      const body = blocks
         .map((b) => {
-          const marker =
-            b.page !== lastPage
-              ? `<a class="page-marker" href="${bookURL('onbeing', b.page)}">p. ${b.page}</a>`
-              : '';
-          const label =
-            b.speaker && b.speaker !== lastSpeaker
-              ? `<span class="speaker">${b.speaker === 'bill' ? 'Bill Jay' : 'David Hurn'}</span>`
-              : '';
-          lastPage = b.endPage || b.page;
-          lastSpeaker = b.speaker;
-          return `<div class="turn ${b.speaker || 'prose'}">${marker}${label}<p>${b.html}</p>${b.endPage && b.endPage !== b.page ? `<a class="end-page" href="${bookURL('onbeing', b.endPage)}">continues on p. ${b.endPage}</a>` : ''}</div>`;
+          const start = b.page !== page ? pageNote(b.page) : '';
+          const end =
+            b.endPage && b.endPage !== b.page ? pageNote(b.endPage, true) : '';
+          page = b.endPage || b.page;
+          return `<div class="turn ${b.speaker || 'prose'}">${start}<p>${b.html}</p>${end}</div>`;
         })
-        .join(
-          ''
-        )}<label class="mark"><input type="checkbox" data-segment="${esc(s.id)}" ${p.onbeing.segments[s.id]?.read ? 'checked' : ''}> Mark as read</label></section>`;
+        .join('');
+      return `<section id="${segment.id}" class="segment"><h2>${esc(segment.title)}</h2>${body}
+      <label class="mark"><input type="checkbox" data-segment="${segment.id}" ${marks[segment.id]?.read ? 'checked' : ''}>Mark as read</label></section>`;
     })
     .join('');
-  app.innerHTML = `<a class="crumb" href="onbeing.html">On Being</a><header class="heading"><div><p class="eyebrow">${c.type === 'reference' ? 'Reference' : 'Chapter ' + Number(c.id.slice(-2))} · pp. ${range(c.printedPages)}</p><h1>${esc(c.title)}</h1></div><a class="btn" href="${bookURL('onbeing', c.printedPages[0])}">Open PDF p. ${c.printedPages[0]}</a></header>
-    <button id="toggle-sidebar" class="btn" aria-expanded="${!sidebarHidden}" aria-controls="toc">${sidebarHidden ? 'Show' : 'Hide'} segments</button>
-    <div class="reading-layout ${sidebarHidden ? 'wide' : ''}"><aside id="toc" ${sidebarHidden ? 'hidden' : ''}><p class="eyebrow">In this chapter</p>${segments.map((s) => `<a href="#${s.id}"><span data-check="${s.id}">${p.onbeing.segments[s.id]?.read ? '✓' : '○'}</span> ${esc(s.title)}</a>`).join('')}</aside>
-    <article class="reader-text">${c.epigraph ? `<blockquote>${c.epigraph.lines.map(esc).join('<br>')}<cite>${esc(c.epigraph.attribution)}</cite></blockquote>` : ''}${reading}
-    <section class="ruled">${sectionHead('Try next')}${tryNext
-      .map((rec) => {
-        const a = assignments.find((a) => a.id === rec.assignment);
-        return `<a class="recommend" href="${assignmentURL(a.id)}"><b>${esc(a.title)}</b><small>${esc(a.contributor)} · PDF ${range(a.pdfPages)}</small><p>${esc(rec.why)}</p></a>`;
-      })
-      .join('')}</section>
-    ${c.id === 'ob-04' ? '<a class="btn primary" href="subjects.html">Start your subject list → Subjects</a>' : ''}</article></div>`;
-  Q('#toggle-sidebar').onclick = () => {
-    sidebarHidden = !sidebarHidden;
-    Q('#toc').hidden = sidebarHidden;
-    Q('.reading-layout').classList.toggle('wide', sidebarHidden);
-    Q('#toggle-sidebar').textContent =
-      (sidebarHidden ? 'Show' : 'Hide') + ' segments';
-    Q('#toggle-sidebar').setAttribute('aria-expanded', String(!sidebarHidden));
-  };
+  const hasDialogue = chapter.blocks.some((b) => b.kind === 'turn');
+  const part =
+    chapter.type === 'reference'
+      ? 'Reference'
+      : 'Chapter ' + Number(chapter.id.slice(-2));
+  const contents = segments
+    .map(
+      (s) =>
+        `<a href="#${s.id}">${esc(s.title)}<span data-check="${s.id}" aria-label="${marks[s.id]?.read ? 'Read' : ''}">${marks[s.id]?.read ? ' ✓' : ''}</span></a>`
+    )
+    .join('');
+  const suggestions = tryNext
+    .map((rec) => {
+      const a = assignments.find((entry) => entry.id === rec.assignment);
+      return `<a class="recommend" href="${assignmentURL(a.id)}"><b>${esc(a.title)}</b><small>${esc(a.contributor)} · PDF&nbsp;${range(a.pdfPages)}</small><p>${esc(rec.why)}</p></a>`;
+    })
+    .join('');
+  app.innerHTML = `<div class="reading-layout"><header class="reader-heading">
+    <nav class="inline-meta" aria-label="Chapter location"><a href="onbeing.html">On Being</a> · ${part} · <a href="${bookURL('onbeing', chapter.printedPages[0])}">PDF&nbsp;${range(chapter.printedPages)}</a></nav>
+    <h1>${esc(chapter.title)}</h1>${hasDialogue ? '<p class="speaker-key"><em>Italics for Bill Jay</em>, roman for David Hurn.</p>' : ''}</header>
+    <aside class="reader-contents"><details id="toc"><summary>In this chapter</summary><span class="toc-heading" aria-hidden="true">In this chapter</span><nav aria-label="Chapter segments">${contents}</nav></details></aside>
+    <article class="reader-text">${chapter.epigraph ? `<blockquote>${chapter.epigraph.lines.map(esc).join('<br>')}<cite>${esc(chapter.epigraph.attribution)}</cite></blockquote>` : ''}${reading}
+    <section class="ruled">${sectionHead('Try next')}${suggestions}</section>
+    ${chapter.id === 'ob-04' ? '<a class="text-link" href="subjects.html">Start your subject list</a>' : ''}</article></div>`;
+  Q('#toc').open = wasOpen ?? !narrowReader.matches;
   for (const input of QA('[data-segment]'))
     input.onchange = () => {
       setSegmentRead(input.dataset.segment, input.checked);
-      Q('[data-check="' + input.dataset.segment + '"]').textContent =
-        input.checked ? '✓' : '○';
+      const check = Q(`[data-check="${input.dataset.segment}"]`);
+      check.textContent = input.checked ? ' ✓' : '';
+      check.setAttribute('aria-label', input.checked ? 'Read' : '');
     };
-  if (location.hash)
+  Q('#toc nav').onclick = (e) => {
+    if (narrowReader.matches && e.target.closest('a')) Q('#toc').open = false;
+  };
+  if (firstRender && location.hash)
     document.getElementById(location.hash.slice(1))?.scrollIntoView();
 }
 startPage(reader);

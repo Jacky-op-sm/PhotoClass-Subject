@@ -5,7 +5,6 @@
     onbeing: { title: 'On Being a Photographer', src: 'source/on-being-a-photographer.pdf', home: 'onbeing.html' },
     playbook: { title: 'The Photographer’s Playbook', src: 'source/photographers-playbook.pdf', home: 'playbook.html' },
   };
-  const zoomLevels = [0.5, 0.75, 1, 1.25, 1.5, 2, 2.5];
   const workerURL = 'assets/vendor/pdfjs-3.11.174/pdf.worker.min.js';
 
   function returnTarget(params, fallback) {
@@ -35,47 +34,57 @@
     const book = books[key];
     const style = document.createElement('style');
     style.textContent = `
-      .pdf-reader {width:min(100%,1000px);margin:0 auto;padding:1.6rem clamp(.75rem,3vw,2.5rem) 3rem;min-width:0}
-      .pdf-reader h1 {font-size:clamp(1.45rem,3vw,2.4rem);line-height:1.15;margin:.45rem 0 .7rem}
-      .pdf-back {display:inline-flex;align-items:center;min-height:44px;color:var(--text-secondary,#515154)}
-      .pdf-controls {display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.45rem 1rem;margin:.8rem 0}
-      .pdf-tools, .pdf-pager {display:flex;align-items:center;flex-wrap:wrap;gap:.35rem}
-      .pdf-reader button,.pdf-reader input {min-height:44px;border:1px solid var(--border-medium,#cbcbd0);border-radius:.5rem;background:#fff;color:#242426;font:inherit}
-      .pdf-reader button {min-width:44px;padding:.35rem .65rem;cursor:pointer}
-      .pdf-reader button:disabled {opacity:.42;cursor:default}
-      .pdf-pager label {display:flex;align-items:center;gap:.4rem;font-weight:600}
-      .pdf-pager input {width:4ch;box-sizing:content-box;padding:0 .45rem;text-align:center;font-variant-numeric:tabular-nums}
-      .pdf-reader :focus-visible {outline:2px solid #1767ad;outline-offset:2px}
-      .pdf-position {font-size:1.08rem;color:var(--text-secondary,#515154)}
-      .pdf-position strong {color:var(--text-primary,#202021)}
-      .pdf-message {font-size:.95rem;min-height:1.5em}
-      .pdf-retry[hidden]{display:none}
-      .pdf-sheet {width:100%;min-width:0;overflow:auto;overscroll-behavior-x:contain;background:#e8e8ea;border:1px solid #d4d4d6;border-radius:.3rem}
-      .pdf-sheet canvas {display:block;max-width:none;margin:0 auto;background:#fff}
-      .pdf-sheet:empty {display:none}
+      [data-page="pdf"] .page-shell {padding-top:clamp(.45rem,1.5vw,1.2rem);padding-bottom:1rem}
+      .pdf-reader {max-width:1080px;margin:auto;min-width:0}
+      .pdf-heading {display:flex;align-items:baseline;justify-content:space-between;gap:.25rem .75rem;border-bottom:1px solid var(--line,#dadadc)}
+      .pdf-heading h1 {font-size:clamp(1.22rem,2.4vw,1.8rem);line-height:1.15;margin:0}
+      .pdf-back {display:inline-flex;align-items:center;min-height:44px;color:var(--muted,#515154);font-size:.88rem;white-space:nowrap}
+      .pdf-controls,.pdf-pager,.pdf-pager label {display:flex;align-items:center}
+      .pdf-controls {justify-content:space-between;gap:.25rem;margin:.38rem 0}
+      .pdf-pager {gap:clamp(.12rem,.65vw,.45rem);min-width:0;font-size:.95rem;font-variant-numeric:tabular-nums;white-space:nowrap}
+      .pdf-pager label {gap:.2rem;font-weight:650}
+      .pdf-reader button,.pdf-reader input {box-sizing:border-box;min-height:44px;color:inherit;font:inherit}
+      .pdf-reader button {min-width:44px;padding:0 .32rem;border:1px solid transparent;border-radius:.35rem;background:transparent;cursor:pointer}
+      .pdf-reader button:hover:not(:disabled),.pdf-reader button[aria-pressed="true"] {background:var(--bg-surface,#efeff1);border-color:var(--line,#d8d8da)}
+      .pdf-reader button:disabled {opacity:.35;cursor:default}
+      .pdf-reader button[data-action="previous"],.pdf-reader button[data-action="next"] {font:1.5rem/1 system-ui}
+      .pdf-reader button[data-action="fit"] {font-size:.88rem;white-space:nowrap}
+      .pdf-pager label > input[type="text"] {width:44px;flex:0 0 44px;margin:0;padding:0 .15rem;border:1px solid var(--line,#d8d8da);border-radius:.3rem;background:white;text-align:center}
+      .pdf-count,.pdf-printed {color:var(--muted,#555)}
+      .pdf-reader :focus-visible {outline:2px solid #1767ad;outline-offset:1px}
+      .pdf-stage {position:relative}
+      .pdf-message {position:absolute;top:.5rem;left:.5rem;z-index:1;background:white;color:var(--ink,#242424);padding:.25rem .6rem;font-size:.9rem;border-radius:.25rem}
+      .pdf-message:empty {display:none}
+      .pdf-retry {margin:3rem 0 0 .5rem}
+      .pdf-sheet {width:100%;min-width:0;overflow:auto;background:#ececeb;border-radius:.3rem}
+      .pdf-sheet canvas {display:block;max-width:none;margin:0 auto;background:#fff;box-shadow:0 0 0 1px #0001}
+      @media (max-width:470px) {
+        .pdf-pager {gap:.1rem;font-size:.88rem}
+        .pdf-heading {align-items:center;flex-wrap:wrap}
+        .pdf-heading h1 {line-height:1.12}
+      }
+      @media (max-width:340px) {
+        .pdf-controls {flex-wrap:wrap}
+      }
     `;
     document.head.append(style);
     app.innerHTML = `
       <article class="pdf-reader">
-        <a class="pdf-back">Back</a>
-        <h1></h1>
-        <p class="pdf-position" aria-live="polite"><strong></strong><span></span></p>
+        <div class="pdf-heading"><h1></h1><a class="pdf-back">Back</a></div>
         <div class="pdf-controls">
           <form class="pdf-pager" aria-label="Page navigation">
             <button type="button" data-action="previous" aria-label="Previous page" title="Previous page">‹</button>
-            <label>PDF page <input type="text" inputmode="numeric" pattern="[0-9]+" required autocomplete="off"></label>
-            <button type="submit">Go</button>
+            <label>PDF <input type="text" aria-label="PDF page" inputmode="numeric" pattern="[0-9]+" required autocomplete="off" enterkeyhint="go"></label>
+            <span class="pdf-count"></span><span class="pdf-printed"></span>
             <button type="button" data-action="next" aria-label="Next page" title="Next page">›</button>
           </form>
-          <div class="pdf-tools" role="group" aria-label="Zoom">
-            <button type="button" data-action="out" aria-label="Zoom out">−</button>
-            <button type="button" data-action="fit" title="Reset to fit width">Fit width</button>
-            <button type="button" data-action="in" aria-label="Zoom in">+</button>
-          </div>
+          <button type="button" data-action="fit" aria-pressed="false">Fit width</button>
         </div>
-        <p class="pdf-message" role="status">Opening book…</p>
-        <button type="button" class="pdf-retry" hidden>Try again</button>
-        <div class="pdf-sheet" aria-label="Original page"></div>
+        <div class="pdf-stage">
+          <div class="pdf-sheet" aria-label="Original page"></div>
+          <p class="pdf-message" role="status">Opening book…</p>
+          <button type="button" class="pdf-retry" hidden>Try again</button>
+        </div>
       </article>`;
     const get = selector => app.querySelector(selector);
     const action = name => get('[data-action="' + name + '"]');
@@ -93,10 +102,10 @@
     let loadTask;
     let map;
     let number = 1;
-    let zoom = 2;
+    let fitWidth = false;
     let generation = 0;
     let renderTask;
-    let drawnWidth = 0;
+    let lastSize;
     let resizeTimer;
 
     function printedPage() {
@@ -106,19 +115,19 @@
     function updateControls() {
       const ready = Boolean(documentPDF);
       input.disabled = !ready;
-      get('[type="submit"]').disabled = !ready;
       action('previous').disabled = !ready || number <= 1;
       action('next').disabled = !ready || number >= documentPDF.numPages;
-      action('in').disabled = !ready || zoom === zoomLevels.length - 1;
-      action('out').disabled = !ready || zoom === 0;
       action('fit').disabled = !ready;
-      action('fit').textContent = zoom === 2 ? 'Fit width' : Math.round(zoomLevels[zoom] * 100) + '% · Fit';
+      action('fit').setAttribute('aria-pressed', String(fitWidth));
+      action('fit').title = fitWidth ? 'Show the whole page' : 'Fill the available width';
       if (!ready) return;
       input.value = String(number);
       input.setCustomValidity('');
-      get('.pdf-position strong').textContent = 'PDF ' + number;
+      get('.pdf-count').textContent = '/ ' + documentPDF.numPages;
       const printed = printedPage();
-      get('.pdf-position span').textContent = printed == null ? ' · Unnumbered page' : ' · p. ' + printed;
+      const label = get('.pdf-printed');
+      label.textContent = printed == null ? '· —' : '· p. ' + printed;
+      label.title = printed == null ? 'Unnumbered page' : 'Printed page ' + printed;
     }
 
     function updateURL() {
@@ -131,8 +140,10 @@
       history.replaceState(history.state, '', url);
     }
 
-    function renderWidth() {
-      return Math.max(1, get('.pdf-controls').clientWidth - 2);
+    function availableSize() {
+      const top = sheet.getBoundingClientRect().top + window.scrollY;
+      const height = (window.visualViewport?.height ?? window.innerHeight) - top - 12;
+      return { width: Math.max(1, sheet.clientWidth), height: Math.max(1, Math.floor(height)) };
     }
 
     async function render() {
@@ -143,13 +154,15 @@
       message.textContent = 'Rendering PDF ' + number + '…';
       sheet.setAttribute('aria-busy', 'true');
       const pageNumber = number;
-      const width = renderWidth();
-      drawnWidth = width;
+      const size = availableSize();
+      lastSize = size;
       try {
         const page = await documentPDF.getPage(pageNumber);
         if (current !== generation) return;
         const unit = page.getViewport({ scale: 1 });
-        const viewport = page.getViewport({ scale: width * zoomLevels[zoom] / unit.width });
+        const widthScale = size.width / unit.width;
+        const scale = fitWidth ? widthScale : Math.min(widthScale, size.height / unit.height);
+        const viewport = page.getViewport({ scale });
         // Bound the bitmap on high-density iPhones while preserving its CSS dimensions.
         const dpr = Math.min(window.devicePixelRatio || 1,
           Math.sqrt(16000000 / (viewport.width * viewport.height)));
@@ -190,13 +203,6 @@
       return render();
     }
 
-    function setZoom(next) {
-      if (next === zoom || next < 0 || next >= zoomLevels.length) return;
-      zoom = next;
-      updateControls();
-      render();
-    }
-
     async function open() {
       updateControls();
       retry.hidden = true;
@@ -235,22 +241,36 @@
       }
     }
 
-    get('.pdf-pager').addEventListener('submit', event => {
-      event.preventDefault();
+    function applyInput(showError) {
+      if (!documentPDF) return;
       const value = Number(input.value);
-      if (!Number.isInteger(value) || value < 1 || value > documentPDF.numPages) {
-        input.setCustomValidity('Enter a PDF page from 1 to ' + documentPDF.numPages + '.');
-        input.reportValidity();
+      if (!/^\d+$/.test(input.value) || value < 1 || value > documentPDF.numPages) {
+        if (showError) {
+          input.setCustomValidity('Enter a PDF page from 1 to ' + documentPDF.numPages + '.');
+          input.reportValidity();
+        } else {
+          input.value = String(number);
+          input.setCustomValidity('');
+        }
         return;
       }
-      moveTo(value);
+      if (value !== number) moveTo(value);
+      else input.value = String(number);
+    }
+
+    get('.pdf-pager').addEventListener('submit', event => {
+      event.preventDefault();
+      applyInput(true);
     });
+    input.addEventListener('blur', () => applyInput(false));
     input.addEventListener('input', () => input.setCustomValidity(''));
     action('previous').addEventListener('click', () => moveTo(number - 1));
     action('next').addEventListener('click', () => moveTo(number + 1));
-    action('in').addEventListener('click', () => setZoom(zoom + 1));
-    action('out').addEventListener('click', () => setZoom(zoom - 1));
-    action('fit').addEventListener('click', () => setZoom(2));
+    action('fit').addEventListener('click', () => {
+      fitWidth = !fitWidth;
+      updateControls();
+      render();
+    });
     retry.addEventListener('click', () => {
       if (documentPDF) render();
       else if (!window.pdfjsLib) location.reload();
@@ -264,12 +284,20 @@
       event.preventDefault();
       moveTo(number + delta);
     });
-    const observer = new ResizeObserver(() => {
-      if (!documentPDF || Math.abs(renderWidth() - drawnWidth) < 1) return;
+    function resize() {
+      if (!documentPDF) return;
+      const size = availableSize();
+      if (lastSize && size.width === lastSize.width && (fitWidth || size.height === lastSize.height)) return;
       clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(render, 100);
-    });
+      resizeTimer = setTimeout(render, 80);
+    }
+    const observer = new ResizeObserver(resize);
     observer.observe(get('.pdf-controls'));
+    observer.observe(get('.pdf-heading'));
+    const header = document.querySelector('.site-header');
+    if (header) observer.observe(header);
+    window.addEventListener('resize', resize);
+    window.visualViewport?.addEventListener('resize', resize);
     open();
   }
 
