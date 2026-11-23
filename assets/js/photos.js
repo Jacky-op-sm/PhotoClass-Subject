@@ -447,14 +447,18 @@
     });
   }
 
+  // Shown only when the folder needs attention; a working folder stays out of the way.
   function controls() {
     const s = folder.status();
     if (!s.supported)
-      return '<p class="muted">Use desktop Chrome or Edge to connect your photo folder.</p>';
-    return `<div class="folder-controls"><span>${s.name ? 'Photo folder · ' + esc(s.name) : 'Choose a local photo folder outside the website project.'}</span>
-      ${s.name && !s.writable ? `<button class="btn" type="button" data-folder-action="reconnect">Reconnect folder</button>` : ''}
-      <button class="text-btn" type="button" data-folder-action="choose">${s.name ? 'Change folder' : 'Choose photo folder'}</button>
-      ${s.issue ? `<span>${esc(s.issue)}</span>` : ''}</div>`;
+      return '<p class="folder-controls muted">Use desktop Chrome or Edge to add and view photos.</p>';
+    if (s.writable && !s.issue) return '';
+    if (s.name && !s.issue)
+      return `<p class="folder-controls">Reconnect <strong>${esc(s.name)}</strong> to see and add photos.
+      <button class="text-btn" type="button" data-folder-action="reconnect">Reconnect</button>
+      <button class="text-btn" type="button" data-folder-action="choose">Choose another folder</button></p>`;
+    return `<p class="folder-controls">${esc(s.issue || 'Choose a folder for your photos, outside the website project.')}
+      <button class="text-btn" type="button" data-folder-action="choose">Choose folder</button></p>`;
   }
   function bindControls(render) {
     for (const btn of QA('[data-folder-action]'))

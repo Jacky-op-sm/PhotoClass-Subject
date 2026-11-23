@@ -59,6 +59,10 @@ async function assignment() {
         `<label><input type="radio" class="sr" name="status" value="${key}" ${state.status === key ? 'checked' : ''}><span>${label}</span></label>`
     )
     .join('');
+  const folderState = PhotoFolder.status(),
+    writable = folderState.writable,
+    canAdd =
+      writable && !addingPhotos && photos.length < StudyPhotos.MAX_PHOTOS;
   app.innerHTML = `<header class="assignment-heading"><nav class="inline-meta" aria-label="Assignment location"><a href="playbook.html">Playbook</a> · Assignment ${String(a.seq).padStart(3, '0')}</nav>
     <h1>${esc(a.title)}</h1><div class="inline-meta assignment-byline"><span>${esc(a.contributor)}</span> · <span class="page-ref">${pages(a)}</span> · <a href="${bookURL('playbook', a.printedPages[0])}">Open original page</a></div></header>
     <fieldset id="assignment-status"><legend class="sr">Assignment status</legend>${controls}</fieldset>
@@ -89,45 +93,46 @@ async function assignment() {
             )}<p>${bio.sourcePages.map((pair) => `<a href="${bookURL('playbook', pair[0], true)}">PDF&nbsp;${range(pair)}</a>`).join(' · ')}</p></details>`
         : ''
     }</section>
-    <section class="ruled" id="photos"><div class="section-head"><h2>Photos <small>${photos.length} / ${StudyPhotos.MAX_PHOTOS}</small></h2>
-    <div class="photo-actions"><button id="add-photos" class="btn" type="button">Add photos</button><button id="add-topic-photos" class="text-btn" type="button">Add a topic folder</button></div></div>
-    ${StudyPhotos.controls()}
+    <section class="ruled" id="photos"><div class="section-head"><h2>Photos${photos.length ? ` <small>${photos.length}</small>` : ''}</h2>
     ${
-      PhotoFolder.status().writable
-        ? `<label class="topic-folder">Topic folder <input id="photo-topic" list="photo-topics" value="${esc(topicDraft)}" placeholder="Use source folder" autocomplete="off"></label>
-    <datalist id="photo-topics"></datalist><p class="muted">Leave blank to keep a source subfolder. Files from outside the library go under this assignment’s title.</p>`
+      writable
+        ? `<div class="photo-actions"><button id="add-photos" class="text-btn" type="button" ${canAdd ? '' : 'disabled'}>Add photos</button><button id="add-topic-photos" class="text-btn" type="button" ${canAdd ? '' : 'disabled'}>Add folder</button></div>`
         : ''
-    }
+    }</div>
+    ${StudyPhotos.controls()}
     <p id="photo-status" role="status"></p><progress id="add-progress" aria-label="Saving photos" max="1" value="${addFraction}" ${addingPhotos ? '' : 'hidden'}></progress>
-    <div class="photo-grid">${photos
-      .map(
-        ([
-          id,
-          f,
-        ]) => `<figure><button type="button" class="thumb photo-preview" data-light="${esc(id)}" aria-label="Open ${esc(f.caption || 'assignment photo')}"></button><figcaption>
-      ${f.storage === 'folder' ? `<small>${esc(f.folders.join(' / '))}</small>` : ''}
-      <label>Taken on<input type="date" data-date="${esc(id)}" value="${esc(f.takenOn)}"></label>
-      <label>Caption<input maxlength="140" data-caption="${esc(id)}" value="${esc(f.caption)}"></label>
-      <button class="text-btn" type="button" data-delete="${esc(id)}" ${f.storage === 'folder' && (!PhotoFolder.status().writable || f.libraryId !== PhotoFolder.status().id) ? 'disabled' : ''}>${f.storage === 'folder' ? 'Delete photo' : 'Remove reference'}</button></figcaption></figure>`
-      )
-      .join('')}</div></section>
-    <dialog id="lightbox"><button class="btn" id="close-light">Close</button><div id="full-photo"></div><p id="light-caption"></p></dialog>`;
+    ${
+      photos.length
+        ? `<div class="photo-grid">${photos
+            .map(
+              ([id, f]) =>
+                `<figure><button type="button" class="photo-preview" data-light="${esc(id)}" aria-label="Open ${esc(f.caption || 'photo')}"></button>${f.caption ? `<figcaption>${esc(f.caption)}</figcaption>` : ''}</figure>`
+            )
+            .join('')}</div>`
+        : writable
+          ? '<p class="muted">No photos yet.</p>'
+          : ''
+    }
+    ${
+      writable
+        ? `<details class="photo-settings"${topicDraft ? ' open' : ''}><summary>Folder settings</summary>
+    <p>Saved in <strong>${esc(folderState.name)}</strong> <button class="text-btn" type="button" data-folder-action="choose">Change folder</button></p>
+    <label>Save new photos into <input id="photo-topic" list="photo-topics" value="${esc(topicDraft)}" placeholder="Same subfolder as the originals" autocomplete="off"></label><datalist id="photo-topics"></datalist>
+    <p class="muted">Leave empty: photos already inside ${esc(folderState.name)} stay in their subfolder, and others go into “${esc(a.title)}”.</p></details>`
+        : ''
+    }</section>
+    <dialog id="lightbox" aria-label="Photo"><div id="full-photo" tabindex="-1" autofocus></div>
+    <div class="light-meta"><input id="light-caption" maxlength="140" placeholder="Add a caption" aria-label="Caption" autocomplete="off"><input id="light-date" type="date" aria-label="Taken on"><span id="light-folder"></span><button class="text-btn" id="light-delete" type="button">Delete</button><button class="text-btn" id="close-light" type="button">Close</button></div></dialog>`;
   Q('#assignment-status').onchange = (e) => {
     setAssignmentStatus(a.id, e.target.value);
     notice('Assignment status saved.');
   };
   StudyPhotos.bindControls(assignment);
-  const folderState = PhotoFolder.status(),
-    add = Q('#add-photos');
-  add.disabled =
-    addingPhotos ||
-    !folderState.writable ||
-    photos.length >= StudyPhotos.MAX_PHOTOS;
+  const add = Q('#add-photos'),
+    addTopic = Q('#add-topic-photos');
   if (photos.length >= StudyPhotos.MAX_PHOTOS)
     Q('#photo-status').textContent =
-      'This assignment has reached its photo limit.';
-  const addTopic = Q('#add-topic-photos');
-  addTopic.disabled = add.disabled;
+      'This assignment has reached its 12-photo limit.';
   const topic = Q('#photo-topic');
   if (topic) {
     topic.oninput = () => {
@@ -179,62 +184,112 @@ async function assignment() {
       }
     } finally {
       addingPhotos = false;
-      Q('#add-progress').hidden = true;
-      Q('#add-topic-photos').disabled = Q('#add-photos').disabled =
+      const bar = Q('#add-progress');
+      if (bar) bar.hidden = true;
+      const full =
         !PhotoFolder.status().writable ||
         photosFor(getProgress(), a.id).length >= StudyPhotos.MAX_PHOTOS;
+      for (const button of QA('#add-photos, #add-topic-photos'))
+        button.disabled = full;
     }
   }
-  add.onclick = () => addSelection(false);
-  addTopic.onclick = () => addSelection(true);
-  for (const field of QA('[data-date],[data-caption]'))
-    field.onchange = () => {
-      try {
-        const id = field.dataset.date || field.dataset.caption,
-          key = field.dataset.date ? 'takenOn' : 'caption';
-        StudyPhotos.updatePhoto(a.id, id, { [key]: field.value });
-        notice('Photo details saved.');
-      } catch (error) {
-        handleError(error);
-      }
-    };
-  for (const button of QA('[data-delete]'))
-    button.onclick = async () => {
-      const isLocal =
-        assignmentState(getProgress(), a.id).photos[button.dataset.delete]
-          ?.storage === 'folder';
-      if (
-        !confirm(
-          isLocal
-            ? 'Delete the saved photo and thumbnail from your photo folder? Your original stays in place.'
-            : 'Remove this photo reference from the assignment?'
-        )
-      )
-        return;
-      button.disabled = true;
-      try {
-        await StudyPhotos.deletePhoto(a.id, button.dataset.delete);
-        await assignment();
-        notice('Photo deleted.');
-      } catch (error) {
-        button.disabled = false;
-        handleError(error);
-      }
-    };
-  const dialog = Q('#lightbox');
+  if (add) add.onclick = () => addSelection(false);
+  if (addTopic) addTopic.onclick = () => addSelection(true);
+
+  // Photo details live in the viewer, so the grid shows only the photos.
+  const dialog = Q('#lightbox'),
+    caption = Q('#light-caption'),
+    taken = Q('#light-date'),
+    remove = Q('#light-delete'),
+    ids = photos.map(([id]) => id);
+  let openId = null;
+  const stored = (id) => assignmentState(getProgress(), a.id).photos[id];
+  const thumbFor = (id) =>
+    QA('[data-light]').find((b) => b.dataset.light === id);
+  function showCaption(id, text) {
+    const figure = thumbFor(id)?.closest('figure');
+    if (!figure) return;
+    let cap = Q('figcaption', figure);
+    if (!text) return cap?.remove();
+    if (!cap) cap = figure.appendChild(document.createElement('figcaption'));
+    cap.textContent = text;
+  }
+  function commitDetails() {
+    const f = openId && stored(openId);
+    if (!f || f.deleted) return;
+    const changes = {};
+    if (caption.value !== (f.caption || '')) changes.caption = caption.value;
+    if (taken.value && taken.value !== f.takenOn) changes.takenOn = taken.value;
+    if (!Object.keys(changes).length) return;
+    try {
+      StudyPhotos.updatePhoto(a.id, openId, changes);
+      if ('caption' in changes) showCaption(openId, changes.caption);
+      notice('Photo details saved.');
+    } catch (error) {
+      handleError(error);
+    }
+  }
+  function openPhoto(id) {
+    commitDetails();
+    const f = stored(id),
+      s = PhotoFolder.status();
+    if (!f) return;
+    openId = id;
+    const host = Q('#full-photo');
+    host.textContent = 'Opening photo…';
+    caption.value = f.caption || '';
+    taken.value = f.takenOn || '';
+    Q('#light-folder').textContent =
+      f.storage === 'folder' ? f.folders.join(' / ') : '';
+    remove.hidden =
+      f.storage === 'folder' && (!s.writable || f.libraryId !== s.id);
+    remove.textContent = f.storage === 'folder' ? 'Delete' : 'Remove';
+    remove.disabled = false;
+    if (!dialog.open) dialog.showModal();
+    StudyPhotos.showImage(host, f, id, 'display', f.caption || a.title);
+  }
   for (const [id, f] of photos) {
-    const btn = QA('[data-light]').find((b) => b.dataset.light === id);
+    const btn = thumbFor(id);
     StudyPhotos.showImage(btn, f, id, 'thumb', f.caption || a.title);
-    btn.onclick = () => {
-      const host = Q('#full-photo');
-      host.textContent = 'Opening photo…';
-      Q('#light-caption').textContent = f.caption;
-      dialog.showModal();
-      StudyPhotos.showImage(host, f, id, 'display', f.caption || a.title);
-    };
+    btn.onclick = () => openPhoto(id);
   }
   StudyPhotos.pruneImages();
-  dialog.onclose = () => StudyPhotos.clearImage(Q('#full-photo', dialog));
+  caption.onchange = taken.onchange = commitDetails;
+  remove.onclick = async () => {
+    const id = openId,
+      isLocal = stored(id)?.storage === 'folder';
+    if (
+      !confirm(
+        isLocal
+          ? 'Delete this photo from your photo folder? Your original stays in place.'
+          : 'Remove this photo from the assignment?'
+      )
+    )
+      return;
+    remove.disabled = true;
+    try {
+      await StudyPhotos.deletePhoto(a.id, id);
+      openId = null;
+      dialog.close();
+      await assignment();
+      notice('Photo deleted.');
+    } catch (error) {
+      remove.disabled = false;
+      handleError(error);
+    }
+  };
+  dialog.onkeydown = (e) => {
+    if (e.target.matches('input') || !openId) return;
+    const step = { ArrowLeft: -1, ArrowRight: 1 }[e.key];
+    if (!step) return;
+    const next = ids[(ids.indexOf(openId) + step + ids.length) % ids.length];
+    if (next !== openId) openPhoto(next);
+  };
+  dialog.onclose = () => {
+    commitDetails();
+    openId = null;
+    StudyPhotos.clearImage(Q('#full-photo', dialog));
+  };
   Q('#close-light').onclick = () => dialog.close();
   dialog.onclick = (e) => {
     if (e.target === dialog) dialog.close();

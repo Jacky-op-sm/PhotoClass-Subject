@@ -1146,9 +1146,18 @@ body[data-page='assignment'] .page-shell {
 }
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
   margin-top: 12px;
+}
+.photo-grid figure {
+  margin: 0;
+}
+.photo-grid figcaption {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.4;
 }
 .photo-grid img {
   object-fit: cover;
@@ -1159,10 +1168,6 @@ body[data-page='assignment'] .page-shell {
 }
 .thumb {
   width: 100%;
-}
-.photo-grid figcaption label {
-  display: block;
-  margin: 5px 0;
 }
 .subject-item {
   justify-content: space-between;
@@ -1209,14 +1214,73 @@ dialog::backdrop {
 #link-options {
   display: block;
 }
+/* Photo viewer: the photo first, its details in one quiet line underneath. */
 #lightbox {
-  max-width: 94vw;
+  max-width: min(96vw, 1280px);
+  max-height: 96vh;
+  padding: 16px 20px 8px;
+  border: 0;
+  background: #161618;
+  color: #f2f2f4;
+}
+#lightbox::backdrop {
+  background: #000000e0;
+}
+#full-photo {
+  display: grid;
+  place-items: center;
+  min-height: 40vh;
+  color: #a1a1a6;
+  outline: none;
+}
+#full-photo:has(img) {
+  min-height: 0;
 }
 #lightbox img {
-  max-height: 70vh;
+  max-height: 80vh;
   max-width: 100%;
   display: block;
-  margin: 8px auto;
+}
+.light-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 16px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+#lightbox input {
+  background: transparent;
+  color: inherit;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  padding: 6px 0;
+  color-scheme: dark;
+}
+#lightbox input:hover,
+#lightbox input:focus {
+  border-bottom-color: #8e8e93;
+  outline: none;
+}
+#light-caption {
+  flex: 1 1 220px;
+  min-width: 0;
+}
+#light-caption::placeholder {
+  color: #8e8e93;
+}
+#light-folder {
+  color: #a1a1a6;
+}
+#light-folder:empty {
+  display: none;
+}
+.light-meta .text-btn {
+  color: #f2f2f4;
+}
+#close-light {
+  margin-left: auto;
 }
 /* Keep the settings disclosure in one place at the foot of This Week. */
 .home-footer {
@@ -1364,29 +1428,49 @@ dialog::backdrop {
 }
 
 .folder-controls {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem 1rem;
-  flex-wrap: wrap;
   margin: 0.5rem 0;
-  color: var(--muted);
   font-size: 0.92rem;
 }
-.topic-folder {
+.photo-settings {
+  margin-top: 24px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.photo-settings summary {
+  min-height: 36px;
+  cursor: pointer;
+}
+.photo-settings p {
+  margin: 6px 0;
+}
+.photo-settings label {
   display: block;
-  max-width: 25rem;
-  margin: 0.5rem 0;
+  max-width: 28rem;
+  margin-top: 8px;
+  color: var(--ink);
+}
+.photo-settings input {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
 }
 .photo-preview {
   display: grid;
   place-items: center;
   width: 100%;
   aspect-ratio: 4/3;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  overflow: hidden;
   background: var(--bg-surface);
   color: var(--muted);
   font: 0.9rem/1.4 var(--font-latin);
   text-align: center;
   overflow-wrap: anywhere;
+}
+button.photo-preview {
+  cursor: zoom-in;
 }
 .photo-preview img {
   align-self: stretch;
