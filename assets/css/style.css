@@ -1,0 +1,302 @@
+/* PhotoClass: Subject */
+/* ── CSS Variables — neutral Apple-inspired palette ──────────── */
+:root {
+  /* Site canvas */
+  --bg-page:        rgba(245, 245, 247, 1);    /* #f5f5f7 */
+  --bg-card:        #ffffff;
+  --bg-surface:     #f5f5f5;
+
+  /* Text — truly neutral dark gray, not brownish */
+  --text-primary:   #1d1d1f;
+  --text-secondary: rgba(29, 29, 31, 0.68);
+  --text-muted:     rgba(29, 29, 31, 0.48);
+
+  /* Borders */
+  --border-light:   rgba(29, 29, 31, 0.10);
+  --border-medium:  rgba(29, 29, 31, 0.16);
+
+  /* Status colors — grayscale only */
+  --status-neutral:   #86868b;
+  --status-active:    #6e6e73;
+  --status-warning:   #aeaeb2;
+  --status-done:      #6e6e73;
+  --status-reference: #86868b;
+
+  /* Progress bar */
+  --progress-bg:      rgba(29, 29, 31, 0.08);
+  --progress-fill:    #6e6e73;
+
+  /* Accent */
+  --accent:           #6e6e73;
+  --accent-light:     rgba(110, 110, 115, 0.08);
+  --accent-hover:     #4d4d51;
+  --highlight-border: #86868b;
+
+  /* Button */
+  --btn-bg:           #1d1d1f;
+  --btn-hover:        #3a3a3c;
+  --btn-text:         #ffffff;
+
+  /* Border radius */
+  --radius-sm:        0.5rem;
+  --radius-md:        0.64rem;
+  --radius-card:      0.75rem;
+  --radius-lg:        1rem;
+
+  /* Typography */
+  --font-latin: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+                "Segoe UI Variable Text", "Segoe UI", "Helvetica Neue", "Helvetica",
+                "Arial", "Noto Sans", sans-serif;
+  --font-cjk:   "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI",
+                "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC",
+                "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+
+  /* Shadows — subtle, not heavy or large */
+  --shadow-card:       0 1px 4px rgba(0, 0, 0, 0.06);
+  --shadow-card-hover: 0 2px 12px rgba(0, 0, 0, 0.08);
+
+  /* Layout */
+  --page-max-width:   960px;
+  --page-gutter:      clamp(1.5rem, 4vw, 3rem);
+
+  /* Transitions */
+  --transition-fast:   150ms ease;
+  --transition-normal: 200ms ease;
+  --transition-slow:   280ms ease;
+}
+
+/* ── Navigation ─────────────────────────────────────────────── */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  height: 3.2rem;
+  padding: 0 clamp(1.5rem, 4vw, 3rem);
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.site-brand {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.site-nav {
+  display: flex;
+  gap: 2rem;
+  margin-left: 3rem;
+}
+
+.site-nav a {
+  font-size: 0.92rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: color var(--transition-normal), border-color var(--transition-normal);
+}
+
+.site-nav a:hover {
+  color: var(--text-primary);
+}
+
+.site-nav a.is-active {
+  color: var(--text-primary);
+  font-weight: 600;
+  border-bottom-color: var(--text-primary);
+}
+
+/* Mobile nav: switch to compact layout */
+@media (max-width: 600px) {
+  .site-header {
+    padding: 0 1rem;
+  }
+  .site-nav {
+    gap: 1.25rem;
+    margin-left: auto;
+  }
+  .site-nav a {
+    font-size: 0.85rem;
+  }
+}
+
+/* ── Reset & Base ───────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-latin), var(--font-cjk);
+  background: var(--bg-page);
+  color: var(--text-primary);
+  line-height: 1.65;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--text-primary);
+  outline-offset: 3px;
+}
+
+/* ── Layout shell ───────────────────────────────────────────── */
+.page-shell {
+  max-width: var(--page-max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: clamp(2rem, 5vw, 4rem) var(--page-gutter);
+}
+
+@media (max-width: 600px) {
+  .page-shell {
+    padding: 1.5rem 1rem;
+    max-width: 100%;
+  }
+}
+
+/* ── Typography ─────────────────────────────────────────────── */
+.page-title {
+  font-size: clamp(1.35rem, 2.5vw, 1.9rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  margin-bottom: 0.15em;
+}
+
+.page-subtitle {
+  font-size: 0.92rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  letter-spacing: -0.01em;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 0.8rem;
+}
+
+/* ── Sidebar ────────────────────────────────────────────────── */
+.reader-sidebar {
+  width: 260px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 3.2rem;
+  height: calc(100vh - 3.2rem);
+  height: calc(100dvh - 3.2rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  padding: 2.5rem 1.8rem;
+  border-right: 1px solid var(--border-light);
+  background: #fafafa;
+  transition: width var(--transition-slow), padding var(--transition-slow), border-color var(--transition-slow), opacity var(--transition-slow);
+}
+
+/* ── Sidebar Toggle Button ──────────────────────────────────── */
+.sidebar-toggle-btn {
+  position: absolute;
+  top: 0.55rem;
+  right: 0.45rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.4rem;
+  color: var(--text-muted);
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  z-index: 10;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.sidebar-toggle-btn:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--text-primary);
+}
+
+/* ── Sidebar Reopen Button (visible when collapsed) ─────────── */
+.sidebar-reopen-btn {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 3.8rem;
+  width: 2rem;
+  height: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-light);
+  border-left: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  color: var(--text-secondary);
+  cursor: pointer;
+  z-index: 99;
+  transition: color var(--transition-fast), background var(--transition-fast);
+  padding: 0;
+}
+
+.sidebar-reopen-btn:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.96);
+}
+
+/* ── Collapsed State ────────────────────────────────────────── */
+.reader-layout.is-sidebar-collapsed .reader-sidebar {
+  width: 0;
+  min-width: 0;
+  padding: 0;
+  border-right-color: transparent;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.reader-layout.is-sidebar-collapsed .sidebar-reopen-btn {
+  display: flex;
+}
+
