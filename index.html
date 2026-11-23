@@ -1,5 +1,45 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex">
-<title>PhotoClass: Subject — This Week</title><link rel="stylesheet" href="assets/css/style.css"></head>
-<body><header class="site-header"><a class="site-brand" href="./">PhotoClass: Subject</a></header>
-<main class="page-shell"><h1 class="page-title">This Week</h1><p>Your reading and assignments will appear here.</p></main></body></html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>PhotoClass: Subject — This Week</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/firebase-config.js"></script>
+    <script src="assets/js/firebase-sdk.js"></script>
+    <script defer src="assets/js/storage.js"></script>
+    <script defer src="assets/js/progress.js"></script>
+    <script defer src="assets/js/sync.js"></script>
+    <script defer src="assets/js/app.js"></script>
+    <script defer src="assets/js/dashboard.js"></script>
+  </head>
+  <body data-page="index">
+    <a class="skip" href="#app">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="site-brand" href="index.html"
+          ><i aria-hidden="true"></i>PhotoClass<span>Subject</span></a
+        >
+        <nav class="site-nav" aria-label="Study sections">
+          <a href="index.html" aria-current="page">This Week</a
+          ><a href="onbeing.html">On Being</a
+          ><a href="playbook.html">Playbook</a
+          ><a href="subjects.html">Subjects</a>
+        </nav>
+        <a class="sync-indicator" href="index.html#sync-settings"
+          ><i aria-hidden="true"></i><span>Local only</span></a
+        >
+      </div>
+    </header>
+    <main id="app" class="page-shell" tabindex="-1">
+      <p role="status">Loading this week…</p>
+    </main>
+    <footer class="site-footer">
+      <span>PhotoClass: Subject</span
+      ><a href="index.html#sync-settings">Sync settings</a>
+    </footer>
+    <div id="notice" role="status" aria-live="polite"></div>
+  </body>
+</html>
