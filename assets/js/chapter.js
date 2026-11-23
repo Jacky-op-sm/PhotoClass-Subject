@@ -1,3 +1,17 @@
+const compactChapter = matchMedia('(max-width: 760px)');
+
+document.addEventListener('keydown', (event) => {
+  const toc = Q('#toc[open]');
+  if (event.key === 'Escape' && toc) {
+    toc.open = false;
+    Q('summary', toc).focus();
+  }
+});
+document.addEventListener('pointerdown', (event) => {
+  const toc = Q('#toc[open]');
+  if (compactChapter.matches && toc && !toc.contains(event.target)) toc.open = false;
+});
+
 function pageNote(page, continuing = false) {
   return `<a class="page-note${continuing ? ' continuing' : ''}" href="${bookURL('onbeing', page)}" aria-label="Open PDF page ${page}">p.&nbsp;${page}</a>`;
 }
@@ -53,13 +67,15 @@ async function reader() {
       return `<a class="recommend" href="${assignmentURL(a.id)}"><b>${esc(a.title)}</b><small>${esc(a.contributor)} · PDF&nbsp;${range(a.pdfPages)}</small><p>${esc(rec.why)}</p></a>`;
     })
     .join('');
-  app.innerHTML = `<div class="reading-layout"><header class="reader-heading">
+  app.innerHTML = `<div class="reading-layout">
+    <details id="toc"><summary aria-label="Chapter contents" title="Chapter contents"><span class="toc-icon" aria-hidden="true"></span><span class="toc-label">Contents</span></summary>
+      <nav aria-label="Chapter segments">${contents}</nav></details>
+    <div class="reader-column"><header class="reader-heading">
     <nav class="inline-meta" aria-label="Chapter location"><a href="onbeing.html">On Being</a> · ${part} · <a href="${bookURL('onbeing', chapter.printedPages[0])}">PDF&nbsp;${range(chapter.printedPages)}</a></nav>
     <h1>${esc(chapter.title)}</h1>${hasDialogue ? '<p class="speaker-key"><em>Italics for Bill Jay</em>, roman for David Hurn.</p>' : ''}</header>
-    <details id="toc"><summary>Chapter contents</summary><nav aria-label="Chapter segments">${contents}</nav></details>
     <article class="reader-text">${chapter.epigraph ? `<blockquote>${chapter.epigraph.lines.map(esc).join('<br>')}<cite>${esc(chapter.epigraph.attribution)}</cite></blockquote>` : ''}${reading}
     <section class="ruled">${sectionHead('Try next')}${suggestions}</section>
-    ${chapter.id === 'ob-04' ? '<a class="text-link" href="subjects.html">Start your subject list</a>' : ''}</article></div>`;
+    ${chapter.id === 'ob-04' ? '<a class="text-link" href="subjects.html">Start your subject list</a>' : ''}</article></div></div>`;
   Q('#toc').open = wasOpen ?? false;
   for (const input of QA('[data-segment]'))
     input.onchange = () => {
@@ -69,7 +85,7 @@ async function reader() {
       check.setAttribute('aria-label', input.checked ? 'Read' : '');
     };
   Q('#toc nav').onclick = (e) => {
-    if (e.target.closest('a')) Q('#toc').open = false;
+    if (compactChapter.matches && e.target.closest('a')) Q('#toc').open = false;
   };
   if (firstRender && location.hash)
     document.getElementById(location.hash.slice(1))?.scrollIntoView();
