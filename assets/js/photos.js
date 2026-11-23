@@ -34,6 +34,8 @@
       reason = 'Connect to the internet to upload photos.';
     } else if (!window.firebase?.storage) {
       reason = 'Firebase Storage could not load. Reload to try again.';
+    } else if (!window.PhotoClassSync?.admitPhoto || !window.PhotoClassSync?.getCloudPhoto) {
+      reason = 'Reload the page to enable cloud photo uploads.';
     } else if (!sync?.authorized) {
       reason = sync?.state === 'error' ? sync.message : 'Waiting for the sync profile to connect.';
     }
@@ -284,12 +286,42 @@
         checkId(pending.assignmentId);
         // Older engines without Web Locks may share storage with a second active tab.
         if (!navigator.locks && Date.now() - pending.started < 30 * 60_000) return;
-        const existing = window.getProgress().playbook.assignments[pending.assignmentId]?.photos?.[id];
-        if (!existing || existing.deleted) await removeObjects(refs(ctx, pending.assignmentId, id));
+        if (pending.stage === 'admitting') {
+          // The last tab may have lost the transaction acknowledgement after the server committed.
+          const cloud = await window.PhotoClassSync.getCloudPhoto(pending.assignmentId, id);
+          if (ctx.code !== syncCode()) return;
+          if (cloud && !cloud.deleted) {
+            await withLock('photo-records', () => {
+              recordPhoto(pending.assignmentId, id, local =>
+                local && local.updatedAt > cloud.updatedAt ? local : cloud);
+            });
+            finishJournal(id);
+            return;
+          }
+        } else {
+          const local = window.getProgress().playbook.assignments[pending.assignmentId]?.photos?.[id];
+          if (local && !local.deleted) { finishJournal(id); return; }
+        }
+        await removeObjects(refs(ctx, pending.assignmentId, id));
         finishJournal(id);
       }, { ifAvailable: true });
     }
   }
+
+  let recovering = false;
+  async function recoverWhenConnected() {
+    if (recovering || !availability().enabled) return;
+    recovering = true;
+    try {
+      if (!Object.keys(localStorage).some(key => key.startsWith(JOURNAL_PREFIX))) return;
+      const ctx = context();
+      await recover(ctx, await fingerprint(ctx.code));
+    } catch { /* A pending operation remains journaled for the next connection or upload. */ }
+    finally { recovering = false; }
+  }
+  window.addEventListener('photoclass-sync-status', recoverWhenConnected);
+  window.addEventListener('online', recoverWhenConnected);
+  queueMicrotask(recoverWhenConnected);
 
   function checkSession(ctx) {
     if (syncCode() !== ctx.code) throw new Error('The sync profile changed during this upload.');
@@ -307,27 +339,32 @@
     try {
       return await withLock('photo-' + id, async () => {
         checkSession(ctx);
-        // Only IDs and a one-way profile fingerprint are needed to recover an interrupted pair.
-        localStorage.setItem(JOURNAL_PREFIX + id, JSON.stringify({ assignmentId, signature, started: Date.now() }));
+        const journal = { assignmentId, signature, started: Date.now(), stage: 'transferring' };
+        localStorage.setItem(JOURNAL_PREFIX + id, JSON.stringify(journal));
+        let admitting = false;
         try {
           const displayUrl = await put(pair.display, display.blob, n => report(n / bytes));
           checkSession(ctx);
           const thumbUrl = await put(pair.thumb, thumb.blob, n => report((n + display.blob.size) / bytes));
-          await withLock('photo-records', () => {
-            if (syncCode() !== ctx.code) throw new Error('The sync profile changed during this upload.');
-            recordPhoto(assignmentId, id, (_, assignment, now) => {
-              if (livePhotos(assignment).length >= MAX_PHOTOS) throw new Error('This assignment already has 12 photos.');
-              return { takenOn: today(), caption: '', w: display.w, h: display.h, bytes,
-                displayPath: pair.display.fullPath, thumbPath: pair.thumb.fullPath, displayUrl, thumbUrl,
-                createdAt: now, updatedAt: now, deleted: false };
-            });
-          });
+          checkSession(ctx);
+          const now = new Date().toISOString();
+          const record = { takenOn: today(), caption: '', w: display.w, h: display.h, bytes,
+            displayPath: pair.display.fullPath, thumbPath: pair.thumb.fullPath, displayUrl, thumbUrl,
+            createdAt: now, updatedAt: now, deleted: false };
+          // Journal the candidate locally. Ordinary progress sync sees it only after atomic admission.
+          localStorage.setItem(JOURNAL_PREFIX + id, JSON.stringify({ ...journal, stage: 'admitting', record }));
+          admitting = true;
+          await window.PhotoClassSync.admitPhoto(assignmentId, id, record, MAX_PHOTOS);
         } catch (error) {
+          if (admitting && error.code !== 'photo-limit' && !error.photoRejected) {
+            throw new Error('Photo confirmation was interrupted. Reconnect to finish checking this upload.');
+          }
+          const reason = error.code === 'photo-limit' ? 'This assignment already has 12 photos.' : describe(error);
           try { await removeObjects(pair); finishJournal(id); }
           catch {
-            throw new Error(describe(error) + ' Cleanup will be retried the next time this profile uploads.');
+            throw new Error(reason + ' Cleanup will be retried when this profile reconnects.');
           }
-          throw error;
+          throw new Error(reason);
         }
         finishJournal(id);
         report(1);
