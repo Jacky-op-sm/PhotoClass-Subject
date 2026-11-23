@@ -1,0 +1,547 @@
+{
+  "ob-01": {
+    "segments": [
+      {
+        "id": "ob-01-s01",
+        "title": "What photographers can learn together",
+        "from": "ob-01-p001",
+        "to": "ob-01-p003",
+        "pages": [
+          7,
+          7
+        ]
+      },
+      {
+        "id": "ob-01-s02",
+        "title": "How two voices became a book",
+        "from": "ob-01-p004",
+        "to": "ob-01-p008",
+        "pages": [
+          7,
+          7
+        ]
+      }
+    ],
+    "tryNext": []
+  },
+  "ob-02": {
+    "segments": [
+      {
+        "id": "ob-02-s01",
+        "title": "Meeting Hurn and his standards",
+        "from": "ob-02-p001",
+        "to": "ob-02-p010",
+        "pages": [
+          8,
+          9
+        ]
+      },
+      {
+        "id": "ob-02-s02",
+        "title": "Childhood and first photographs",
+        "from": "ob-02-p011",
+        "to": "ob-02-p026",
+        "pages": [
+          9,
+          11
+        ]
+      },
+      {
+        "id": "ob-02-s03",
+        "title": "Hungary, Russia and editorial work",
+        "from": "ob-02-p027",
+        "to": "ob-02-p050",
+        "pages": [
+          11,
+          15
+        ]
+      },
+      {
+        "id": "ob-02-s04",
+        "title": "Subcultures, Magnum and friendships",
+        "from": "ob-02-p051",
+        "to": "ob-02-p065",
+        "pages": [
+          15,
+          17
+        ]
+      },
+      {
+        "id": "ob-02-s05",
+        "title": "Building a school in Wales",
+        "from": "ob-02-p066",
+        "to": "ob-02-p085",
+        "pages": [
+          18,
+          20
+        ]
+      },
+      {
+        "id": "ob-02-s06",
+        "title": "The person behind the camera",
+        "from": "ob-02-p086",
+        "to": "ob-02-p100",
+        "pages": [
+          20,
+          22
+        ]
+      }
+    ],
+    "tryNext": []
+  },
+  "ob-03": {
+    "segments": [
+      {
+        "id": "ob-03-s01",
+        "title": "The limits of professional labels",
+        "from": "ob-03-p001",
+        "to": "ob-03-p014",
+        "pages": [
+          23,
+          25
+        ]
+      },
+      {
+        "id": "ob-03-s02",
+        "title": "Documentary evidence and personal honesty",
+        "from": "ob-03-p015",
+        "to": "ob-03-p029",
+        "pages": [
+          25,
+          26
+        ]
+      },
+      {
+        "id": "ob-03-s03",
+        "title": "What a sequence can convey",
+        "from": "ob-03-p030",
+        "to": "ob-03-p039",
+        "pages": [
+          26,
+          27
+        ]
+      }
+    ],
+    "tryNext": []
+  },
+  "ob-04": {
+    "segments": [
+      {
+        "id": "ob-04-s01",
+        "title": "Choosing what enters the frame",
+        "from": "ob-04-p001",
+        "to": "ob-04-p016",
+        "pages": [
+          28,
+          30
+        ]
+      },
+      {
+        "id": "ob-04-s02",
+        "title": "Testing a list of interests",
+        "from": "ob-04-p017",
+        "to": "ob-04-p030",
+        "pages": [
+          30,
+          32
+        ]
+      },
+      {
+        "id": "ob-04-s03",
+        "title": "Personal expression and the subject",
+        "from": "ob-04-p031",
+        "to": "ob-04-p042",
+        "pages": [
+          32,
+          33
+        ]
+      },
+      {
+        "id": "ob-04-s04",
+        "title": "Knowledge through sustained attention",
+        "from": "ob-04-p043",
+        "to": "ob-04-p050",
+        "pages": [
+          33,
+          35
+        ]
+      },
+      {
+        "id": "ob-04-s05",
+        "title": "Feeling for the subject",
+        "from": "ob-04-p051",
+        "to": "ob-04-p062",
+        "pages": [
+          35,
+          36
+        ]
+      }
+    ],
+    "tryNext": []
+  },
+  "ob-05": {
+    "segments": [
+      {
+        "id": "ob-05-s01",
+        "title": "Where to stand and when to shoot",
+        "from": "ob-05-p001",
+        "to": "ob-05-p017",
+        "pages": [
+          37,
+          39
+        ]
+      },
+      {
+        "id": "ob-05-s02",
+        "title": "Anticipating a gesture",
+        "from": "ob-05-p018",
+        "to": "ob-05-p035",
+        "pages": [
+          39,
+          41
+        ]
+      },
+      {
+        "id": "ob-05-s03",
+        "title": "Putting several elements together",
+        "from": "ob-05-p036",
+        "to": "ob-05-p047",
+        "pages": [
+          41,
+          43
+        ]
+      },
+      {
+        "id": "ob-05-s04",
+        "title": "Learning design from earlier pictures",
+        "from": "ob-05-p048",
+        "to": "ob-05-p057",
+        "pages": [
+          43,
+          44
+        ]
+      },
+      {
+        "id": "ob-05-s05",
+        "title": "Beauty, chance and experience",
+        "from": "ob-05-p058",
+        "to": "ob-05-p068",
+        "pages": [
+          44,
+          46
+        ]
+      }
+    ],
+    "tryNext": []
+  },
+  "ob-06": {
+    "segments": [
+      {
+        "id": "ob-06-s01",
+        "title": "Making a readable contact sheet",
+        "from": "ob-06-p001",
+        "to": "ob-06-p007",
+        "pages": [
+          47,
+          48
+        ]
+      },
+      {
+        "id": "ob-06-s02",
+        "title": "Reading, filing and marking frames",
+        "from": "ob-06-p008",
+        "to": "ob-06-p027",
+        "pages": [
+          48,
+          50
+        ]
+      },
+      {
+        "id": "ob-06-s03",
+        "title": "Learning by comparing exposures",
+        "from": "ob-06-p028",
+        "to": "ob-06-p040",
+        "pages": [
+          50,
+          52
+        ]
+      },
+      {
+        "id": "ob-06-s04",
+        "title": "Proof prints and consistent processing",
+        "from": "ob-06-p041",
+        "to": "ob-06-p061",
+        "pages": [
+          52,
+          54
+        ]
+      }
+    ],
+    "tryNext": []
+  },
+  "ob-07": {
+    "segments": [
+      {
+        "id": "ob-07-s01",
+        "title": "Planning pictures for a purpose",
+        "from": "ob-07-p001",
+        "to": "ob-07-p013",
+        "pages": [
+          55,
+          56
+        ]
+      },
+      {
+        "id": "ob-07-s02",
+        "title": "Variety and the final sequence",
+        "from": "ob-07-p014",
+        "to": "ob-07-p028",
+        "pages": [
+          56,
+          58
+        ]
+      },
+      {
+        "id": "ob-07-s03",
+        "title": "Working often and approaching strangers",
+        "from": "ob-07-p029",
+        "to": "ob-07-p038",
+        "pages": [
+          58,
+          59
+        ]
+      },
+      {
+        "id": "ob-07-s04",
+        "title": "How the camera grants access",
+        "from": "ob-07-p039",
+        "to": "ob-07-p047",
+        "pages": [
+          59,
+          61
+        ]
+      }
+    ],
+    "tryNext": []
+  },
+  "ob-08": {
+    "segments": [
+      {
+        "id": "ob-08-s01",
+        "title": "Matching tools to a project",
+        "from": "ob-08-p001",
+        "to": "ob-08-p011",
+        "pages": [
+          62,
+          64
+        ]
+      },
+      {
+        "id": "ob-08-s02",
+        "title": "Choosing formats for Wales",
+        "from": "ob-08-p012",
+        "to": "ob-08-p024",
+        "pages": [
+          64,
+          65
+        ]
+      },
+      {
+        "id": "ob-08-s03",
+        "title": "Handling the camera fluently",
+        "from": "ob-08-p025",
+        "to": "ob-08-p038",
+        "pages": [
+          65,
+          67
+        ]
+      },
+      {
+        "id": "ob-08-s04",
+        "title": "Commitment and physical preparation",
+        "from": "ob-08-p039",
+        "to": "ob-08-p049",
+        "pages": [
+          68,
+          69
+        ]
+      },
+      {
+        "id": "ob-08-s05",
+        "title": "Clothing, contacts and carrying equipment",
+        "from": "ob-08-p050",
+        "to": "ob-08-p065",
+        "pages": [
+          69,
+          71
+        ]
+      }
+    ],
+    "tryNext": []
+  },
+  "ob-09": {
+    "segments": [
+      {
+        "id": "ob-09-s01",
+        "title": "Responsibility to the subject",
+        "from": "ob-09-p001",
+        "to": "ob-09-p010",
+        "pages": [
+          72,
+          74
+        ]
+      },
+      {
+        "id": "ob-09-s02",
+        "title": "Truth and the working life",
+        "from": "ob-09-p011",
+        "to": "ob-09-p020",
+        "pages": [
+          74,
+          75
+        ]
+      },
+      {
+        "id": "ob-09-s03",
+        "title": "Showing photographs on the web",
+        "from": "ob-09-p021",
+        "to": "ob-09-p040",
+        "pages": [
+          75,
+          77
+        ]
+      },
+      {
+        "id": "ob-09-s04",
+        "title": "What constraints make possible",
+        "from": "ob-09-p041",
+        "to": "ob-09-p050",
+        "pages": [
+          77,
+          79
+        ]
+      },
+      {
+        "id": "ob-09-s05",
+        "title": "Digital capture and discarded frames",
+        "from": "ob-09-p051",
+        "to": "ob-09-p065",
+        "pages": [
+          79,
+          80
+        ]
+      },
+      {
+        "id": "ob-09-s06",
+        "title": "Manipulation, trust and original prints",
+        "from": "ob-09-p066",
+        "to": "ob-09-p085",
+        "pages": [
+          80,
+          83
+        ]
+      }
+    ],
+    "tryNext": []
+  },
+  "ob-10": {
+    "segments": [
+      {
+        "id": "ob-10-s01",
+        "title": "Editing with another pair of eyes",
+        "from": "ob-10-p001",
+        "to": "ob-10-p009",
+        "pages": [
+          84,
+          85
+        ]
+      },
+      {
+        "id": "ob-10-s02",
+        "title": "Writing, design and printing",
+        "from": "ob-10-p010",
+        "to": "ob-10-p020",
+        "pages": [
+          85,
+          87
+        ]
+      },
+      {
+        "id": "ob-10-s03",
+        "title": "Earning a living from photographs",
+        "from": "ob-10-p021",
+        "to": "ob-10-p031",
+        "pages": [
+          87,
+          88
+        ]
+      },
+      {
+        "id": "ob-10-s04",
+        "title": "Practice, talent and familiar subjects",
+        "from": "ob-10-p032",
+        "to": "ob-10-p047",
+        "pages": [
+          88,
+          90
+        ]
+      },
+      {
+        "id": "ob-10-s05",
+        "title": "Critics and crossing cultural boundaries",
+        "from": "ob-10-p048",
+        "to": "ob-10-p064",
+        "pages": [
+          91,
+          93
+        ]
+      },
+      {
+        "id": "ob-10-s06",
+        "title": "Documentary work and artistic recognition",
+        "from": "ob-10-p065",
+        "to": "ob-10-p081",
+        "pages": [
+          93,
+          95
+        ]
+      }
+    ],
+    "tryNext": []
+  },
+  "ob-11": {
+    "segments": [
+      {
+        "id": "ob-11-s01",
+        "title": "David Hurn",
+        "from": "ob-11-p001",
+        "to": "ob-11-p005",
+        "pages": [
+          96,
+          96
+        ]
+      },
+      {
+        "id": "ob-11-s02",
+        "title": "Bill Jay",
+        "from": "ob-11-p006",
+        "to": "ob-11-p010",
+        "pages": [
+          96,
+          96
+        ]
+      },
+      {
+        "id": "ob-11-s03",
+        "title": "Publisher and copyright information",
+        "from": "ob-11-p011",
+        "to": "ob-11-p017",
+        "pages": [
+          97,
+          97
+        ]
+      }
+    ],
+    "tryNext": []
+  }
+}
