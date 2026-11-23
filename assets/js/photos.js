@@ -26,8 +26,10 @@
     const config = window.PHOTOCLASS_FIREBASE_CONFIG;
     const sync = window.PhotoClassSync?.getStatus?.();
     let reason = '';
-    if (!config?.apiKey || !config?.projectId || !config?.storageBucket) {
-      reason = 'Set up Firebase Storage to upload photos.';
+    if (!config?.apiKey || !config?.projectId) {
+      reason = 'Set up Firebase to upload photos.';
+    } else if (!config.storageBucket) {
+      reason = 'Photo uploads require a Firebase Storage bucket on the Blaze plan.';
     } else if (!syncCode()) {
       reason = 'Enter your sync code in Sync settings to upload photos.';
     } else if (!navigator.onLine) {

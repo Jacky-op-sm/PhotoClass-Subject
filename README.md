@@ -26,7 +26,7 @@ The server listens on 127.0.0.1 and normally opens **http://localhost:8000/**. O
 
 Progress is written first to the browser’s localStorage under `photoclass-subject-progress-v1`. Use **Sync settings** in the footer of This Week to export or restore a JSON backup. It includes private photo URLs and metadata. Keep the backup private. Image files stay in Storage.
 
-Firebase sync is optional. To enable it, register the Web App, install the Firestore and Storage rules and enter the same sync code under **Sync settings** in each browser. The site can generate a code using Web Crypto. Keep it in your password manager and set it directly in the Firebase console rules. The checked-in configuration starts empty. [Firebase setup](docs/firebase-setup.md)
+Firestore progress sync uses the PhotoClass Subject project's default database on the Spark plan. Enter the same private code in **Sync settings** on each browser. Keep the code in your password manager. Photo uploads require a provisioned Storage bucket and its rules. The Storage field is empty while billing is disabled. [Firebase setup](docs/firebase-setup.md)
 
 Sync compares segment marks, assignment states, photos and subjects independently. Deletes retain tombstones for 90 days. The photo picker becomes available after a valid sync connection. Each assignment holds up to 12 photos.
 
