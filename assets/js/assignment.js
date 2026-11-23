@@ -31,7 +31,9 @@ async function assignment() {
         ? `<details class="intro"><summary>About the contributor</summary>${bio.text
             .split(/\n\n+/)
             .map((s) => `<p>${esc(s)}</p>`)
-            .join('')}</details>`
+            .join(
+              ''
+            )}<div class="chips">${bio.sourcePages.map((pair) => `<a href="${bookURL('playbook', pair[0], true)}">PDF ${range(pair)}</a>`).join('')}</div></details>`
         : ''
     }
     </article><aside class="details-panel"><h3>Assignment details</h3><p>${pages(a)}</p><a class="btn" href="${bookURL('playbook', a.printedPages[0])}">Open original page</a>

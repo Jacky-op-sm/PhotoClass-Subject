@@ -48,10 +48,10 @@ const chapterURL = (id, segment = '') =>
   'chapter.html?id=' +
   encodeURIComponent(id) +
   (segment ? '#' + encodeURIComponent(segment) : '');
-const bookURL = (book, page) =>
+const bookURL = (book, page, physical = false) =>
   'pdf.html?book=' +
   book +
-  '&page=' +
+  (physical ? '&pdfPage=' : '&page=') +
   Number(page) +
   '&from=' +
   encodeURIComponent(location.pathname + location.search + location.hash);
@@ -63,12 +63,16 @@ const pages = (a) =>
   '</strong> · ' +
   (a.printedPages[0] === a.printedPages[1] ? 'p. ' : 'pp. ') +
   range(a.printedPages);
-const dateLabel = (s) =>
-  new Intl.DateTimeFormat('en', {
+function dateLabel(value) {
+  if (typeof value !== 'string') return 'date unavailable';
+  const date = new Date(value.length === 10 ? value + 'T12:00:00' : value);
+  if (!Number.isFinite(date.getTime())) return 'date unavailable';
+  return new Intl.DateTimeFormat('en', {
     month: 'short',
     day: 'numeric',
     year: 'numeric',
-  }).format(new Date(s.length === 10 ? s + 'T12:00:00' : s));
+  }).format(date);
+}
 const flatText = (a) =>
   a.blocks.map((b) => b.text ?? b.items.join(' ')).join(' ');
 const badge = (status) =>

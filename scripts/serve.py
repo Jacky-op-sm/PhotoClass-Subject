@@ -4,9 +4,10 @@
 from __future__ import annotations
 
 import argparse
+import errno
 import functools
+import http.client
 import http.server
-import socket
 import sys
 import threading
 import webbrowser
@@ -44,19 +45,33 @@ def valid_port(value: str) -> int:
     return port
 
 
-def find_available_port(start_port: int) -> int:
-    end_port = min(start_port + PORT_SEARCH_LIMIT, 65536)
-    for port in range(start_port, end_port):
-        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as probe:
-            try:
-                probe.bind((HOST, port))
-            except OSError:
-                continue
-            return port
-    raise RuntimeError(
-        f"No available port found between {start_port} "
-        f"and {start_port + PORT_SEARCH_LIMIT - 1}."
-    )
+def same_dashboard(port: int, index: bytes) -> bool:
+    connection = http.client.HTTPConnection(HOST, port, timeout=0.5)
+    try:
+        connection.request("GET", "/index.html")
+        response = connection.getresponse()
+        return response.status == 200 and response.read(len(index) + 1) == index
+    except (OSError, http.client.HTTPException):
+        return False
+    finally:
+        connection.close()
+
+
+def local_server(root: Path, preferred: int, open_browser: bool):
+    handler = functools.partial(LocalOnlyHandler, directory=str(root))
+    index = (root / "index.html").read_bytes()
+    for port in range(preferred, min(preferred + PORT_SEARCH_LIMIT, 65536)):
+        try:
+            return http.server.ThreadingHTTPServer((HOST, port), handler)
+        except OSError as error:
+            if error.errno != errno.EADDRINUSE:
+                raise
+            if open_browser and same_dashboard(port, index):
+                url = f"http://localhost:{port}/"
+                print(f"Opening the running study site at {url}")
+                webbrowser.open(url)
+                return None
+    raise RuntimeError("All local study server ports are in use.")
 
 
 def parse_args() -> argparse.Namespace:
@@ -89,13 +104,14 @@ def main() -> int:
         return 1
 
     try:
-        port = find_available_port(args.port)
-    except RuntimeError as error:
+        server = local_server(root, args.port, args.open_browser)
+    except (RuntimeError, OSError) as error:
         print(f"ERROR: {error}", file=sys.stderr)
         return 1
 
-    handler = functools.partial(LocalOnlyHandler, directory=str(root))
-    server = http.server.ThreadingHTTPServer((HOST, port), handler)
+    if server is None:
+        return 0
+    port = server.server_port
     server.daemon_threads = True
     url = f"http://localhost:{port}/"
 

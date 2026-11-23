@@ -16,7 +16,7 @@ async function library() {
     ])
   );
   app.innerHTML = `<header class="book-heading"><img src="assets/images/photographers-playbook.jpg" alt="The Photographer’s Playbook cover"><div><p class="eyebrow">Assignment library</p><h1>The Photographer’s Playbook</h1><p>Jason Fulford &amp; Gregory Halpern · 307 assignments</p></div></header>
-    <details class="intro"><summary>About This Book</summary><div class="prose-body">${intro.blocks.map((b) => `<p>${esc(b.text)}</p>`).join('')}<p>${esc(intro.plateNote)}</p></div></details>
+    <details class="intro"><summary>About This Book</summary><div class="prose-body"><a class="text-link" href="${bookURL('playbook', intro.pdfPages[0], true)}">Open PDF ${intro.pdfPages[0]}</a>${intro.blocks.map((b) => `<p>${esc(b.text)}</p>`).join('')}<p>${esc(intro.plateNote)}</p><a class="text-link" href="${bookURL('playbook', intro.pdfPages[1], true)}">Plate note · PDF ${intro.pdfPages[1]}</a></div></details>
     <div class="filters"><label class="search">Search assignments<input id="query" type="search" placeholder="Title, contributor or text" value="${esc(filters.search)}"></label>
     <label>Status<select id="status"><option value="">All statuses</option>${Object.entries(
       statusLabels
