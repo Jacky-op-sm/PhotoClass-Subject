@@ -5,3 +5,8 @@ README.md
 start-macos.command
 *.rules
 **/__pycache__
+
+# Generated local photo libraries
+**/.photoclass-library.json
+**/.photoclass-thumbnails/
+**/*--pc-*.jpg

@@ -163,13 +163,12 @@
     }
   }
 
-  async function transact(session, update) {
+  async function transact(session) {
     return session.db.runTransaction(async tx => {
       const remote = cloudProgress(await tx.get(session.ref));
       if (session !== connection) throw Object.assign(new Error('The sync profile changed.'), {code:'cancelled'});
       const local = localProgress();
       const merged = merge(local, remote || local);
-      if (update) update(merged);
       if (!remote || stable(merged) !== stable(remote)) {
         if (new TextEncoder().encode(JSON.stringify(merged)).length > 700 * 1024)
           console.warn('PhotoClass progress exceeds 700 KiB.');
@@ -179,53 +178,6 @@
       }
       return merged;
     });
-  }
-
-  function requirePhotoSession() {
-    if (!connection || !authorized || !navigator.onLine) {
-      throw Object.assign(new Error('Connect to your sync profile to save photos.'), {photoRejected:true});
-    }
-    return connection;
-  }
-
-  async function getCloudPhoto(assignmentId, photoId) {
-    const session = requirePhotoSession();
-    const data = cloudProgress(await session.ref.get({source: 'server'}));
-    if (session !== connection) throw new Error('The sync profile changed.');
-    return data?.playbook.assignments[assignmentId]?.photos?.[photoId] || null;
-  }
-
-  async function admitPhoto(assignmentId, photoId, record, limit) {
-    const session = requirePhotoSession();
-    let committed;
-    try {
-      committed = await transact(session, progress => {
-        const assignments = progress.playbook.assignments;
-        const at = record.updatedAt;
-        const assignment = assignments[assignmentId] ||= {
-          status:'todo', statusAt:at, currentSince:null, doneAt:null, updatedAt:at, photos:{}
-        };
-        const existing = assignment.photos[photoId];
-        if (existing?.deleted) throw Object.assign(new Error('This photo was deleted.'), {photoRejected:true});
-        if (existing) return; // A previous admission may have lost its acknowledgement.
-        if (Object.values(assignment.photos).filter(photo => !photo.deleted).length >= limit) {
-          throw Object.assign(new Error('This assignment has reached its photo limit.'), {code:'photo-limit', photoRejected:true});
-        }
-        assignment.photos[photoId] = record;
-        assignment.updatedAt = later(assignment.updatedAt, at);
-        progress.updatedAt = later(progress.updatedAt, at);
-      });
-    } catch (error) {
-      // Network interruptions leave the record in the photo journal for a server-backed lookup.
-      if (['permission-denied','invalid-argument','invalid-local','unsupported-data'].includes(error?.code)) {
-        error.photoRejected = true;
-      }
-      throw error;
-    }
-    if (session !== connection) return;
-    const latest = merge(localProgress(), committed);
-    apply(latest);
-    if (stable(latest) !== stable(committed)) schedulePush();
   }
 
   async function flush(session) {
@@ -305,8 +257,7 @@
     localStorage.removeItem(lastKey);
     connect();
   }
-  window.PhotoClassSync = {getStatus, getSyncCode, setSyncCode, generateSyncCode, clearSyncCode, schedulePush,
-    getCloudPhoto, admitPhoto};
+  window.PhotoClassSync = {getStatus, getSyncCode, setSyncCode, generateSyncCode, clearSyncCode, schedulePush};
   window.addEventListener('photoclass-sdk-ready', connect);
   window.addEventListener('online', connect);
   window.addEventListener('offline', connect);

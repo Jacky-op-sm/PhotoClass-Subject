@@ -1,7 +1,6 @@
 // Load the ordered compat bundles only for a configured project.
 if (window.PHOTOCLASS_FIREBASE_CONFIG?.projectId) {
   const bundles = ['app', 'firestore'];
-  if (window.PHOTOCLASS_FIREBASE_CONFIG.storageBucket) bundles.push('storage');
   for (const name of bundles) {
     const script = document.createElement('script');
     script.async = false;

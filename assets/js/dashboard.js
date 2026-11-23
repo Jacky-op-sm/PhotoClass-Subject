@@ -1,4 +1,5 @@
 async function dashboard() {
+  await StudyPhotos.ready;
   const [assignments, chapters, guide] = await bookData(
     'assignments',
     'chapters',
@@ -8,7 +9,7 @@ async function dashboard() {
     states = p.playbook.assignments;
   const current = assignments.find((a) => states[a.id]?.status === 'current');
   const photos = assignments
-    .flatMap((a) => photosFor(p, a.id).map(([, photo]) => ({ a, photo })))
+    .flatMap((a) => photosFor(p, a.id).map(([id, photo]) => ({ a, id, photo })))
     .sort((x, y) => y.photo.createdAt.localeCompare(x.photo.createdAt));
   const segments = chapters
     .filter((c) => c.type === 'core')
@@ -30,18 +31,23 @@ async function dashboard() {
     <div class="reading-action"><a class="text-link" href="${next ? chapterURL(next.c.id, next.s.id) : 'onbeing.html'}">${next ? 'Continue reading' : 'Review reading'}</a><span class="read-meter">${progressBar(read, segments.length)}<small>${read} of ${segments.length} segments</small></span></div></section></div>
     <section class="ruled">${sectionHead('Subjects', 'subjects.html', 'View all subjects')}${subjectForm()}
     ${recent.map(([, s]) => `<p class="subject-line">${s.starred ? '★ ' : ''}${esc(s.text)}</p>`).join('')}</section>
-    <section class="ruled">${sectionHead('Recent photos')}${
+    <section class="ruled">${sectionHead('Recent photos')}${StudyPhotos.controls()}${
       photos.length
         ? `<div class="photo-grid">${photos
             .slice(0, 8)
             .map(
-              ({ a, photo }) =>
-                `<a href="${assignmentURL(a.id)}"><img src="${photoURL(photo.thumbUrl)}" alt="${esc(photo.caption || a.title)}" loading="lazy" decoding="async"><small>${esc(a.title)}</small></a>`
+              ({ a }, i) =>
+                `<a href="${assignmentURL(a.id)}#photos"><span class="photo-preview" data-recent="${i}"></span><small>${esc(a.title)}</small></a>`
             )
             .join('')}</div>`
         : '<p class="muted">Photos you add to assignments will appear here.</p>'
-    }</section>
-`;
+    }</section>`;
+  StudyPhotos.bindControls(dashboard);
+  for (const host of QA('[data-recent]')) {
+    const { a, id, photo } = photos[Number(host.dataset.recent)];
+    StudyPhotos.showImage(host, photo, id, 'thumb', photo.caption || a.title);
+  }
+  StudyPhotos.pruneImages();
   Q('#draw').onclick = () => draw(assignments, getProgress());
   if (current)
     Q('#done').onclick = () => {

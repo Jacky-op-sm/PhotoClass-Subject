@@ -722,11 +722,16 @@ summary {
   align-items: start;
   max-width: 60rem;
   margin-inline: auto;
-  font: 1.15rem/1.68 Georgia, serif;
+  font:
+    1.15rem/1.68 Georgia,
+    serif;
 }
 @media (min-width: 761px) {
   .reading-layout:has(#toc[open]) {
-    grid-template-columns: minmax(12rem, 1.5fr) minmax(0, 51ch) minmax(3rem, 0.5fr);
+    grid-template-columns: minmax(12rem, 1.5fr) minmax(0, 51ch) minmax(
+        3rem,
+        0.5fr
+      );
   }
 }
 .reader-column {
@@ -813,9 +818,14 @@ summary {
   border-inline-start: 1px solid currentColor;
 }
 #toc[open] .toc-icon {
-  background: linear-gradient(to right, var(--line) 0.32rem, transparent 0.32rem);
+  background: linear-gradient(
+    to right,
+    var(--line) 0.32rem,
+    transparent 0.32rem
+  );
 }
-#toc summary:hover, #toc[open] summary {
+#toc summary:hover,
+#toc[open] summary {
   color: var(--ink);
 }
 #toc nav {
@@ -823,12 +833,21 @@ summary {
   padding-inline: 0.35rem 1rem;
 }
 @media (max-width: 960px) {
-  #toc:not([open]) .toc-label { display: none; }
-  #toc:not([open]) summary { justify-content: center; }
+  #toc:not([open]) .toc-label {
+    display: none;
+  }
+  #toc:not([open]) summary {
+    justify-content: center;
+  }
 }
 @media (max-width: 760px) {
-  body[data-page='chapter'] .page-shell { padding-inline: 0; }
-  #toc { top: 6rem; max-height: calc(100dvh - 7rem); }
+  body[data-page='chapter'] .page-shell {
+    padding-inline: 0;
+  }
+  #toc {
+    top: 6rem;
+    max-height: calc(100dvh - 7rem);
+  }
   #toc[open] {
     width: min(16rem, calc(100vw - 3rem));
     max-width: none;
@@ -1342,4 +1361,46 @@ dialog::backdrop {
   .site-footer a {
     min-height: 44px;
   }
+}
+
+.folder-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem 1rem;
+  flex-wrap: wrap;
+  margin: 0.5rem 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+.topic-folder {
+  display: block;
+  max-width: 25rem;
+  margin: 0.5rem 0;
+}
+.photo-preview {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 4/3;
+  background: var(--bg-surface);
+  color: var(--muted);
+  font: 0.9rem/1.4 var(--font-latin);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.photo-preview img {
+  align-self: stretch;
+}
+#photo-status:empty {
+  display: none;
+}
+#full-photo:empty {
+  display: none;
+}
+
+.photo-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
 }

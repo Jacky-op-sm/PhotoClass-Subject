@@ -24,13 +24,13 @@ The server listens on 127.0.0.1 and normally opens **http://localhost:8000/**. O
 
 ## Progress and photos
 
-Progress is written first to the browser’s localStorage under `photoclass-subject-progress-v1`. Use **Sync settings** in the footer of This Week to export or restore a JSON backup. It includes private photo URLs and metadata. Keep the backup private. Image files stay in Storage.
+Progress is saved in localStorage and optionally synced through the default Firestore database on the Spark plan. Each browser uses the private code saved in **Sync settings**. The progress JSON backup includes photo records, captions, dates, and paths relative to the photo folder. [Firestore setup](docs/firebase-setup.md)
 
-Firestore progress sync uses the PhotoClass Subject project's default database on the Spark plan. Enter the same private code in **Sync settings** on each browser. Keep the code in your password manager. Photo uploads require a provisioned Storage bucket and its rules. The Storage field is empty while billing is disabled. [Firebase setup](docs/firebase-setup.md)
-
-Sync compares segment marks, assignment states, photos and subjects independently. Deletes retain tombstones for 90 days. The photo picker becomes available after a valid sync connection. Each assignment holds up to 12 photos.
-
-Only JPEG derivatives are uploaded. The 1600 px display copy targets at most 450 KiB and the 480 px thumbnail targets at most 60 KiB. Small files can be considerably lighter. Expect about 0.35–0.5 MB per photo. Six photos for each of 307 assignments gives 1,842 photos, roughly 0.9 GB at the upper estimate. Browser re-encoding removes EXIF, including GPS. Use the date and optional 140-character caption fields to keep the information you want. If your browser cannot decode a HEIC file, export a JPEG from Photos or Lightroom.
+1. In desktop Chrome or Edge, choose **Choose photo folder** on This Week or an assignment. Pick a dedicated folder outside this website’s checkout. A sibling folder in iCloud Drive works well.
+2. On an assignment, **Add photos** lets you pick individual images. Subfolders inside the library keep their relative topic names. For individual files from elsewhere, enter a **Topic folder** or use the assignment title. **Add a topic folder** imports the images directly inside an already sorted folder and uses its name, even when the originals are outside the library. Each assignment holds up to 12 photos.
+3. Finder shows the display JPEGs under the chosen topics. Small thumbnails and the library identity file are stored alongside them in hidden entries. The site writes separate, metadata-stripped JPEGs, up to 1600 px for viewing and 480 px for thumbnails. The source images stay in place.
+4. On reload the site restores photo records and the directory handle remembered in IndexedDB. If Chrome asks again after a restart, choose **Reconnect folder** and approve access. If you switch browsers or site addresses, enter the same sync code and select the same library. A device without that folder can see the synced records and their captions.
+5. To back up the library, keep the whole folder, including its hidden entries, together with the progress JSON exported from This Week. Moving individual saved JPEGs changes their recorded paths. A missing file is identified on its photo card.
 
 ## Regenerate the books
 

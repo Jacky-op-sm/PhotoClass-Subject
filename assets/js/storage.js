@@ -21,6 +21,27 @@ function createEmptyProgress() {
 function isRecord(value) {
   return value !== null && typeof value === 'object' && !Array.isArray(value);
 }
+function validFolderPart(part) {
+  return (
+    typeof part === 'string' &&
+    !!part &&
+    !part.startsWith('.') &&
+    part.length <= 200 &&
+    !/[\/\\:\u0000-\u001f]/.test(part)
+  );
+}
+function validFolderPhoto(photo, id) {
+  return (
+    photo.storage === 'folder' &&
+    /^[0-9a-f-]{36}$/.test(photo.libraryId) &&
+    /^[0-9a-f]{32}$/.test(id) &&
+    Array.isArray(photo.folders) &&
+    photo.folders.length > 0 &&
+    photo.folders.every(validFolderPart) &&
+    validFolderPart(photo.fileName) &&
+    photo.fileName.endsWith('--pc-' + id + '.jpg')
+  );
+}
 function validProgress(value) {
   if (
     !isRecord(value) ||
@@ -36,7 +57,7 @@ function validProgress(value) {
       ([id, data]) =>
         !['__proto__', 'constructor', 'prototype'].includes(id) &&
         isRecord(data) &&
-        test(data)
+        test(data, id)
     );
   return (
     records(value.onbeing.segments, (s) => typeof s.read === 'boolean') &&
@@ -46,9 +67,12 @@ function validProgress(value) {
         ['todo', 'current', 'done', 'skipped'].includes(a.status) &&
         records(
           a.photos || {},
-          (p) =>
+          (p, id) =>
             p.deleted ||
-            (typeof p.thumbUrl === 'string' && typeof p.displayUrl === 'string')
+            (p.storage === 'folder'
+              ? validFolderPhoto(p, id)
+              : typeof p.thumbUrl === 'string' &&
+                typeof p.displayUrl === 'string')
         )
     ) &&
     records(

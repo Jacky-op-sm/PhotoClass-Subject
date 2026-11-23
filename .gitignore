@@ -5,3 +5,8 @@ __pycache__/
 .vercel/
 .env*
 node_modules/
+
+# Generated local photo libraries
+**/.photoclass-library.json
+**/.photoclass-thumbnails/
+**/*--pc-*.jpg
