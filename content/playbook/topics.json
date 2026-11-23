@@ -1,0 +1,7412 @@
+{
+  "Abstract": {
+    "printedPages": [
+      6,
+      76,
+      92,
+      103,
+      148,
+      156,
+      179,
+      186,
+      206,
+      207,
+      296,
+      309,
+      310,
+      378
+    ],
+    "assignments": [
+      "pb-005-arbus-not-necessarily-to-be-taken-literally",
+      "pb-061-defibaugh-beautiful-from-nothing",
+      "pb-074-elkins-two-challenges",
+      "pb-082-falls-death",
+      "pb-119-hewitt-image-construction",
+      "pb-126-imboden-photographing-the-human-form",
+      "pb-145-kinsman-solargraphy",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-164-malasauskas-assignment",
+      "pb-165-maloney-disrupting-the-process",
+      "pb-234-rudensky-clockwork-orange",
+      "pb-245-schuman-nostalgia",
+      "pb-246-schwabsky-an-exercise-in-photography",
+      "pb-303-wolf-real-and-possible"
+    ]
+  },
+  "Absurdity": {
+    "printedPages": [
+      8,
+      14,
+      15,
+      35,
+      41,
+      45,
+      49,
+      56,
+      61,
+      72,
+      81,
+      91,
+      92,
+      126,
+      136,
+      147,
+      233,
+      235,
+      296,
+      301,
+      315,
+      370
+    ],
+    "assignments": [
+      "pb-007-ashkin-revealing-an-enigma",
+      "pb-011-baldessari-assignment-96",
+      "pb-012-ballen-inside-out",
+      "pb-030-brown-rockaway-beach",
+      "pb-033-butler-two-approaches",
+      "pb-036-campany-what-to-photograph",
+      "pb-039-carroll-chicken",
+      "pb-046-chaplin-lessons-learned-from-a-failed-attempt",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-058-cwynar-object-lesson",
+      "pb-065-de-rita-alphabet-of-assignments",
+      "pb-073-ebner-seeing-more-flatly",
+      "pb-074-elkins-two-challenges",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-108-hamada-grocery-list",
+      "pb-118-hewitt-the-replica-and-its-mutation",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-234-rudensky-clockwork-orange",
+      "pb-238-scheeren-secrets-and-obstacles",
+      "pb-251-shaw-create-an-image-virus",
+      "pb-296-whitaker-fruit-first"
+    ]
+  },
+  "Access": {
+    "printedPages": [
+      131,
+      144,
+      356,
+      367,
+      376
+    ],
+    "assignments": [
+      "pb-105-gregory-find-a-space-make-a-show",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-285-van-manen-blending-in",
+      "pb-293-weber-empathy-and-a-full-stomach",
+      "pb-301-winokur-odd-assignment"
+    ]
+  },
+  "Advice": {
+    "printedPages": [
+      18,
+      20,
+      21,
+      23,
+      27,
+      30,
+      31,
+      35,
+      39,
+      40,
+      50,
+      55,
+      59,
+      60,
+      67,
+      70,
+      84,
+      87,
+      88,
+      98,
+      103,
+      105,
+      108,
+      116,
+      118,
+      123,
+      124,
+      125,
+      126,
+      129,
+      130,
+      137,
+      139,
+      144,
+      146,
+      169,
+      170,
+      175,
+      178,
+      180,
+      185,
+      186,
+      212,
+      217,
+      221,
+      227,
+      228,
+      239,
+      247,
+      251,
+      258,
+      267,
+      271,
+      272,
+      273,
+      282,
+      295,
+      302,
+      304,
+      306,
+      311,
+      312,
+      317,
+      318,
+      322,
+      323,
+      327,
+      328,
+      331,
+      334,
+      339,
+      344,
+      357,
+      364,
+      367,
+      368,
+      376,
+      377,
+      379,
+      381,
+      384
+    ],
+    "assignments": [
+      "pb-015-barney-slow-down",
+      "pb-017-behrend-the-coal-thieves",
+      "pb-018-bell-failing-to-succeed",
+      "pb-020-benning-an-assignment",
+      "pb-024-boot-a-test",
+      "pb-026-brandt-step-out-of-your-shoes",
+      "pb-027-bright-practical-advice",
+      "pb-030-brown-rockaway-beach",
+      "pb-031-brown-the-last-seven-pictures",
+      "pb-032-bunnell-assignment-two-from-twentieth-century-photography-seminar",
+      "pb-040-carter-garden-of-earthly-delights",
+      "pb-045-ceschel-shooting-happiness",
+      "pb-049-conner-rules-for-students-in-introduction-to-photography",
+      "pb-050-connor-visual-source-binder",
+      "pb-055-cox-a-dozen-to-gnaw-on",
+      "pb-057-cuomo-sister-coritas-rules",
+      "pb-067-dicorcia-something-real",
+      "pb-070-dow-blind-jury",
+      "pb-071-dubois-fits-and-starts",
+      "pb-078-estrin-the-basics",
+      "pb-082-falls-death",
+      "pb-084-fessler-mock-proposal",
+      "pb-086-finke-trust-the-gut",
+      "pb-093-frame-la-dolce-vita",
+      "pb-095-frelin-the-excuse",
+      "pb-099-gilden-photograph-who-you-are",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-101-gordon-three-assignments-and-a-thought",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-103-gottlund-inside-out",
+      "pb-104-grannan-discomfort",
+      "pb-109-hampton-being-there",
+      "pb-111-harper-the-body-as-a-site-of-perception",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-117-heiferman-family-trees",
+      "pb-135-kander-making-not-taking",
+      "pb-136-kashi-be-passionate",
+      "pb-141-kereszi-all-things-large-and-small",
+      "pb-144-killip-sustainability",
+      "pb-146-kippenberger-excerpt-from-an-interview-in-starship-magazine",
+      "pb-150-kulok-learning-to-act",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-169-martin-reading-the-tea-leaves",
+      "pb-173-mccaw-feast-or-famine",
+      "pb-176-meeks-complete-surrender",
+      "pb-180-mickey-adventures-in-the-skin-trade",
+      "pb-181-moakley-begin-at-the-beginning",
+      "pb-189-nakadate-time-capsule",
+      "pb-194-nolan-on-john-szarkowski",
+      "pb-197-novak-sketching-for-computer-based-projects",
+      "pb-202-otoole-scale",
+      "pb-210-pfahl-five-rules",
+      "pb-214-pilson-shameless",
+      "pb-215-plademunt-manual-to-make-a-good-photographic-project-part-one",
+      "pb-216-porter-from-the-images-of-man-audiovisual-series-mornings-of-creation-eliot-porter-1973",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-233-rubin-one-hundred-dollars",
+      "pb-239-scheinbaum-crushed",
+      "pb-240-schiek-dead-end-scenario",
+      "pb-242-schmelling-preconceived-notions",
+      "pb-247-sealy-forget-berger-and-read-fanon",
+      "pb-248-shafran-thoughts",
+      "pb-253-shore-intentionality",
+      "pb-254-siskind-a-story-by-thomas-barrow",
+      "pb-257-smithson-words-and-ideas",
+      "pb-258-soren-advice",
+      "pb-262-steacy-float-like-a-butterfly",
+      "pb-263-steinmetz-photograph-somewhere-you-are-very-uncomfortable",
+      "pb-266-sturges-what-is-simply-true",
+      "pb-269-sultan-as-remembered-by-kelly-sultan",
+      "pb-273-taylor-a-topical-drinking-game",
+      "pb-277-thomas-dear-me",
+      "pb-286-ventura-the-depths",
+      "pb-290-walker-its-all-about-love",
+      "pb-293-weber-empathy-and-a-full-stomach",
+      "pb-294-weegee-from-the-candid-recordings-audio-series-famous-photographers-tell-how-1958",
+      "pb-301-winokur-odd-assignment",
+      "pb-302-wiseman-chance-luck-and-good-judgment",
+      "pb-304-wolff-notes-to-self",
+      "pb-305-xoubanova-manual-to-make-a-good-photographic-project-part-two",
+      "pb-307-young-u-turn-rule"
+    ]
+  },
+  "Aerial": {
+    "printedPages": [
+      63
+    ],
+    "assignments": [
+      "pb-052-cost-drones"
+    ]
+  },
+  "Alter ego": {
+    "printedPages": [
+      16,
+      33,
+      111,
+      176,
+      200,
+      368
+    ],
+    "assignments": [
+      "pb-013-barber-findings",
+      "pb-028-broomberg-chanarin-alias-an-exercise-for-five-students-or-more",
+      "pb-089-fleming-ventriloquism",
+      "pb-142-kessels-hot-or-not",
+      "pb-161-lipper-alter-ego",
+      "pb-294-weegee-from-the-candid-recordings-audio-series-famous-photographers-tell-how-1958"
+    ]
+  },
+  "Alternative process": {
+    "printedPages": [
+      93,
+      100,
+      129,
+      179,
+      347
+    ],
+    "assignments": [
+      "pb-075-elmaleh-cyanotype-and-the-blue-world",
+      "pb-080-ezawa-make-a-photograph",
+      "pb-103-gottlund-inside-out",
+      "pb-145-kinsman-solargraphy",
+      "pb-279-traub-the-don-ts"
+    ]
+  },
+  "Ambiguity": {
+    "printedPages": [
+      126,
+      177,
+      218,
+      281,
+      349,
+      355,
+      365
+    ],
+    "assignments": [
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-143-kessmann-ninety-nine-pictures",
+      "pb-174-mcfarland-create-an-event",
+      "pb-221-reas-expanded-cinema",
+      "pb-281-turyn-telephone-game",
+      "pb-284-van-de-roer-sum-of-the-parts",
+      "pb-291-wassinklundgren-chinese-whispers"
+    ]
+  },
+  "Analysis": {
+    "printedPages": [
+      31,
+      40,
+      63,
+      100,
+      148,
+      158,
+      171,
+      176,
+      210,
+      211,
+      215,
+      242,
+      268,
+      289,
+      325,
+      333
+    ],
+    "assignments": [
+      "pb-027-bright-practical-advice",
+      "pb-032-bunnell-assignment-two-from-twentieth-century-photography-seminar",
+      "pb-052-cost-drones",
+      "pb-080-ezawa-make-a-photograph",
+      "pb-119-hewitt-image-construction",
+      "pb-127-ingram-roll-a-day",
+      "pb-137-keegan-questions-for-the-archivist",
+      "pb-142-kessels-hot-or-not",
+      "pb-167-marcoci-the-logic-of-photography",
+      "pb-168-marcopoulos-daily-destination",
+      "pb-172-mccall-two-minute-drill",
+      "pb-190-natal-no-answers-allowed",
+      "pb-211-phelps-photograph-in-context",
+      "pb-227-rice-inspired-by-arnheim",
+      "pb-260-southam-site-excavation",
+      "pb-268-sullivan-prison-break"
+    ]
+  },
+  "Animals": {
+    "printedPages": [
+      35,
+      48,
+      89,
+      126,
+      255,
+      316,
+      327
+    ],
+    "assignments": [
+      "pb-030-brown-rockaway-beach",
+      "pb-038-carrier-five-obstructions",
+      "pb-072-duffy-exercises-in-photography",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-199-onorato-krebs-the-white-mouse",
+      "pb-252-shimabuku-see-what-is-happening",
+      "pb-262-steacy-float-like-a-butterfly"
+    ]
+  },
+  "Architecture": {
+    "printedPages": [
+      22,
+      164,
+      230,
+      285,
+      318,
+      366
+    ],
+    "assignments": [
+      "pb-019-bell-points-of-intersection",
+      "pb-131-johnson-your-own-invisible-city",
+      "pb-183-moore-shadows-and-stories",
+      "pb-224-reinfurt-wonder-what-to-do-in-it",
+      "pb-254-siskind-a-story-by-thomas-barrow",
+      "pb-292-webb-triggering-town"
+    ]
+  },
+  "Archive": {
+    "printedPages": [
+      47,
+      57,
+      124,
+      146,
+      171,
+      209,
+      218,
+      224,
+      261,
+      268,
+      290,
+      352
+    ],
+    "assignments": [
+      "pb-037-carlsen-photography-as-sculpture",
+      "pb-047-chiara-taking-stock",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-117-heiferman-family-trees",
+      "pb-137-keegan-questions-for-the-archivist",
+      "pb-166-mandel-research-and-invention",
+      "pb-174-mcfarland-create-an-event",
+      "pb-178-meister-on-close-inspection",
+      "pb-204-paglen-imaging-systems",
+      "pb-211-phelps-photograph-in-context",
+      "pb-228-rickard-editing-is-everything",
+      "pb-283-umbrico-an-exercise-in-travel-choice-narrative-contingency-and-eisensteins-idea-of-collision-versus-collusion"
+    ]
+  },
+  "Art": {
+    "printedPages": [
+      66,
+      131,
+      142,
+      175,
+      180,
+      224,
+      259,
+      292,
+      310,
+      318,
+      327,
+      330
+    ],
+    "assignments": [
+      "pb-054-cowin-beautiful",
+      "pb-105-gregory-find-a-space-make-a-show",
+      "pb-114-hassink-depicting-consumption",
+      "pb-141-kereszi-all-things-large-and-small",
+      "pb-146-kippenberger-excerpt-from-an-interview-in-starship-magazine",
+      "pb-178-meister-on-close-inspection",
+      "pb-203-ou-photograph-something-invisible",
+      "pb-230-rogan-time-travel",
+      "pb-246-schwabsky-an-exercise-in-photography",
+      "pb-254-siskind-a-story-by-thomas-barrow",
+      "pb-262-steacy-float-like-a-butterfly",
+      "pb-265-stuke-sieber-teaching-antifoto"
+    ]
+  },
+  "Art history": {
+    "printedPages": [
+      310,
+      348
+    ],
+    "assignments": [
+      "pb-246-schwabsky-an-exercise-in-photography",
+      "pb-280-tucker-lessons-for-a-curator"
+    ]
+  },
+  "Articulation": {
+    "printedPages": [
+      104,
+      148,
+      215,
+      218,
+      340,
+      348
+    ],
+    "assignments": [
+      "pb-083-feininger-the-real-nature-of-space",
+      "pb-119-hewitt-image-construction",
+      "pb-172-mccall-two-minute-drill",
+      "pb-174-mcfarland-create-an-event",
+      "pb-274-terpstra-photos-not-taken",
+      "pb-280-tucker-lessons-for-a-curator"
+    ]
+  },
+  "Atmosphere": {
+    "printedPages": [
+      107,
+      358
+    ],
+    "assignments": [
+      "pb-085-fink-photographing-atmosphere",
+      "pb-287-verene-the-intimate-portrait"
+    ]
+  },
+  "Audience": {
+    "printedPages": [
+      25,
+      26,
+      43,
+      97,
+      105,
+      131,
+      153,
+      161,
+      176,
+      214,
+      255,
+      292,
+      295,
+      355,
+      371
+    ],
+    "assignments": [
+      "pb-022-blalock-audience",
+      "pb-023-bonajo-perspective",
+      "pb-034-calisch-offer-your-services",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-084-fessler-mock-proposal",
+      "pb-105-gregory-find-a-space-make-a-show",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-142-kessels-hot-or-not",
+      "pb-171-mayes-youre-a-publisher-now",
+      "pb-199-onorato-krebs-the-white-mouse",
+      "pb-230-rogan-time-travel",
+      "pb-233-rubin-one-hundred-dollars",
+      "pb-284-van-de-roer-sum-of-the-parts",
+      "pb-297-white-the-entirety-of-a-problem"
+    ]
+  },
+  "Audio": {
+    "printedPages": [
+      14,
+      23,
+      86,
+      112,
+      163,
+      329,
+      335,
+      336
+    ],
+    "assignments": [
+      "pb-011-baldessari-assignment-96",
+      "pb-020-benning-an-assignment",
+      "pb-069-donovan-sound-photographs",
+      "pb-090-fletcher-through-a-childs-eyes",
+      "pb-130-jakschik-follow-your-heart",
+      "pb-264-storm-interview-as-guide",
+      "pb-270-sutherland-photography-through-filmmaking",
+      "pb-271-sutton-synesthesia"
+    ]
+  },
+  "Aura": {
+    "printedPages": [
+      7,
+      100,
+      206,
+      259
+    ],
+    "assignments": [
+      "pb-006-armstrong-auras",
+      "pb-080-ezawa-make-a-photograph",
+      "pb-164-malasauskas-assignment",
+      "pb-203-ou-photograph-something-invisible"
+    ]
+  },
+  "Authorship": {
+    "printedPages": [
+      8,
+      30,
+      83,
+      111,
+      112,
+      116,
+      152,
+      165,
+      169,
+      172,
+      224,
+      232,
+      256,
+      264,
+      287,
+      292,
+      305,
+      338,
+      344
+    ],
+    "assignments": [
+      "pb-007-ashkin-revealing-an-enigma",
+      "pb-026-brandt-step-out-of-your-shoes",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-089-fleming-ventriloquism",
+      "pb-090-fletcher-through-a-childs-eyes",
+      "pb-093-frame-la-dolce-vita",
+      "pb-123-homma-the-boundaries-of-imitation",
+      "pb-132-johnston-the-empowered-portrait",
+      "pb-135-kander-making-not-taking",
+      "pb-138-keeley-the-greatness-assignment",
+      "pb-178-meister-on-close-inspection",
+      "pb-184-morley-tell-me-a-story",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-207-parlato-hibernation",
+      "pb-225-renaldi-turning-the-tables",
+      "pb-230-rogan-time-travel",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-272-tamm-personal-library",
+      "pb-277-thomas-dear-me"
+    ]
+  },
+  "Beach": {
+    "printedPages": [
+      35
+    ],
+    "assignments": [
+      "pb-030-brown-rockaway-beach"
+    ]
+  },
+  "Beauty": {
+    "printedPages": [
+      66,
+      76,
+      81,
+      85,
+      113
+    ],
+    "assignments": [
+      "pb-054-cowin-beautiful",
+      "pb-061-defibaugh-beautiful-from-nothing",
+      "pb-065-de-rita-alphabet-of-assignments",
+      "pb-068-diederix-extract-the-magic",
+      "pb-091-foglia-make-it-seem"
+    ]
+  },
+  "Beginner": {
+    "printedPages": [
+      43,
+      59,
+      76,
+      98,
+      129,
+      173,
+      228,
+      245,
+      282,
+      299,
+      308,
+      322,
+      343,
+      358
+    ],
+    "assignments": [
+      "pb-034-calisch-offer-your-services",
+      "pb-049-conner-rules-for-students-in-introduction-to-photography",
+      "pb-061-defibaugh-beautiful-from-nothing",
+      "pb-078-estrin-the-basics",
+      "pb-103-gottlund-inside-out",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-181-moakley-begin-at-the-beginning",
+      "pb-193-nolan-an-altogether-different-lesson",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-236-saville-shadow-diary",
+      "pb-244-schneider-interpreting-light",
+      "pb-257-smithson-words-and-ideas",
+      "pb-276-thall-pictures-within-pictures",
+      "pb-287-verene-the-intimate-portrait"
+    ]
+  },
+  "Beginnings": {
+    "printedPages": [
+      52,
+      73,
+      228,
+      239,
+      264
+    ],
+    "assignments": [
+      "pb-042-carucci-a-thousand-pictures",
+      "pb-059-cyr-limitation-routine-and-repetition",
+      "pb-181-moakley-begin-at-the-beginning",
+      "pb-189-nakadate-time-capsule",
+      "pb-207-parlato-hibernation"
+    ]
+  },
+  "Body": {
+    "printedPages": [
+      41,
+      95,
+      140,
+      156,
+      369
+    ],
+    "assignments": [
+      "pb-033-butler-two-approaches",
+      "pb-076-engman-practicing-fashion-photography",
+      "pb-112-harris-exquisite-corpse",
+      "pb-126-imboden-photographing-the-human-form",
+      "pb-295-wei-hotel-self-portrait"
+    ]
+  },
+  "Books": {
+    "printedPages": [
+      43,
+      80,
+      112,
+      124,
+      151,
+      153,
+      217,
+      233,
+      249,
+      257,
+      265,
+      281,
+      285,
+      311,
+      330,
+      334,
+      338
+    ],
+    "assignments": [
+      "pb-034-calisch-offer-your-services",
+      "pb-064-de-middel-the-de-middel-three-step-guide-to-photographic-storytelling",
+      "pb-090-fletcher-through-a-childs-eyes",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-122-himes-sequencing-and-bookmaking",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-173-mccaw-feast-or-famine",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-195-nordstrom-the-emigrants",
+      "pb-201-osterman-book-as",
+      "pb-208-patton-sequential-or-serial",
+      "pb-221-reas-expanded-cinema",
+      "pb-224-reinfurt-wonder-what-to-do-in-it",
+      "pb-247-sealy-forget-berger-and-read-fanon",
+      "pb-265-stuke-sieber-teaching-antifoto",
+      "pb-269-sultan-as-remembered-by-kelly-sultan",
+      "pb-272-tamm-personal-library"
+    ]
+  },
+  "Boredom": {
+    "printedPages": [
+      52,
+      108,
+      124,
+      198,
+      298,
+      339
+    ],
+    "assignments": [
+      "pb-042-carucci-a-thousand-pictures",
+      "pb-086-finke-trust-the-gut",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-160-letinsky-still-life",
+      "pb-235-sanguinetti-something-out-of-nothing",
+      "pb-273-taylor-a-topical-drinking-game"
+    ]
+  },
+  "Brainstorming": {
+    "printedPages": [
+      64,
+      124,
+      136,
+      141,
+      148,
+      150,
+      242,
+      370
+    ],
+    "assignments": [
+      "pb-053-cotton-how-to-make-ideas-better",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-108-hamada-grocery-list",
+      "pb-113-harvey-ideas-into-pictures-a-two-part-assignment",
+      "pb-119-hewitt-image-construction",
+      "pb-121-hill-scavenger-hunt",
+      "pb-190-natal-no-answers-allowed",
+      "pb-296-whitaker-fruit-first"
+    ]
+  },
+  "Captions": {
+    "printedPages": [
+      83,
+      174,
+      218,
+      232,
+      270,
+      324
+    ],
+    "assignments": [
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-140-kelsey-captions",
+      "pb-174-mcfarland-create-an-event",
+      "pb-184-morley-tell-me-a-story",
+      "pb-213-pickering-the-camera-never-lies",
+      "pb-259-soth-words-and-photographs"
+    ]
+  },
+  "Chance": {
+    "printedPages": [
+      24,
+      31,
+      35,
+      41,
+      45,
+      56,
+      140,
+      149,
+      183,
+      186,
+      207,
+      221,
+      250,
+      251,
+      272,
+      281,
+      283,
+      312,
+      320,
+      327,
+      352,
+      356,
+      362,
+      370,
+      372,
+      377,
+      381,
+      384
+    ],
+    "assignments": [
+      "pb-021-bey-open-mind",
+      "pb-027-bright-practical-advice",
+      "pb-030-brown-rockaway-beach",
+      "pb-033-butler-two-approaches",
+      "pb-036-campany-what-to-photograph",
+      "pb-046-chaplin-lessons-learned-from-a-failed-attempt",
+      "pb-112-harris-exquisite-corpse",
+      "pb-120-hido-expose-yourself",
+      "pb-148-klett-daily-practice",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-165-maloney-disrupting-the-process",
+      "pb-176-meeks-complete-surrender",
+      "pb-196-northrup-skipreading",
+      "pb-197-novak-sketching-for-computer-based-projects",
+      "pb-215-plademunt-manual-to-make-a-good-photographic-project-part-one",
+      "pb-221-reas-expanded-cinema",
+      "pb-223-records-out-of-your-head",
+      "pb-248-shafran-thoughts",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-262-steacy-float-like-a-butterfly",
+      "pb-283-umbrico-an-exercise-in-travel-choice-narrative-contingency-and-eisensteins-idea-of-collision-versus-collusion",
+      "pb-285-van-manen-blending-in",
+      "pb-289-vitali-mistakes",
+      "pb-296-whitaker-fruit-first",
+      "pb-298-white-the-american-road-trip-the-ultimate-one-day-experience",
+      "pb-302-wiseman-chance-luck-and-good-judgment",
+      "pb-305-xoubanova-manual-to-make-a-good-photographic-project-part-two",
+      "pb-307-young-u-turn-rule"
+    ]
+  },
+  "Children": {
+    "printedPages": [
+      99,
+      112,
+      132,
+      167,
+      223,
+      245,
+      293,
+      299,
+      331
+    ],
+    "assignments": [
+      "pb-079-ewald-assignment-dreams",
+      "pb-090-fletcher-through-a-childs-eyes",
+      "pb-106-gremmen-based-on-a-conversation-which-took-place-in-amsterdam-in-september-2012-between-a-student-and-his-former-teacher",
+      "pb-134-july-mother-s-nightmare",
+      "pb-177-meiselas-alphabetography",
+      "pb-193-nolan-an-altogether-different-lesson",
+      "pb-231-roma-what-matters",
+      "pb-236-saville-shadow-diary",
+      "pb-266-sturges-what-is-simply-true"
+    ]
+  },
+  "Cinema": {
+    "printedPages": [
+      48,
+      80,
+      193,
+      262,
+      335,
+      336,
+      374
+    ],
+    "assignments": [
+      "pb-038-carrier-five-obstructions",
+      "pb-064-de-middel-the-de-middel-three-step-guide-to-photographic-storytelling",
+      "pb-156-la-spina-24-24-24",
+      "pb-205-palacio-blue-velvet",
+      "pb-270-sutherland-photography-through-filmmaking",
+      "pb-271-sutton-synesthesia",
+      "pb-299-willing-rhythm-and-melody"
+    ]
+  },
+  "Classroom": {
+    "printedPages": [
+      77,
+      87,
+      88,
+      174,
+      175,
+      186,
+      229,
+      233,
+      242,
+      247,
+      300,
+      313,
+      321,
+      339,
+      349,
+      370
+    ],
+    "assignments": [
+      "pb-062-de-groot-devils-advocate",
+      "pb-070-dow-blind-jury",
+      "pb-071-dubois-fits-and-starts",
+      "pb-140-kelsey-captions",
+      "pb-141-kereszi-all-things-large-and-small",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-182-modica-weekend-portraiture",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-190-natal-no-answers-allowed",
+      "pb-194-nolan-on-john-szarkowski",
+      "pb-237-schechter-unintended-consequences",
+      "pb-249-shank-one-hour-photo-project",
+      "pb-256-slota-four-pieces",
+      "pb-273-taylor-a-topical-drinking-game",
+      "pb-281-turyn-telephone-game",
+      "pb-296-whitaker-fruit-first"
+    ]
+  },
+  "Cliché": {
+    "printedPages": [
+      11,
+      59,
+      117,
+      141,
+      293,
+      306
+    ],
+    "assignments": [
+      "pb-009-baart-my-uncle",
+      "pb-049-conner-rules-for-students-in-introduction-to-photography",
+      "pb-094-frazier-metaphor-and-meaning",
+      "pb-113-harvey-ideas-into-pictures-a-two-part-assignment",
+      "pb-231-roma-what-matters",
+      "pb-242-schmelling-preconceived-notions"
+    ]
+  },
+  "Collaboration": {
+    "printedPages": [
+      16,
+      17,
+      25,
+      41,
+      43,
+      45,
+      49,
+      64,
+      83,
+      95,
+      111,
+      112,
+      114,
+      116,
+      120,
+      131,
+      140,
+      143,
+      165,
+      167,
+      174,
+      191,
+      192,
+      195,
+      226,
+      276,
+      287,
+      295,
+      316,
+      329,
+      331,
+      335,
+      349,
+      351,
+      356,
+      358,
+      361,
+      370
+    ],
+    "assignments": [
+      "pb-013-barber-findings",
+      "pb-014-barnes-collaborating-across-disciplines",
+      "pb-022-blalock-audience",
+      "pb-033-butler-two-approaches",
+      "pb-034-calisch-offer-your-services",
+      "pb-036-campany-what-to-photograph",
+      "pb-039-carroll-chicken",
+      "pb-053-cotton-how-to-make-ideas-better",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-076-engman-practicing-fashion-photography",
+      "pb-089-fleming-ventriloquism",
+      "pb-090-fletcher-through-a-childs-eyes",
+      "pb-092-fox-staging-the-real",
+      "pb-093-frame-la-dolce-vita",
+      "pb-096-gearon-how-to-take-a-perfectly-fantastic-shot-in-less-than-five-minutes-or-a-masterpiece-in-a-couple-of-hours",
+      "pb-105-gregory-find-a-space-make-a-show",
+      "pb-112-harris-exquisite-corpse",
+      "pb-115-hau-important-people",
+      "pb-132-johnston-the-empowered-portrait",
+      "pb-134-july-mother-s-nightmare",
+      "pb-140-kelsey-captions",
+      "pb-154-lampert-shoot-me",
+      "pb-155-lancaster-two-assignments",
+      "pb-158-lehr-the-envelope-project",
+      "pb-179-menjivar-local-news",
+      "pb-218-pratt-shared-history",
+      "pb-225-renaldi-turning-the-tables",
+      "pb-233-rubin-one-hundred-dollars",
+      "pb-252-shimabuku-see-what-is-happening",
+      "pb-264-storm-interview-as-guide",
+      "pb-266-sturges-what-is-simply-true",
+      "pb-270-sutherland-photography-through-filmmaking",
+      "pb-281-turyn-telephone-game",
+      "pb-282-ulrich-shadows-and-trades",
+      "pb-285-van-manen-blending-in",
+      "pb-287-verene-the-intimate-portrait",
+      "pb-288-visser-white-walls",
+      "pb-296-whitaker-fruit-first"
+    ]
+  },
+  "Collecting": {
+    "printedPages": [
+      45,
+      60,
+      72,
+      73,
+      86,
+      146,
+      171,
+      211,
+      237,
+      341
+    ],
+    "assignments": [
+      "pb-036-campany-what-to-photograph",
+      "pb-050-connor-visual-source-binder",
+      "pb-058-cwynar-object-lesson",
+      "pb-059-cyr-limitation-routine-and-repetition",
+      "pb-069-donovan-sound-photographs",
+      "pb-117-heiferman-family-trees",
+      "pb-137-keegan-questions-for-the-archivist",
+      "pb-168-marcopoulos-daily-destination",
+      "pb-188-murphy-notable-intersections",
+      "pb-275-terry-composing-in-color"
+    ]
+  },
+  "Collection": {
+    "printedPages": [
+      57,
+      60,
+      146,
+      171,
+      352
+    ],
+    "assignments": [
+      "pb-047-chiara-taking-stock",
+      "pb-050-connor-visual-source-binder",
+      "pb-117-heiferman-family-trees",
+      "pb-137-keegan-questions-for-the-archivist",
+      "pb-283-umbrico-an-exercise-in-travel-choice-narrative-contingency-and-eisensteins-idea-of-collision-versus-collusion"
+    ]
+  },
+  "Color": {
+    "printedPages": [
+      7,
+      72,
+      89,
+      93,
+      267,
+      274,
+      294,
+      330,
+      341
+    ],
+    "assignments": [
+      "pb-006-armstrong-auras",
+      "pb-058-cwynar-object-lesson",
+      "pb-072-duffy-exercises-in-photography",
+      "pb-075-elmaleh-cyanotype-and-the-blue-world",
+      "pb-210-pfahl-five-rules",
+      "pb-217-powell-six-street-exercises",
+      "pb-232-rome-street-or-setup",
+      "pb-265-stuke-sieber-teaching-antifoto",
+      "pb-275-terry-composing-in-color"
+    ]
+  },
+  "Comfort zone": {
+    "printedPages": [
+      21,
+      33,
+      41,
+      48,
+      49,
+      51,
+      61,
+      64,
+      67,
+      75,
+      88,
+      92,
+      111,
+      137,
+      153,
+      156,
+      191,
+      215,
+      235,
+      283,
+      287,
+      295,
+      301,
+      304,
+      307,
+      328,
+      335,
+      356,
+      361,
+      376
+    ],
+    "assignments": [
+      "pb-018-bell-failing-to-succeed",
+      "pb-028-broomberg-chanarin-alias-an-exercise-for-five-students-or-more",
+      "pb-033-butler-two-approaches",
+      "pb-038-carrier-five-obstructions",
+      "pb-039-carroll-chicken",
+      "pb-041-cartier-bresson-from-the-images-of-man-audiovisual-series-the-decisive-moment-henri-cartier-bresson-1973",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-053-cotton-how-to-make-ideas-better",
+      "pb-055-cox-a-dozen-to-gnaw-on",
+      "pb-060-davis-dont-do-anything-subversive",
+      "pb-071-dubois-fits-and-starts",
+      "pb-074-elkins-two-challenges",
+      "pb-089-fleming-ventriloquism",
+      "pb-109-hampton-being-there",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-126-imboden-photographing-the-human-form",
+      "pb-154-lampert-shoot-me",
+      "pb-172-mccall-two-minute-drill",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-223-records-out-of-your-head",
+      "pb-225-renaldi-turning-the-tables",
+      "pb-233-rubin-one-hundred-dollars",
+      "pb-238-scheeren-secrets-and-obstacles",
+      "pb-240-schiek-dead-end-scenario",
+      "pb-243-schmid-in-praise-of-confusion",
+      "pb-263-steinmetz-photograph-somewhere-you-are-very-uncomfortable",
+      "pb-270-sutherland-photography-through-filmmaking",
+      "pb-285-van-manen-blending-in",
+      "pb-288-visser-white-walls",
+      "pb-301-winokur-odd-assignment"
+    ]
+  },
+  "Community": {
+    "printedPages": [
+      31,
+      43,
+      61,
+      77,
+      88,
+      112,
+      116,
+      121,
+      131,
+      143,
+      171,
+      176,
+      214,
+      226,
+      269,
+      276,
+      356,
+      366
+    ],
+    "assignments": [
+      "pb-027-bright-practical-advice",
+      "pb-034-calisch-offer-your-services",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-062-de-groot-devils-advocate",
+      "pb-071-dubois-fits-and-starts",
+      "pb-090-fletcher-through-a-childs-eyes",
+      "pb-093-frame-la-dolce-vita",
+      "pb-097-georgiou-stop-and-return",
+      "pb-105-gregory-find-a-space-make-a-show",
+      "pb-115-hau-important-people",
+      "pb-137-keegan-questions-for-the-archivist",
+      "pb-142-kessels-hot-or-not",
+      "pb-171-mayes-youre-a-publisher-now",
+      "pb-179-menjivar-local-news",
+      "pb-212-phillips-imagine-a-country",
+      "pb-218-pratt-shared-history",
+      "pb-285-van-manen-blending-in",
+      "pb-292-webb-triggering-town"
+    ]
+  },
+  "Composition": {
+    "printedPages": [
+      19,
+      59,
+      98,
+      156,
+      161,
+      169,
+      173,
+      177,
+      186,
+      190,
+      198,
+      223,
+      254,
+      274,
+      289,
+      308,
+      343
+    ],
+    "assignments": [
+      "pb-016-beasley-excerpts-from-vision-quest-assignment-cards",
+      "pb-049-conner-rules-for-students-in-introduction-to-photography",
+      "pb-078-estrin-the-basics",
+      "pb-126-imboden-photographing-the-human-form",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-135-kander-making-not-taking",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-143-kessmann-ninety-nine-pictures",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-153-lambrou-arms-length",
+      "pb-160-letinsky-still-life",
+      "pb-177-meiselas-alphabetography",
+      "pb-198-ogden-natural-vs-artificial",
+      "pb-217-powell-six-street-exercises",
+      "pb-227-rice-inspired-by-arnheim",
+      "pb-244-schneider-interpreting-light",
+      "pb-276-thall-pictures-within-pictures"
+    ]
+  },
+  "Concept": {
+    "printedPages": [
+      66,
+      81,
+      95,
+      205,
+      206,
+      256,
+      259,
+      265,
+      269,
+      288,
+      305,
+      309,
+      322,
+      338,
+      346,
+      371
+    ],
+    "assignments": [
+      "pb-054-cowin-beautiful",
+      "pb-065-de-rita-alphabet-of-assignments",
+      "pb-076-engman-practicing-fashion-photography",
+      "pb-163-maddock-small-ideas",
+      "pb-164-malasauskas-assignment",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-203-ou-photograph-something-invisible",
+      "pb-208-patton-sequential-or-serial",
+      "pb-212-phillips-imagine-a-country",
+      "pb-226-ribas-a-state-of-transition-or-boiling-water",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-245-schuman-nostalgia",
+      "pb-257-smithson-words-and-ideas",
+      "pb-272-tamm-personal-library",
+      "pb-278-tonnard-the-death-of-the-photographer",
+      "pb-297-white-the-entirety-of-a-problem"
+    ]
+  },
+  "Confusion": {
+    "printedPages": [
+      81,
+      122,
+      130,
+      213,
+      218,
+      244,
+      307,
+      365
+    ],
+    "assignments": [
+      "pb-065-de-rita-alphabet-of-assignments",
+      "pb-098-gibson-lose-an-eye",
+      "pb-104-grannan-discomfort",
+      "pb-170-mater-a-beautiful-mistake",
+      "pb-174-mcfarland-create-an-event",
+      "pb-192-nixon-flirtation",
+      "pb-243-schmid-in-praise-of-confusion",
+      "pb-291-wassinklundgren-chinese-whispers"
+    ]
+  },
+  "Context": {
+    "printedPages": [
+      33,
+      53,
+      54,
+      72,
+      85,
+      87,
+      102,
+      131,
+      142,
+      176,
+      205,
+      230,
+      239,
+      249,
+      256,
+      258,
+      265,
+      268,
+      270,
+      292,
+      300,
+      310,
+      315,
+      324,
+      374
+    ],
+    "assignments": [
+      "pb-028-broomberg-chanarin-alias-an-exercise-for-five-students-or-more",
+      "pb-043-cases-spanish-recipe",
+      "pb-044-catanese-the-arrangement-game",
+      "pb-058-cwynar-object-lesson",
+      "pb-068-diederix-extract-the-magic",
+      "pb-070-dow-blind-jury",
+      "pb-081-faldt-kallstrom-now-in-relation-to-the-past",
+      "pb-105-gregory-find-a-space-make-a-show",
+      "pb-114-hassink-depicting-consumption",
+      "pb-142-kessels-hot-or-not",
+      "pb-163-maddock-small-ideas",
+      "pb-183-moore-shadows-and-stories",
+      "pb-189-nakadate-time-capsule",
+      "pb-195-nordstrom-the-emigrants",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-202-otoole-scale",
+      "pb-208-patton-sequential-or-serial",
+      "pb-211-phelps-photograph-in-context",
+      "pb-213-pickering-the-camera-never-lies",
+      "pb-230-rogan-time-travel",
+      "pb-237-schechter-unintended-consequences",
+      "pb-246-schwabsky-an-exercise-in-photography",
+      "pb-251-shaw-create-an-image-virus",
+      "pb-259-soth-words-and-photographs",
+      "pb-299-willing-rhythm-and-melody"
+    ]
+  },
+  "Contrast": {
+    "printedPages": [
+      22,
+      23,
+      212,
+      254,
+      365
+    ],
+    "assignments": [
+      "pb-019-bell-points-of-intersection",
+      "pb-020-benning-an-assignment",
+      "pb-169-martin-reading-the-tea-leaves",
+      "pb-198-ogden-natural-vs-artificial",
+      "pb-291-wassinklundgren-chinese-whispers"
+    ]
+  },
+  "Control": {
+    "printedPages": [
+      31,
+      35,
+      41,
+      43,
+      51,
+      83,
+      126,
+      198,
+      244,
+      321,
+      328,
+      343,
+      377
+    ],
+    "assignments": [
+      "pb-027-bright-practical-advice",
+      "pb-030-brown-rockaway-beach",
+      "pb-033-butler-two-approaches",
+      "pb-034-calisch-offer-your-services",
+      "pb-041-cartier-bresson-from-the-images-of-man-audiovisual-series-the-decisive-moment-henri-cartier-bresson-1973",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-160-letinsky-still-life",
+      "pb-192-nixon-flirtation",
+      "pb-256-slota-four-pieces",
+      "pb-263-steinmetz-photograph-somewhere-you-are-very-uncomfortable",
+      "pb-276-thall-pictures-within-pictures",
+      "pb-302-wiseman-chance-luck-and-good-judgment"
+    ]
+  },
+  "Costumes": {
+    "printedPages": [
+      114,
+      235
+    ],
+    "assignments": [
+      "pb-092-fox-staging-the-real",
+      "pb-186-mulligan-the-abatement-of-shame"
+    ]
+  },
+  "Craft": {
+    "printedPages": [
+      75,
+      181,
+      207,
+      224,
+      233,
+      258,
+      282,
+      313
+    ],
+    "assignments": [
+      "pb-060-davis-dont-do-anything-subversive",
+      "pb-147-klein-what-is-a-photograph",
+      "pb-165-maloney-disrupting-the-process",
+      "pb-178-meister-on-close-inspection",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-202-otoole-scale",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-249-shank-one-hour-photo-project"
+    ]
+  },
+  "Creative block": {
+    "printedPages": [
+      6,
+      48,
+      61,
+      70,
+      136,
+      141,
+      153,
+      158,
+      227,
+      228,
+      263,
+      264,
+      283,
+      366,
+      383
+    ],
+    "assignments": [
+      "pb-005-arbus-not-necessarily-to-be-taken-literally",
+      "pb-038-carrier-five-obstructions",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-057-cuomo-sister-coritas-rules",
+      "pb-108-hamada-grocery-list",
+      "pb-113-harvey-ideas-into-pictures-a-two-part-assignment",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-127-ingram-roll-a-day",
+      "pb-180-mickey-adventures-in-the-skin-trade",
+      "pb-181-moakley-begin-at-the-beginning",
+      "pb-206-palmer-flea-market",
+      "pb-207-parlato-hibernation",
+      "pb-223-records-out-of-your-head",
+      "pb-292-webb-triggering-town",
+      "pb-306-yeoman-keywords"
+    ]
+  },
+  "Creativity": {
+    "printedPages": [
+      66,
+      70,
+      124,
+      150,
+      153,
+      172,
+      194,
+      213,
+      217,
+      223,
+      227,
+      237,
+      245,
+      257,
+      259,
+      269,
+      279,
+      285,
+      296,
+      313,
+      320,
+      321,
+      328,
+      338,
+      365,
+      366
+    ],
+    "assignments": [
+      "pb-054-cowin-beautiful",
+      "pb-057-cuomo-sister-coritas-rules",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-121-hill-scavenger-hunt",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-138-keeley-the-greatness-assignment",
+      "pb-157-lazarus-impossible-pictures",
+      "pb-170-mater-a-beautiful-mistake",
+      "pb-173-mccaw-feast-or-famine",
+      "pb-177-meiselas-alphabetography",
+      "pb-180-mickey-adventures-in-the-skin-trade",
+      "pb-188-murphy-notable-intersections",
+      "pb-193-nolan-an-altogether-different-lesson",
+      "pb-201-osterman-book-as",
+      "pb-203-ou-photograph-something-invisible",
+      "pb-212-phillips-imagine-a-country",
+      "pb-220-qiao-missing-the-boat",
+      "pb-224-reinfurt-wonder-what-to-do-in-it",
+      "pb-234-rudensky-clockwork-orange",
+      "pb-249-shank-one-hour-photo-project",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-256-slota-four-pieces",
+      "pb-263-steinmetz-photograph-somewhere-you-are-very-uncomfortable",
+      "pb-272-tamm-personal-library",
+      "pb-291-wassinklundgren-chinese-whispers",
+      "pb-292-webb-triggering-town"
+    ]
+  },
+  "Critique": {
+    "printedPages": [
+      41,
+      77,
+      87,
+      124,
+      126,
+      130,
+      227,
+      233,
+      242,
+      247,
+      251,
+      293,
+      306,
+      351
+    ],
+    "assignments": [
+      "pb-033-butler-two-approaches",
+      "pb-062-de-groot-devils-advocate",
+      "pb-070-dow-blind-jury",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-104-grannan-discomfort",
+      "pb-180-mickey-adventures-in-the-skin-trade",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-190-natal-no-answers-allowed",
+      "pb-194-nolan-on-john-szarkowski",
+      "pb-197-novak-sketching-for-computer-based-projects",
+      "pb-231-roma-what-matters",
+      "pb-242-schmelling-preconceived-notions",
+      "pb-282-ulrich-shadows-and-trades"
+    ]
+  },
+  "Cropping": {
+    "printedPages": [
+      177,
+      223,
+      270,
+      310
+    ],
+    "assignments": [
+      "pb-143-kessmann-ninety-nine-pictures",
+      "pb-177-meiselas-alphabetography",
+      "pb-213-pickering-the-camera-never-lies",
+      "pb-246-schwabsky-an-exercise-in-photography"
+    ]
+  },
+  "Cultural reference": {
+    "printedPages": [
+      114,
+      148,
+      268,
+      291,
+      310
+    ],
+    "assignments": [
+      "pb-092-fox-staging-the-real",
+      "pb-119-hewitt-image-construction",
+      "pb-211-phelps-photograph-in-context",
+      "pb-229-ritchin-the-meta-photographer",
+      "pb-246-schwabsky-an-exercise-in-photography"
+    ]
+  },
+  "Culture": {
+    "printedPages": [
+      121,
+      148,
+      276,
+      291,
+      305
+    ],
+    "assignments": [
+      "pb-097-georgiou-stop-and-return",
+      "pb-119-hewitt-image-construction",
+      "pb-218-pratt-shared-history",
+      "pb-229-ritchin-the-meta-photographer",
+      "pb-241-schles-invent-the-world-for-me"
+    ]
+  },
+  "Daily": {
+    "printedPages": [
+      3,
+      5,
+      39,
+      52,
+      73,
+      158,
+      175,
+      183,
+      211
+    ],
+    "assignments": [
+      "pb-002-abeles-watching-the-moon",
+      "pb-004-anderson-parameters",
+      "pb-031-brown-the-last-seven-pictures",
+      "pb-042-carucci-a-thousand-pictures",
+      "pb-059-cyr-limitation-routine-and-repetition",
+      "pb-127-ingram-roll-a-day",
+      "pb-141-kereszi-all-things-large-and-small",
+      "pb-148-klett-daily-practice",
+      "pb-168-marcopoulos-daily-destination"
+    ]
+  },
+  "Darkroom": {
+    "printedPages": [
+      93,
+      129,
+      175,
+      192,
+      193,
+      207,
+      239
+    ],
+    "assignments": [
+      "pb-075-elmaleh-cyanotype-and-the-blue-world",
+      "pb-103-gottlund-inside-out",
+      "pb-141-kereszi-all-things-large-and-small",
+      "pb-155-lancaster-two-assignments",
+      "pb-156-la-spina-24-24-24",
+      "pb-165-maloney-disrupting-the-process",
+      "pb-189-nakadate-time-capsule"
+    ]
+  },
+  "Death": {
+    "printedPages": [
+      99,
+      103,
+      126,
+      239,
+      277,
+      346,
+      376
+    ],
+    "assignments": [
+      "pb-079-ewald-assignment-dreams",
+      "pb-082-falls-death",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-189-nakadate-time-capsule",
+      "pb-219-pushinsky-the-human-condition",
+      "pb-278-tonnard-the-death-of-the-photographer",
+      "pb-301-winokur-odd-assignment"
+    ]
+  },
+  "Depth of field": {
+    "printedPages": [
+      98,
+      141
+    ],
+    "assignments": [
+      "pb-078-estrin-the-basics",
+      "pb-113-harvey-ideas-into-pictures-a-two-part-assignment"
+    ]
+  },
+  "Desire": {
+    "printedPages": [
+      55,
+      149,
+      255,
+      271
+    ],
+    "assignments": [
+      "pb-045-ceschel-shooting-happiness",
+      "pb-120-hido-expose-yourself",
+      "pb-199-onorato-krebs-the-white-mouse",
+      "pb-214-pilson-shameless"
+    ]
+  },
+  "Dialogue": {
+    "printedPages": [
+      25,
+      210,
+      287
+    ],
+    "assignments": [
+      "pb-022-blalock-audience",
+      "pb-167-marcoci-the-logic-of-photography",
+      "pb-225-renaldi-turning-the-tables"
+    ]
+  },
+  "Diary": {
+    "printedPages": [
+      11,
+      39,
+      124,
+      183,
+      239,
+      293,
+      299
+    ],
+    "assignments": [
+      "pb-009-baart-my-uncle",
+      "pb-031-brown-the-last-seven-pictures",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-148-klett-daily-practice",
+      "pb-189-nakadate-time-capsule",
+      "pb-231-roma-what-matters",
+      "pb-236-saville-shadow-diary"
+    ]
+  },
+  "Digital": {
+    "printedPages": [
+      47,
+      69,
+      179,
+      183,
+      189,
+      221,
+      251,
+      261,
+      330
+    ],
+    "assignments": [
+      "pb-037-carlsen-photography-as-sculpture",
+      "pb-056-crane-some-of-my-beliefs-about-photography-and-teaching",
+      "pb-145-kinsman-solargraphy",
+      "pb-148-klett-daily-practice",
+      "pb-152-ladd-insecurity",
+      "pb-176-meeks-complete-surrender",
+      "pb-197-novak-sketching-for-computer-based-projects",
+      "pb-204-paglen-imaging-systems",
+      "pb-265-stuke-sieber-teaching-antifoto"
+    ]
+  },
+  "Direction": {
+    "printedPages": [
+      237,
+      283,
+      306,
+      317,
+      384
+    ],
+    "assignments": [
+      "pb-188-murphy-notable-intersections",
+      "pb-223-records-out-of-your-head",
+      "pb-242-schmelling-preconceived-notions",
+      "pb-253-shore-intentionality",
+      "pb-307-young-u-turn-rule"
+    ]
+  },
+  "Discipline": {
+    "printedPages": [
+      39,
+      69,
+      70,
+      124,
+      158,
+      180,
+      183,
+      193,
+      213,
+      273,
+      282,
+      306,
+      314,
+      317,
+      347
+    ],
+    "assignments": [
+      "pb-031-brown-the-last-seven-pictures",
+      "pb-056-crane-some-of-my-beliefs-about-photography-and-teaching",
+      "pb-057-cuomo-sister-coritas-rules",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-127-ingram-roll-a-day",
+      "pb-146-kippenberger-excerpt-from-an-interview-in-starship-magazine",
+      "pb-148-klett-daily-practice",
+      "pb-156-la-spina-24-24-24",
+      "pb-170-mater-a-beautiful-mistake",
+      "pb-216-porter-from-the-images-of-man-audiovisual-series-mornings-of-creation-eliot-porter-1973",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-242-schmelling-preconceived-notions",
+      "pb-250-shapton-doing-laps",
+      "pb-253-shore-intentionality",
+      "pb-279-traub-the-don-ts"
+    ]
+  },
+  "Distance": {
+    "printedPages": [
+      51,
+      61,
+      63,
+      149,
+      156,
+      161,
+      190,
+      195,
+      366,
+      372
+    ],
+    "assignments": [
+      "pb-041-cartier-bresson-from-the-images-of-man-audiovisual-series-the-decisive-moment-henri-cartier-bresson-1973",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-052-cost-drones",
+      "pb-120-hido-expose-yourself",
+      "pb-126-imboden-photographing-the-human-form",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-153-lambrou-arms-length",
+      "pb-158-lehr-the-envelope-project",
+      "pb-292-webb-triggering-town",
+      "pb-298-white-the-american-road-trip-the-ultimate-one-day-experience"
+    ]
+  },
+  "Distribution": {
+    "printedPages": [
+      214,
+      287,
+      315
+    ],
+    "assignments": [
+      "pb-171-mayes-youre-a-publisher-now",
+      "pb-225-renaldi-turning-the-tables",
+      "pb-251-shaw-create-an-image-virus"
+    ]
+  },
+  "Documentary": {
+    "printedPages": [
+      9,
+      17,
+      83,
+      135,
+      144,
+      159,
+      170,
+      173,
+      184,
+      209,
+      214,
+      226,
+      232,
+      256,
+      328,
+      356,
+      366,
+      375,
+      377
+    ],
+    "assignments": [
+      "pb-008-atwood-storytelling-with-pictures",
+      "pb-014-barnes-collaborating-across-disciplines",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-107-halpern-truth-or-dare",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-128-ivis-twenty-four-hours",
+      "pb-136-kashi-be-passionate",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-149-knight-confronting-expectations",
+      "pb-166-mandel-research-and-invention",
+      "pb-171-mayes-youre-a-publisher-now",
+      "pb-179-menjivar-local-news",
+      "pb-184-morley-tell-me-a-story",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-263-steinmetz-photograph-somewhere-you-are-very-uncomfortable",
+      "pb-285-van-manen-blending-in",
+      "pb-292-webb-triggering-town",
+      "pb-300-winokur-expansive-and-deeper",
+      "pb-302-wiseman-chance-luck-and-good-judgment"
+    ]
+  },
+  "Drama": {
+    "printedPages": [
+      49,
+      144,
+      205
+    ],
+    "assignments": [
+      "pb-039-carroll-chicken",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-163-maddock-small-ideas"
+    ]
+  },
+  "Drawing": {
+    "printedPages": [
+      251,
+      289
+    ],
+    "assignments": [
+      "pb-197-novak-sketching-for-computer-based-projects",
+      "pb-227-rice-inspired-by-arnheim"
+    ]
+  },
+  "Dreams": {
+    "printedPages": [
+      6,
+      15,
+      44,
+      89,
+      99,
+      138,
+      167,
+      305
+    ],
+    "assignments": [
+      "pb-005-arbus-not-necessarily-to-be-taken-literally",
+      "pb-012-ballen-inside-out",
+      "pb-035-callanan-cameras-dont-take-pictures",
+      "pb-072-duffy-exercises-in-photography",
+      "pb-079-ewald-assignment-dreams",
+      "pb-110-harbutt-the-spaceship",
+      "pb-134-july-mother-s-nightmare",
+      "pb-241-schles-invent-the-world-for-me"
+    ]
+  },
+  "Drinking": {
+    "printedPages": [
+      11,
+      53,
+      67,
+      130,
+      191,
+      217,
+      334,
+      339
+    ],
+    "assignments": [
+      "pb-009-baart-my-uncle",
+      "pb-043-cases-spanish-recipe",
+      "pb-055-cox-a-dozen-to-gnaw-on",
+      "pb-104-grannan-discomfort",
+      "pb-154-lampert-shoot-me",
+      "pb-173-mccaw-feast-or-famine",
+      "pb-269-sultan-as-remembered-by-kelly-sultan",
+      "pb-273-taylor-a-topical-drinking-game"
+    ]
+  },
+  "Driving": {
+    "printedPages": [
+      19,
+      34,
+      320,
+      372,
+      384
+    ],
+    "assignments": [
+      "pb-016-beasley-excerpts-from-vision-quest-assignment-cards",
+      "pb-029-brouws-our-relationship-to-the-windshield",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-298-white-the-american-road-trip-the-ultimate-one-day-experience",
+      "pb-307-young-u-turn-rule"
+    ]
+  },
+  "Earnesty": {
+    "printedPages": [
+      97,
+      108,
+      129,
+      172,
+      293,
+      344,
+      357,
+      364
+    ],
+    "assignments": [
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-086-finke-trust-the-gut",
+      "pb-103-gottlund-inside-out",
+      "pb-138-keeley-the-greatness-assignment",
+      "pb-231-roma-what-matters",
+      "pb-277-thomas-dear-me",
+      "pb-286-ventura-the-depths",
+      "pb-290-walker-its-all-about-love"
+    ]
+  },
+  "Editing": {
+    "printedPages": [
+      9,
+      19,
+      39,
+      54,
+      57,
+      183,
+      189,
+      192,
+      212,
+      218,
+      232,
+      251,
+      265,
+      272,
+      290,
+      300,
+      355,
+      356,
+      358,
+      374,
+      381
+    ],
+    "assignments": [
+      "pb-008-atwood-storytelling-with-pictures",
+      "pb-016-beasley-excerpts-from-vision-quest-assignment-cards",
+      "pb-031-brown-the-last-seven-pictures",
+      "pb-044-catanese-the-arrangement-game",
+      "pb-047-chiara-taking-stock",
+      "pb-148-klett-daily-practice",
+      "pb-152-ladd-insecurity",
+      "pb-155-lancaster-two-assignments",
+      "pb-169-martin-reading-the-tea-leaves",
+      "pb-174-mcfarland-create-an-event",
+      "pb-184-morley-tell-me-a-story",
+      "pb-197-novak-sketching-for-computer-based-projects",
+      "pb-208-patton-sequential-or-serial",
+      "pb-215-plademunt-manual-to-make-a-good-photographic-project-part-one",
+      "pb-228-rickard-editing-is-everything",
+      "pb-237-schechter-unintended-consequences",
+      "pb-284-van-de-roer-sum-of-the-parts",
+      "pb-285-van-manen-blending-in",
+      "pb-287-verene-the-intimate-portrait",
+      "pb-299-willing-rhythm-and-melody",
+      "pb-305-xoubanova-manual-to-make-a-good-photographic-project-part-two"
+    ]
+  },
+  "Ekphrasis": {
+    "printedPages": [
+      107,
+      109,
+      163,
+      262,
+      277,
+      282,
+      296,
+      336,
+      349,
+      374
+    ],
+    "assignments": [
+      "pb-085-fink-photographing-atmosphere",
+      "pb-087-fisher-visualizing-poetry",
+      "pb-130-jakschik-follow-your-heart",
+      "pb-205-palacio-blue-velvet",
+      "pb-219-pushinsky-the-human-condition",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-234-rudensky-clockwork-orange",
+      "pb-271-sutton-synesthesia",
+      "pb-281-turyn-telephone-game",
+      "pb-299-willing-rhythm-and-melody"
+    ]
+  },
+  "Elvis": {
+    "printedPages": [
+      64,
+      194
+    ],
+    "assignments": [
+      "pb-053-cotton-how-to-make-ideas-better",
+      "pb-157-lazarus-impossible-pictures"
+    ]
+  },
+  "Emotion": {
+    "printedPages": [
+      44,
+      97,
+      108,
+      113,
+      138,
+      144,
+      161,
+      163,
+      211,
+      239,
+      277,
+      293,
+      305,
+      309,
+      364,
+      371
+    ],
+    "assignments": [
+      "pb-035-callanan-cameras-dont-take-pictures",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-086-finke-trust-the-gut",
+      "pb-091-foglia-make-it-seem",
+      "pb-110-harbutt-the-spaceship",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-130-jakschik-follow-your-heart",
+      "pb-168-marcopoulos-daily-destination",
+      "pb-189-nakadate-time-capsule",
+      "pb-219-pushinsky-the-human-condition",
+      "pb-231-roma-what-matters",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-245-schuman-nostalgia",
+      "pb-290-walker-its-all-about-love",
+      "pb-297-white-the-entirety-of-a-problem"
+    ]
+  },
+  "Ethics": {
+    "printedPages": [
+      126,
+      131,
+      144,
+      165,
+      176,
+      214,
+      255,
+      256,
+      368
+    ],
+    "assignments": [
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-105-gregory-find-a-space-make-a-show",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-132-johnston-the-empowered-portrait",
+      "pb-142-kessels-hot-or-not",
+      "pb-171-mayes-youre-a-publisher-now",
+      "pb-199-onorato-krebs-the-white-mouse",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-294-weegee-from-the-candid-recordings-audio-series-famous-photographers-tell-how-1958"
+    ]
+  },
+  "Everyday": {
+    "printedPages": [
+      39,
+      85,
+      121,
+      158,
+      327,
+      341,
+      357,
+      368
+    ],
+    "assignments": [
+      "pb-031-brown-the-last-seven-pictures",
+      "pb-068-diederix-extract-the-magic",
+      "pb-097-georgiou-stop-and-return",
+      "pb-127-ingram-roll-a-day",
+      "pb-262-steacy-float-like-a-butterfly",
+      "pb-275-terry-composing-in-color",
+      "pb-286-ventura-the-depths",
+      "pb-294-weegee-from-the-candid-recordings-audio-series-famous-photographers-tell-how-1958"
+    ]
+  },
+  "Exhibition": {
+    "printedPages": [
+      8,
+      84,
+      89,
+      105,
+      131,
+      153,
+      258
+    ],
+    "assignments": [
+      "pb-007-ashkin-revealing-an-enigma",
+      "pb-067-dicorcia-something-real",
+      "pb-072-duffy-exercises-in-photography",
+      "pb-084-fessler-mock-proposal",
+      "pb-105-gregory-find-a-space-make-a-show",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-202-otoole-scale"
+    ]
+  },
+  "Expression": {
+    "printedPages": [
+      6,
+      44,
+      66,
+      97,
+      103,
+      108,
+      138,
+      161,
+      163,
+      172,
+      207,
+      235,
+      282,
+      289,
+      301,
+      305,
+      364
+    ],
+    "assignments": [
+      "pb-005-arbus-not-necessarily-to-be-taken-literally",
+      "pb-035-callanan-cameras-dont-take-pictures",
+      "pb-054-cowin-beautiful",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-082-falls-death",
+      "pb-086-finke-trust-the-gut",
+      "pb-110-harbutt-the-spaceship",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-130-jakschik-follow-your-heart",
+      "pb-138-keeley-the-greatness-assignment",
+      "pb-165-maloney-disrupting-the-process",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-227-rice-inspired-by-arnheim",
+      "pb-238-scheeren-secrets-and-obstacles",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-290-walker-its-all-about-love"
+    ]
+  },
+  "Exterior": {
+    "printedPages": [
+      230,
+      254,
+      308,
+      358
+    ],
+    "assignments": [
+      "pb-183-moore-shadows-and-stories",
+      "pb-198-ogden-natural-vs-artificial",
+      "pb-244-schneider-interpreting-light",
+      "pb-287-verene-the-intimate-portrait"
+    ]
+  },
+  "Failure": {
+    "printedPages": [
+      2,
+      12,
+      21,
+      27,
+      29,
+      31,
+      48,
+      50,
+      56,
+      69,
+      70,
+      81,
+      88,
+      180,
+      362
+    ],
+    "assignments": [
+      "pb-001-abbe-forgetting-the-game",
+      "pb-010-badger-what-cannot-be-seen",
+      "pb-018-bell-failing-to-succeed",
+      "pb-024-boot-a-test",
+      "pb-025-bouillis-olof-rejection-letter",
+      "pb-027-bright-practical-advice",
+      "pb-038-carrier-five-obstructions",
+      "pb-040-carter-garden-of-earthly-delights",
+      "pb-046-chaplin-lessons-learned-from-a-failed-attempt",
+      "pb-056-crane-some-of-my-beliefs-about-photography-and-teaching",
+      "pb-057-cuomo-sister-coritas-rules",
+      "pb-065-de-rita-alphabet-of-assignments",
+      "pb-071-dubois-fits-and-starts",
+      "pb-146-kippenberger-excerpt-from-an-interview-in-starship-magazine",
+      "pb-289-vitali-mistakes"
+    ]
+  },
+  "Family": {
+    "printedPages": [
+      11,
+      61,
+      97,
+      124,
+      137,
+      138,
+      143,
+      146,
+      167,
+      186,
+      209,
+      245,
+      276,
+      347,
+      356,
+      357,
+      358
+    ],
+    "assignments": [
+      "pb-009-baart-my-uncle",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-109-hampton-being-there",
+      "pb-110-harbutt-the-spaceship",
+      "pb-115-hau-important-people",
+      "pb-117-heiferman-family-trees",
+      "pb-134-july-mother-s-nightmare",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-166-mandel-research-and-invention",
+      "pb-193-nolan-an-altogether-different-lesson",
+      "pb-218-pratt-shared-history",
+      "pb-279-traub-the-don-ts",
+      "pb-285-van-manen-blending-in",
+      "pb-286-ventura-the-depths",
+      "pb-287-verene-the-intimate-portrait"
+    ]
+  },
+  "Fashion": {
+    "printedPages": [
+      95,
+      114,
+      304
+    ],
+    "assignments": [
+      "pb-076-engman-practicing-fashion-photography",
+      "pb-092-fox-staging-the-real",
+      "pb-240-schiek-dead-end-scenario"
+    ]
+  },
+  "Fiction": {
+    "printedPages": [
+      11,
+      12,
+      33,
+      49,
+      111,
+      113,
+      114,
+      135,
+      164,
+      166,
+      173,
+      176,
+      200,
+      205,
+      218,
+      219,
+      245,
+      256,
+      269,
+      270,
+      294,
+      296,
+      318
+    ],
+    "assignments": [
+      "pb-009-baart-my-uncle",
+      "pb-010-badger-what-cannot-be-seen",
+      "pb-028-broomberg-chanarin-alias-an-exercise-for-five-students-or-more",
+      "pb-039-carroll-chicken",
+      "pb-089-fleming-ventriloquism",
+      "pb-091-foglia-make-it-seem",
+      "pb-092-fox-staging-the-real",
+      "pb-107-halpern-truth-or-dare",
+      "pb-131-johnson-your-own-invisible-city",
+      "pb-133-jude-the-convincing-lie",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-142-kessels-hot-or-not",
+      "pb-161-lipper-alter-ego",
+      "pb-163-maddock-small-ideas",
+      "pb-174-mcfarland-create-an-event",
+      "pb-175-mcphee-getting-lost",
+      "pb-193-nolan-an-altogether-different-lesson",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-212-phillips-imagine-a-country",
+      "pb-213-pickering-the-camera-never-lies",
+      "pb-232-rome-street-or-setup",
+      "pb-234-rudensky-clockwork-orange",
+      "pb-254-siskind-a-story-by-thomas-barrow"
+    ]
+  },
+  "Field trip": {
+    "printedPages": [
+      112,
+      114,
+      116,
+      118,
+      124,
+      219,
+      263,
+      318,
+      330,
+      352,
+      372,
+      376
+    ],
+    "assignments": [
+      "pb-090-fletcher-through-a-childs-eyes",
+      "pb-092-fox-staging-the-real",
+      "pb-093-frame-la-dolce-vita",
+      "pb-095-frelin-the-excuse",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-175-mcphee-getting-lost",
+      "pb-206-palmer-flea-market",
+      "pb-254-siskind-a-story-by-thomas-barrow",
+      "pb-265-stuke-sieber-teaching-antifoto",
+      "pb-283-umbrico-an-exercise-in-travel-choice-narrative-contingency-and-eisensteins-idea-of-collision-versus-collusion",
+      "pb-298-white-the-american-road-trip-the-ultimate-one-day-experience",
+      "pb-301-winokur-odd-assignment"
+    ]
+  },
+  "Film": {
+    "printedPages": [
+      56,
+      158,
+      189,
+      192,
+      193,
+      205,
+      207,
+      281,
+      330,
+      339,
+      356,
+      377
+    ],
+    "assignments": [
+      "pb-046-chaplin-lessons-learned-from-a-failed-attempt",
+      "pb-127-ingram-roll-a-day",
+      "pb-152-ladd-insecurity",
+      "pb-155-lancaster-two-assignments",
+      "pb-156-la-spina-24-24-24",
+      "pb-163-maddock-small-ideas",
+      "pb-165-maloney-disrupting-the-process",
+      "pb-221-reas-expanded-cinema",
+      "pb-265-stuke-sieber-teaching-antifoto",
+      "pb-273-taylor-a-topical-drinking-game",
+      "pb-285-van-manen-blending-in",
+      "pb-302-wiseman-chance-luck-and-good-judgment"
+    ]
+  },
+  "Focus": {
+    "printedPages": [
+      98,
+      190
+    ],
+    "assignments": [
+      "pb-078-estrin-the-basics",
+      "pb-153-lambrou-arms-length"
+    ]
+  },
+  "Food": {
+    "printedPages": [
+      35,
+      191,
+      217,
+      255,
+      367,
+      370,
+      372
+    ],
+    "assignments": [
+      "pb-030-brown-rockaway-beach",
+      "pb-154-lampert-shoot-me",
+      "pb-173-mccaw-feast-or-famine",
+      "pb-199-onorato-krebs-the-white-mouse",
+      "pb-293-weber-empathy-and-a-full-stomach",
+      "pb-296-whitaker-fruit-first",
+      "pb-298-white-the-american-road-trip-the-ultimate-one-day-experience"
+    ]
+  },
+  "Form": {
+    "printedPages": [
+      41,
+      76,
+      77,
+      111,
+      114,
+      173,
+      176,
+      195,
+      200,
+      223,
+      235,
+      255,
+      295,
+      300,
+      369
+    ],
+    "assignments": [
+      "pb-033-butler-two-approaches",
+      "pb-061-defibaugh-beautiful-from-nothing",
+      "pb-062-de-groot-devils-advocate",
+      "pb-089-fleming-ventriloquism",
+      "pb-092-fox-staging-the-real",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-142-kessels-hot-or-not",
+      "pb-158-lehr-the-envelope-project",
+      "pb-161-lipper-alter-ego",
+      "pb-177-meiselas-alphabetography",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-199-onorato-krebs-the-white-mouse",
+      "pb-233-rubin-one-hundred-dollars",
+      "pb-237-schechter-unintended-consequences",
+      "pb-295-wei-hotel-self-portrait"
+    ]
+  },
+  "Format": {
+    "printedPages": [
+      18,
+      141
+    ],
+    "assignments": [
+      "pb-015-barney-slow-down",
+      "pb-113-harvey-ideas-into-pictures-a-two-part-assignment"
+    ]
+  },
+  "Found images": {
+    "printedPages": [
+      8,
+      146,
+      218,
+      249,
+      352
+    ],
+    "assignments": [
+      "pb-007-ashkin-revealing-an-enigma",
+      "pb-117-heiferman-family-trees",
+      "pb-174-mcfarland-create-an-event",
+      "pb-195-nordstrom-the-emigrants",
+      "pb-283-umbrico-an-exercise-in-travel-choice-narrative-contingency-and-eisensteins-idea-of-collision-versus-collusion"
+    ]
+  },
+  "Framing": {
+    "printedPages": [
+      34,
+      41,
+      56,
+      59,
+      98,
+      104,
+      152,
+      161,
+      173,
+      177,
+      190,
+      195,
+      197,
+      198,
+      274,
+      294,
+      308,
+      310,
+      343,
+      371
+    ],
+    "assignments": [
+      "pb-029-brouws-our-relationship-to-the-windshield",
+      "pb-033-butler-two-approaches",
+      "pb-046-chaplin-lessons-learned-from-a-failed-attempt",
+      "pb-049-conner-rules-for-students-in-introduction-to-photography",
+      "pb-078-estrin-the-basics",
+      "pb-083-feininger-the-real-nature-of-space",
+      "pb-123-homma-the-boundaries-of-imitation",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-143-kessmann-ninety-nine-pictures",
+      "pb-153-lambrou-arms-length",
+      "pb-158-lehr-the-envelope-project",
+      "pb-159-leiter-as-remembered-by-jason-fulford",
+      "pb-160-letinsky-still-life",
+      "pb-217-powell-six-street-exercises",
+      "pb-232-rome-street-or-setup",
+      "pb-244-schneider-interpreting-light",
+      "pb-246-schwabsky-an-exercise-in-photography",
+      "pb-276-thall-pictures-within-pictures",
+      "pb-297-white-the-entirety-of-a-problem"
+    ]
+  },
+  "Furniture": {
+    "printedPages": [
+      197,
+      285,
+      298
+    ],
+    "assignments": [
+      "pb-159-leiter-as-remembered-by-jason-fulford",
+      "pb-224-reinfurt-wonder-what-to-do-in-it",
+      "pb-235-sanguinetti-something-out-of-nothing"
+    ]
+  },
+  "Future": {
+    "printedPages": [
+      102,
+      126,
+      171,
+      239,
+      292,
+      312,
+      330
+    ],
+    "assignments": [
+      "pb-081-faldt-kallstrom-now-in-relation-to-the-past",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-137-keegan-questions-for-the-archivist",
+      "pb-189-nakadate-time-capsule",
+      "pb-230-rogan-time-travel",
+      "pb-248-shafran-thoughts",
+      "pb-265-stuke-sieber-teaching-antifoto"
+    ]
+  },
+  "Gallery": {
+    "printedPages": [
+      131,
+      153,
+      258,
+      330
+    ],
+    "assignments": [
+      "pb-105-gregory-find-a-space-make-a-show",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-202-otoole-scale",
+      "pb-265-stuke-sieber-teaching-antifoto"
+    ]
+  },
+  "Games": {
+    "printedPages": [
+      2,
+      14,
+      33,
+      49,
+      54,
+      56,
+      58,
+      64,
+      77,
+      89,
+      126,
+      138,
+      213,
+      223,
+      230,
+      233,
+      235,
+      237,
+      243,
+      281,
+      283,
+      313,
+      320,
+      321,
+      339,
+      349,
+      365
+    ],
+    "assignments": [
+      "pb-001-abbe-forgetting-the-game",
+      "pb-011-baldessari-assignment-96",
+      "pb-028-broomberg-chanarin-alias-an-exercise-for-five-students-or-more",
+      "pb-039-carroll-chicken",
+      "pb-044-catanese-the-arrangement-game",
+      "pb-046-chaplin-lessons-learned-from-a-failed-attempt",
+      "pb-048-colberg-letters-to-yourself",
+      "pb-053-cotton-how-to-make-ideas-better",
+      "pb-062-de-groot-devils-advocate",
+      "pb-072-duffy-exercises-in-photography",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-110-harbutt-the-spaceship",
+      "pb-170-mater-a-beautiful-mistake",
+      "pb-177-meiselas-alphabetography",
+      "pb-183-moore-shadows-and-stories",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-188-murphy-notable-intersections",
+      "pb-191-nelson-find-fifty-eight-names-tools-and-institutions-and-maybe-some-other-words-as-well",
+      "pb-221-reas-expanded-cinema",
+      "pb-223-records-out-of-your-head",
+      "pb-249-shank-one-hour-photo-project",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-256-slota-four-pieces",
+      "pb-273-taylor-a-topical-drinking-game",
+      "pb-281-turyn-telephone-game",
+      "pb-291-wassinklundgren-chinese-whispers"
+    ]
+  },
+  "Gender": {
+    "printedPages": [
+      31,
+      78
+    ],
+    "assignments": [
+      "pb-027-bright-practical-advice",
+      "pb-063-delaney-the-self-portrait"
+    ]
+  },
+  "Getting close": {
+    "printedPages": [
+      51,
+      116,
+      137,
+      144,
+      159,
+      161,
+      170,
+      190,
+      244,
+      361
+    ],
+    "assignments": [
+      "pb-041-cartier-bresson-from-the-images-of-man-audiovisual-series-the-decisive-moment-henri-cartier-bresson-1973",
+      "pb-093-frame-la-dolce-vita",
+      "pb-109-hampton-being-there",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-128-ivis-twenty-four-hours",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-136-kashi-be-passionate",
+      "pb-153-lambrou-arms-length",
+      "pb-192-nixon-flirtation",
+      "pb-288-visser-white-walls"
+    ]
+  },
+  "Grab bag": {
+    "printedPages": [
+      67,
+      93,
+      150,
+      233,
+      313
+    ],
+    "assignments": [
+      "pb-055-cox-a-dozen-to-gnaw-on",
+      "pb-075-elmaleh-cyanotype-and-the-blue-world",
+      "pb-121-hill-scavenger-hunt",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-249-shank-one-hour-photo-project"
+    ]
+  },
+  "Groups": {
+    "printedPages": [
+      30,
+      45,
+      64,
+      87,
+      88,
+      114,
+      116,
+      120,
+      125,
+      130,
+      140,
+      175,
+      192,
+      195,
+      233,
+      242,
+      276,
+      300,
+      313,
+      321,
+      325,
+      339,
+      370
+    ],
+    "assignments": [
+      "pb-026-brandt-step-out-of-your-shoes",
+      "pb-036-campany-what-to-photograph",
+      "pb-053-cotton-how-to-make-ideas-better",
+      "pb-070-dow-blind-jury",
+      "pb-071-dubois-fits-and-starts",
+      "pb-092-fox-staging-the-real",
+      "pb-093-frame-la-dolce-vita",
+      "pb-096-gearon-how-to-take-a-perfectly-fantastic-shot-in-less-than-five-minutes-or-a-masterpiece-in-a-couple-of-hours",
+      "pb-101-gordon-three-assignments-and-a-thought",
+      "pb-104-grannan-discomfort",
+      "pb-112-harris-exquisite-corpse",
+      "pb-141-kereszi-all-things-large-and-small",
+      "pb-155-lancaster-two-assignments",
+      "pb-158-lehr-the-envelope-project",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-190-natal-no-answers-allowed",
+      "pb-218-pratt-shared-history",
+      "pb-237-schechter-unintended-consequences",
+      "pb-249-shank-one-hour-photo-project",
+      "pb-256-slota-four-pieces",
+      "pb-260-southam-site-excavation",
+      "pb-273-taylor-a-topical-drinking-game",
+      "pb-296-whitaker-fruit-first"
+    ]
+  },
+  "History": {
+    "printedPages": [
+      57,
+      102,
+      105,
+      125,
+      156,
+      171,
+      172,
+      209,
+      210,
+      218,
+      227,
+      247,
+      258,
+      268,
+      276,
+      292,
+      312,
+      318
+    ],
+    "assignments": [
+      "pb-047-chiara-taking-stock",
+      "pb-081-faldt-kallstrom-now-in-relation-to-the-past",
+      "pb-084-fessler-mock-proposal",
+      "pb-101-gordon-three-assignments-and-a-thought",
+      "pb-126-imboden-photographing-the-human-form",
+      "pb-137-keegan-questions-for-the-archivist",
+      "pb-138-keeley-the-greatness-assignment",
+      "pb-166-mandel-research-and-invention",
+      "pb-167-marcoci-the-logic-of-photography",
+      "pb-174-mcfarland-create-an-event",
+      "pb-180-mickey-adventures-in-the-skin-trade",
+      "pb-194-nolan-on-john-szarkowski",
+      "pb-202-otoole-scale",
+      "pb-211-phelps-photograph-in-context",
+      "pb-218-pratt-shared-history",
+      "pb-230-rogan-time-travel",
+      "pb-248-shafran-thoughts",
+      "pb-254-siskind-a-story-by-thomas-barrow"
+    ]
+  },
+  "History of photography": {
+    "printedPages": [
+      17,
+      40,
+      60,
+      75,
+      126,
+      139,
+      152,
+      166,
+      193,
+      206,
+      215,
+      224,
+      268,
+      282,
+      291,
+      318
+    ],
+    "assignments": [
+      "pb-014-barnes-collaborating-across-disciplines",
+      "pb-032-bunnell-assignment-two-from-twentieth-century-photography-seminar",
+      "pb-050-connor-visual-source-binder",
+      "pb-060-davis-dont-do-anything-subversive",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-111-harper-the-body-as-a-site-of-perception",
+      "pb-123-homma-the-boundaries-of-imitation",
+      "pb-133-jude-the-convincing-lie",
+      "pb-156-la-spina-24-24-24",
+      "pb-164-malasauskas-assignment",
+      "pb-172-mccall-two-minute-drill",
+      "pb-178-meister-on-close-inspection",
+      "pb-211-phelps-photograph-in-context",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-229-ritchin-the-meta-photographer",
+      "pb-254-siskind-a-story-by-thomas-barrow"
+    ]
+  },
+  "Home": {
+    "printedPages": [
+      138,
+      178,
+      366
+    ],
+    "assignments": [
+      "pb-110-harbutt-the-spaceship",
+      "pb-144-killip-sustainability",
+      "pb-292-webb-triggering-town"
+    ]
+  },
+  "Humor": {
+    "printedPages": [
+      14,
+      29,
+      41,
+      45,
+      55,
+      64,
+      75,
+      81,
+      88,
+      89,
+      95,
+      113,
+      116,
+      118,
+      120,
+      126,
+      130,
+      136,
+      191,
+      197,
+      205,
+      217,
+      223,
+      233,
+      235,
+      243,
+      285,
+      295,
+      313,
+      320,
+      349,
+      372,
+      379
+    ],
+    "assignments": [
+      "pb-011-baldessari-assignment-96",
+      "pb-025-bouillis-olof-rejection-letter",
+      "pb-033-butler-two-approaches",
+      "pb-036-campany-what-to-photograph",
+      "pb-045-ceschel-shooting-happiness",
+      "pb-053-cotton-how-to-make-ideas-better",
+      "pb-060-davis-dont-do-anything-subversive",
+      "pb-065-de-rita-alphabet-of-assignments",
+      "pb-071-dubois-fits-and-starts",
+      "pb-072-duffy-exercises-in-photography",
+      "pb-076-engman-practicing-fashion-photography",
+      "pb-091-foglia-make-it-seem",
+      "pb-093-frame-la-dolce-vita",
+      "pb-095-frelin-the-excuse",
+      "pb-096-gearon-how-to-take-a-perfectly-fantastic-shot-in-less-than-five-minutes-or-a-masterpiece-in-a-couple-of-hours",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-104-grannan-discomfort",
+      "pb-108-hamada-grocery-list",
+      "pb-154-lampert-shoot-me",
+      "pb-159-leiter-as-remembered-by-jason-fulford",
+      "pb-163-maddock-small-ideas",
+      "pb-173-mccaw-feast-or-famine",
+      "pb-177-meiselas-alphabetography",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-191-nelson-find-fifty-eight-names-tools-and-institutions-and-maybe-some-other-words-as-well",
+      "pb-224-reinfurt-wonder-what-to-do-in-it",
+      "pb-233-rubin-one-hundred-dollars",
+      "pb-249-shank-one-hour-photo-project",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-281-turyn-telephone-game",
+      "pb-298-white-the-american-road-trip-the-ultimate-one-day-experience",
+      "pb-304-wolff-notes-to-self"
+    ]
+  },
+  "Identity": {
+    "printedPages": [
+      6,
+      7,
+      12,
+      15,
+      26,
+      33,
+      53,
+      57,
+      61,
+      111,
+      114,
+      123,
+      148,
+      165,
+      172,
+      200,
+      228,
+      235,
+      302,
+      322,
+      344,
+      366,
+      369
+    ],
+    "assignments": [
+      "pb-005-arbus-not-necessarily-to-be-taken-literally",
+      "pb-006-armstrong-auras",
+      "pb-010-badger-what-cannot-be-seen",
+      "pb-012-ballen-inside-out",
+      "pb-023-bonajo-perspective",
+      "pb-028-broomberg-chanarin-alias-an-exercise-for-five-students-or-more",
+      "pb-043-cases-spanish-recipe",
+      "pb-047-chiara-taking-stock",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-089-fleming-ventriloquism",
+      "pb-092-fox-staging-the-real",
+      "pb-099-gilden-photograph-who-you-are",
+      "pb-119-hewitt-image-construction",
+      "pb-132-johnston-the-empowered-portrait",
+      "pb-138-keeley-the-greatness-assignment",
+      "pb-161-lipper-alter-ego",
+      "pb-181-moakley-begin-at-the-beginning",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-239-scheinbaum-crushed",
+      "pb-257-smithson-words-and-ideas",
+      "pb-277-thomas-dear-me",
+      "pb-292-webb-triggering-town",
+      "pb-295-wei-hotel-self-portrait"
+    ]
+  },
+  "Imagination": {
+    "printedPages": [
+      15,
+      33,
+      53,
+      164,
+      167,
+      205,
+      206,
+      269,
+      301,
+      348
+    ],
+    "assignments": [
+      "pb-012-ballen-inside-out",
+      "pb-028-broomberg-chanarin-alias-an-exercise-for-five-students-or-more",
+      "pb-043-cases-spanish-recipe",
+      "pb-131-johnson-your-own-invisible-city",
+      "pb-134-july-mother-s-nightmare",
+      "pb-163-maddock-small-ideas",
+      "pb-164-malasauskas-assignment",
+      "pb-212-phillips-imagine-a-country",
+      "pb-238-scheeren-secrets-and-obstacles",
+      "pb-280-tucker-lessons-for-a-curator"
+    ]
+  },
+  "Imitation": {
+    "printedPages": [
+      30,
+      111,
+      147,
+      152,
+      268,
+      271,
+      330,
+      365
+    ],
+    "assignments": [
+      "pb-026-brandt-step-out-of-your-shoes",
+      "pb-089-fleming-ventriloquism",
+      "pb-118-hewitt-the-replica-and-its-mutation",
+      "pb-123-homma-the-boundaries-of-imitation",
+      "pb-211-phelps-photograph-in-context",
+      "pb-214-pilson-shameless",
+      "pb-265-stuke-sieber-teaching-antifoto",
+      "pb-291-wassinklundgren-chinese-whispers"
+    ]
+  },
+  "Impossibility": {
+    "printedPages": [
+      12,
+      15,
+      81,
+      95,
+      135,
+      194
+    ],
+    "assignments": [
+      "pb-010-badger-what-cannot-be-seen",
+      "pb-012-ballen-inside-out",
+      "pb-065-de-rita-alphabet-of-assignments",
+      "pb-076-engman-practicing-fashion-photography",
+      "pb-107-halpern-truth-or-dare",
+      "pb-157-lazarus-impossible-pictures"
+    ]
+  },
+  "Improvisation": {
+    "printedPages": [
+      24,
+      35,
+      144,
+      149,
+      250,
+      255,
+      274,
+      282,
+      313,
+      320,
+      361,
+      369,
+      370,
+      377
+    ],
+    "assignments": [
+      "pb-021-bey-open-mind",
+      "pb-030-brown-rockaway-beach",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-120-hido-expose-yourself",
+      "pb-196-northrup-skipreading",
+      "pb-199-onorato-krebs-the-white-mouse",
+      "pb-217-powell-six-street-exercises",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-249-shank-one-hour-photo-project",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-288-visser-white-walls",
+      "pb-295-wei-hotel-self-portrait",
+      "pb-296-whitaker-fruit-first",
+      "pb-302-wiseman-chance-luck-and-good-judgment"
+    ]
+  },
+  "Influences": {
+    "printedPages": [
+      48,
+      67,
+      75,
+      143,
+      146,
+      150,
+      152,
+      163,
+      172,
+      175,
+      200,
+      212,
+      215,
+      217,
+      227,
+      228,
+      243,
+      247,
+      259,
+      264,
+      271,
+      282,
+      296,
+      302,
+      306,
+      318,
+      334,
+      364
+    ],
+    "assignments": [
+      "pb-038-carrier-five-obstructions",
+      "pb-055-cox-a-dozen-to-gnaw-on",
+      "pb-060-davis-dont-do-anything-subversive",
+      "pb-115-hau-important-people",
+      "pb-117-heiferman-family-trees",
+      "pb-121-hill-scavenger-hunt",
+      "pb-123-homma-the-boundaries-of-imitation",
+      "pb-130-jakschik-follow-your-heart",
+      "pb-138-keeley-the-greatness-assignment",
+      "pb-141-kereszi-all-things-large-and-small",
+      "pb-161-lipper-alter-ego",
+      "pb-169-martin-reading-the-tea-leaves",
+      "pb-172-mccall-two-minute-drill",
+      "pb-173-mccaw-feast-or-famine",
+      "pb-180-mickey-adventures-in-the-skin-trade",
+      "pb-181-moakley-begin-at-the-beginning",
+      "pb-191-nelson-find-fifty-eight-names-tools-and-institutions-and-maybe-some-other-words-as-well",
+      "pb-194-nolan-on-john-szarkowski",
+      "pb-203-ou-photograph-something-invisible",
+      "pb-207-parlato-hibernation",
+      "pb-214-pilson-shameless",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-234-rudensky-clockwork-orange",
+      "pb-239-scheinbaum-crushed",
+      "pb-242-schmelling-preconceived-notions",
+      "pb-254-siskind-a-story-by-thomas-barrow",
+      "pb-269-sultan-as-remembered-by-kelly-sultan",
+      "pb-290-walker-its-all-about-love"
+    ]
+  },
+  "Installation": {
+    "printedPages": [
+      8,
+      45,
+      265
+    ],
+    "assignments": [
+      "pb-007-ashkin-revealing-an-enigma",
+      "pb-036-campany-what-to-photograph",
+      "pb-208-patton-sequential-or-serial"
+    ]
+  },
+  "Instinct": {
+    "printedPages": [
+      108
+    ],
+    "assignments": [
+      "pb-086-finke-trust-the-gut"
+    ]
+  },
+  "Interior": {
+    "printedPages": [
+      51,
+      108,
+      230,
+      254,
+      308,
+      358,
+      369
+    ],
+    "assignments": [
+      "pb-041-cartier-bresson-from-the-images-of-man-audiovisual-series-the-decisive-moment-henri-cartier-bresson-1973",
+      "pb-086-finke-trust-the-gut",
+      "pb-183-moore-shadows-and-stories",
+      "pb-198-ogden-natural-vs-artificial",
+      "pb-244-schneider-interpreting-light",
+      "pb-287-verene-the-intimate-portrait",
+      "pb-295-wei-hotel-self-portrait"
+    ]
+  },
+  "Internet": {
+    "printedPages": [
+      31,
+      176,
+      186,
+      281,
+      290,
+      315,
+      330
+    ],
+    "assignments": [
+      "pb-027-bright-practical-advice",
+      "pb-142-kessels-hot-or-not",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-221-reas-expanded-cinema",
+      "pb-228-rickard-editing-is-everything",
+      "pb-251-shaw-create-an-image-virus",
+      "pb-265-stuke-sieber-teaching-antifoto"
+    ]
+  },
+  "Intersection": {
+    "printedPages": [
+      22,
+      161,
+      237,
+      312
+    ],
+    "assignments": [
+      "pb-019-bell-points-of-intersection",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-188-murphy-notable-intersections",
+      "pb-248-shafran-thoughts"
+    ]
+  },
+  "Interview": {
+    "printedPages": [
+      83,
+      112,
+      180,
+      375
+    ],
+    "assignments": [
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-090-fletcher-through-a-childs-eyes",
+      "pb-146-kippenberger-excerpt-from-an-interview-in-starship-magazine",
+      "pb-300-winokur-expansive-and-deeper"
+    ]
+  },
+  "Intimacy": {
+    "printedPages": [
+      51,
+      55,
+      61,
+      156,
+      159,
+      161,
+      167,
+      191,
+      228,
+      244,
+      358,
+      361,
+      369
+    ],
+    "assignments": [
+      "pb-041-cartier-bresson-from-the-images-of-man-audiovisual-series-the-decisive-moment-henri-cartier-bresson-1973",
+      "pb-045-ceschel-shooting-happiness",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-126-imboden-photographing-the-human-form",
+      "pb-128-ivis-twenty-four-hours",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-134-july-mother-s-nightmare",
+      "pb-154-lampert-shoot-me",
+      "pb-181-moakley-begin-at-the-beginning",
+      "pb-192-nixon-flirtation",
+      "pb-287-verene-the-intimate-portrait",
+      "pb-288-visser-white-walls",
+      "pb-295-wei-hotel-self-portrait"
+    ]
+  },
+  "Intuition": {
+    "printedPages": [
+      20,
+      55,
+      108,
+      124,
+      139,
+      158,
+      163,
+      273,
+      282,
+      312,
+      313,
+      352,
+      377
+    ],
+    "assignments": [
+      "pb-017-behrend-the-coal-thieves",
+      "pb-045-ceschel-shooting-happiness",
+      "pb-086-finke-trust-the-gut",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-111-harper-the-body-as-a-site-of-perception",
+      "pb-127-ingram-roll-a-day",
+      "pb-130-jakschik-follow-your-heart",
+      "pb-216-porter-from-the-images-of-man-audiovisual-series-mornings-of-creation-eliot-porter-1973",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-248-shafran-thoughts",
+      "pb-249-shank-one-hour-photo-project",
+      "pb-283-umbrico-an-exercise-in-travel-choice-narrative-contingency-and-eisensteins-idea-of-collision-versus-collusion",
+      "pb-302-wiseman-chance-luck-and-good-judgment"
+    ]
+  },
+  "Invisibility": {
+    "printedPages": [
+      12,
+      26,
+      41,
+      45,
+      78,
+      81,
+      95,
+      103,
+      194,
+      206,
+      244,
+      269,
+      288,
+      301,
+      378
+    ],
+    "assignments": [
+      "pb-010-badger-what-cannot-be-seen",
+      "pb-023-bonajo-perspective",
+      "pb-033-butler-two-approaches",
+      "pb-036-campany-what-to-photograph",
+      "pb-063-delaney-the-self-portrait",
+      "pb-065-de-rita-alphabet-of-assignments",
+      "pb-076-engman-practicing-fashion-photography",
+      "pb-082-falls-death",
+      "pb-157-lazarus-impossible-pictures",
+      "pb-164-malasauskas-assignment",
+      "pb-192-nixon-flirtation",
+      "pb-212-phillips-imagine-a-country",
+      "pb-226-ribas-a-state-of-transition-or-boiling-water",
+      "pb-238-scheeren-secrets-and-obstacles",
+      "pb-303-wolf-real-and-possible"
+    ]
+  },
+  "Irony": {
+    "printedPages": [
+      75,
+      84
+    ],
+    "assignments": [
+      "pb-060-davis-dont-do-anything-subversive",
+      "pb-067-dicorcia-something-real"
+    ]
+  },
+  "Issue-driven": {
+    "printedPages": [
+      12,
+      75,
+      142,
+      214,
+      256,
+      261,
+      269,
+      371
+    ],
+    "assignments": [
+      "pb-010-badger-what-cannot-be-seen",
+      "pb-060-davis-dont-do-anything-subversive",
+      "pb-114-hassink-depicting-consumption",
+      "pb-171-mayes-youre-a-publisher-now",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-204-paglen-imaging-systems",
+      "pb-212-phillips-imagine-a-country",
+      "pb-297-white-the-entirety-of-a-problem"
+    ]
+  },
+  "Jail": {
+    "printedPages": [
+      333
+    ],
+    "assignments": [
+      "pb-268-sullivan-prison-break"
+    ]
+  },
+  "Journalism": {
+    "printedPages": [
+      9,
+      144,
+      170,
+      190,
+      219,
+      226,
+      256,
+      375,
+      376
+    ],
+    "assignments": [
+      "pb-008-atwood-storytelling-with-pictures",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-136-kashi-be-passionate",
+      "pb-153-lambrou-arms-length",
+      "pb-175-mcphee-getting-lost",
+      "pb-179-menjivar-local-news",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-300-winokur-expansive-and-deeper",
+      "pb-301-winokur-odd-assignment"
+    ]
+  },
+  "Journey": {
+    "printedPages": [
+      19,
+      149,
+      239,
+      305,
+      333
+    ],
+    "assignments": [
+      "pb-016-beasley-excerpts-from-vision-quest-assignment-cards",
+      "pb-120-hido-expose-yourself",
+      "pb-189-nakadate-time-capsule",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-268-sullivan-prison-break"
+    ]
+  },
+  "Juxtaposition": {
+    "printedPages": [
+      8,
+      23,
+      54,
+      72,
+      114,
+      166,
+      174,
+      192,
+      212,
+      218,
+      249,
+      257,
+      265,
+      290,
+      296,
+      301,
+      324,
+      348,
+      352,
+      355,
+      374
+    ],
+    "assignments": [
+      "pb-007-ashkin-revealing-an-enigma",
+      "pb-020-benning-an-assignment",
+      "pb-044-catanese-the-arrangement-game",
+      "pb-058-cwynar-object-lesson",
+      "pb-092-fox-staging-the-real",
+      "pb-133-jude-the-convincing-lie",
+      "pb-140-kelsey-captions",
+      "pb-155-lancaster-two-assignments",
+      "pb-169-martin-reading-the-tea-leaves",
+      "pb-174-mcfarland-create-an-event",
+      "pb-195-nordstrom-the-emigrants",
+      "pb-201-osterman-book-as",
+      "pb-208-patton-sequential-or-serial",
+      "pb-228-rickard-editing-is-everything",
+      "pb-234-rudensky-clockwork-orange",
+      "pb-238-scheeren-secrets-and-obstacles",
+      "pb-259-soth-words-and-photographs",
+      "pb-280-tucker-lessons-for-a-curator",
+      "pb-283-umbrico-an-exercise-in-travel-choice-narrative-contingency-and-eisensteins-idea-of-collision-versus-collusion",
+      "pb-284-van-de-roer-sum-of-the-parts",
+      "pb-299-willing-rhythm-and-melody"
+    ]
+  },
+  "Karaoke": {
+    "printedPages": [
+      130
+    ],
+    "assignments": [
+      "pb-104-grannan-discomfort"
+    ]
+  },
+  "Landscape": {
+    "printedPages": [
+      19,
+      34,
+      50,
+      102,
+      169,
+      219,
+      230,
+      273,
+      313,
+      320,
+      343,
+      366
+    ],
+    "assignments": [
+      "pb-016-beasley-excerpts-from-vision-quest-assignment-cards",
+      "pb-029-brouws-our-relationship-to-the-windshield",
+      "pb-040-carter-garden-of-earthly-delights",
+      "pb-081-faldt-kallstrom-now-in-relation-to-the-past",
+      "pb-135-kander-making-not-taking",
+      "pb-175-mcphee-getting-lost",
+      "pb-183-moore-shadows-and-stories",
+      "pb-216-porter-from-the-images-of-man-audiovisual-series-mornings-of-creation-eliot-porter-1973",
+      "pb-249-shank-one-hour-photo-project",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-276-thall-pictures-within-pictures",
+      "pb-292-webb-triggering-town"
+    ]
+  },
+  "Language": {
+    "printedPages": [
+      53,
+      77,
+      98,
+      109,
+      144,
+      148,
+      250,
+      312,
+      324,
+      330
+    ],
+    "assignments": [
+      "pb-043-cases-spanish-recipe",
+      "pb-062-de-groot-devils-advocate",
+      "pb-078-estrin-the-basics",
+      "pb-087-fisher-visualizing-poetry",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-119-hewitt-image-construction",
+      "pb-196-northrup-skipreading",
+      "pb-248-shafran-thoughts",
+      "pb-259-soth-words-and-photographs",
+      "pb-265-stuke-sieber-teaching-antifoto"
+    ]
+  },
+  "Light": {
+    "printedPages": [
+      59,
+      69,
+      89,
+      93,
+      179,
+      230,
+      237,
+      254,
+      266,
+      299,
+      308,
+      316
+    ],
+    "assignments": [
+      "pb-049-conner-rules-for-students-in-introduction-to-photography",
+      "pb-056-crane-some-of-my-beliefs-about-photography-and-teaching",
+      "pb-072-duffy-exercises-in-photography",
+      "pb-075-elmaleh-cyanotype-and-the-blue-world",
+      "pb-145-kinsman-solargraphy",
+      "pb-183-moore-shadows-and-stories",
+      "pb-188-murphy-notable-intersections",
+      "pb-198-ogden-natural-vs-artificial",
+      "pb-209-perkis-exercise-6-watching-light",
+      "pb-236-saville-shadow-diary",
+      "pb-244-schneider-interpreting-light",
+      "pb-252-shimabuku-see-what-is-happening"
+    ]
+  },
+  "Lighting": {
+    "printedPages": [
+      49,
+      76,
+      85,
+      98,
+      254,
+      266,
+      294
+    ],
+    "assignments": [
+      "pb-039-carroll-chicken",
+      "pb-061-defibaugh-beautiful-from-nothing",
+      "pb-068-diederix-extract-the-magic",
+      "pb-078-estrin-the-basics",
+      "pb-198-ogden-natural-vs-artificial",
+      "pb-209-perkis-exercise-6-watching-light",
+      "pb-232-rome-street-or-setup"
+    ]
+  },
+  "Line": {
+    "printedPages": [
+      39,
+      69,
+      124,
+      142,
+      156,
+      158,
+      173,
+      183,
+      193,
+      213,
+      223,
+      289,
+      306,
+      314,
+      347
+    ],
+    "assignments": [
+      "pb-031-brown-the-last-seven-pictures",
+      "pb-056-crane-some-of-my-beliefs-about-photography-and-teaching",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-114-hassink-depicting-consumption",
+      "pb-126-imboden-photographing-the-human-form",
+      "pb-127-ingram-roll-a-day",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-148-klett-daily-practice",
+      "pb-156-la-spina-24-24-24",
+      "pb-170-mater-a-beautiful-mistake",
+      "pb-177-meiselas-alphabetography",
+      "pb-227-rice-inspired-by-arnheim",
+      "pb-242-schmelling-preconceived-notions",
+      "pb-250-shapton-doing-laps",
+      "pb-279-traub-the-don-ts"
+    ]
+  },
+  "Lists": {
+    "printedPages": [
+      6,
+      59,
+      64,
+      67,
+      88,
+      91,
+      97,
+      124,
+      126,
+      136,
+      141,
+      148,
+      150,
+      172,
+      186,
+      209,
+      213,
+      235,
+      242,
+      251,
+      267,
+      272,
+      322,
+      330,
+      347,
+      352,
+      381
+    ],
+    "assignments": [
+      "pb-005-arbus-not-necessarily-to-be-taken-literally",
+      "pb-049-conner-rules-for-students-in-introduction-to-photography",
+      "pb-053-cotton-how-to-make-ideas-better",
+      "pb-055-cox-a-dozen-to-gnaw-on",
+      "pb-071-dubois-fits-and-starts",
+      "pb-073-ebner-seeing-more-flatly",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-108-hamada-grocery-list",
+      "pb-113-harvey-ideas-into-pictures-a-two-part-assignment",
+      "pb-119-hewitt-image-construction",
+      "pb-121-hill-scavenger-hunt",
+      "pb-138-keeley-the-greatness-assignment",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-166-mandel-research-and-invention",
+      "pb-170-mater-a-beautiful-mistake",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-190-natal-no-answers-allowed",
+      "pb-197-novak-sketching-for-computer-based-projects",
+      "pb-210-pfahl-five-rules",
+      "pb-215-plademunt-manual-to-make-a-good-photographic-project-part-one",
+      "pb-257-smithson-words-and-ideas",
+      "pb-265-stuke-sieber-teaching-antifoto",
+      "pb-279-traub-the-don-ts",
+      "pb-283-umbrico-an-exercise-in-travel-choice-narrative-contingency-and-eisensteins-idea-of-collision-versus-collusion",
+      "pb-305-xoubanova-manual-to-make-a-good-photographic-project-part-two"
+    ]
+  },
+  "Literature": {
+    "printedPages": [
+      2,
+      91,
+      164,
+      200,
+      227,
+      249,
+      250,
+      277,
+      296,
+      318,
+      325,
+      334,
+      346
+    ],
+    "assignments": [
+      "pb-001-abbe-forgetting-the-game",
+      "pb-073-ebner-seeing-more-flatly",
+      "pb-131-johnson-your-own-invisible-city",
+      "pb-161-lipper-alter-ego",
+      "pb-180-mickey-adventures-in-the-skin-trade",
+      "pb-195-nordstrom-the-emigrants",
+      "pb-196-northrup-skipreading",
+      "pb-219-pushinsky-the-human-condition",
+      "pb-234-rudensky-clockwork-orange",
+      "pb-254-siskind-a-story-by-thomas-barrow",
+      "pb-260-southam-site-excavation",
+      "pb-269-sultan-as-remembered-by-kelly-sultan",
+      "pb-278-tonnard-the-death-of-the-photographer"
+    ]
+  },
+  "Love": {
+    "printedPages": [
+      44,
+      55,
+      59,
+      97,
+      126,
+      176,
+      244,
+      277,
+      293,
+      305,
+      364
+    ],
+    "assignments": [
+      "pb-035-callanan-cameras-dont-take-pictures",
+      "pb-045-ceschel-shooting-happiness",
+      "pb-049-conner-rules-for-students-in-introduction-to-photography",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-142-kessels-hot-or-not",
+      "pb-192-nixon-flirtation",
+      "pb-219-pushinsky-the-human-condition",
+      "pb-231-roma-what-matters",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-290-walker-its-all-about-love"
+    ]
+  },
+  "Luck": {
+    "printedPages": [
+      24,
+      35,
+      56,
+      67,
+      149,
+      207,
+      272,
+      312,
+      320,
+      327,
+      377,
+      381
+    ],
+    "assignments": [
+      "pb-021-bey-open-mind",
+      "pb-030-brown-rockaway-beach",
+      "pb-046-chaplin-lessons-learned-from-a-failed-attempt",
+      "pb-055-cox-a-dozen-to-gnaw-on",
+      "pb-120-hido-expose-yourself",
+      "pb-165-maloney-disrupting-the-process",
+      "pb-215-plademunt-manual-to-make-a-good-photographic-project-part-one",
+      "pb-248-shafran-thoughts",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-262-steacy-float-like-a-butterfly",
+      "pb-302-wiseman-chance-luck-and-good-judgment",
+      "pb-305-xoubanova-manual-to-make-a-good-photographic-project-part-two"
+    ]
+  },
+  "Madness": {
+    "printedPages": [
+      92,
+      193,
+      239,
+      298,
+      314
+    ],
+    "assignments": [
+      "pb-074-elkins-two-challenges",
+      "pb-156-la-spina-24-24-24",
+      "pb-189-nakadate-time-capsule",
+      "pb-235-sanguinetti-something-out-of-nothing",
+      "pb-250-shapton-doing-laps"
+    ]
+  },
+  "Magic": {
+    "printedPages": [
+      85,
+      298,
+      324,
+      327
+    ],
+    "assignments": [
+      "pb-068-diederix-extract-the-magic",
+      "pb-235-sanguinetti-something-out-of-nothing",
+      "pb-259-soth-words-and-photographs",
+      "pb-262-steacy-float-like-a-butterfly"
+    ]
+  },
+  "Manipulation": {
+    "printedPages": [
+      47,
+      95,
+      270
+    ],
+    "assignments": [
+      "pb-037-carlsen-photography-as-sculpture",
+      "pb-076-engman-practicing-fashion-photography",
+      "pb-213-pickering-the-camera-never-lies"
+    ]
+  },
+  "Mapping": {
+    "printedPages": [
+      2,
+      5,
+      22,
+      57,
+      61,
+      91,
+      148,
+      219,
+      320,
+      325,
+      372
+    ],
+    "assignments": [
+      "pb-001-abbe-forgetting-the-game",
+      "pb-004-anderson-parameters",
+      "pb-019-bell-points-of-intersection",
+      "pb-047-chiara-taking-stock",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-073-ebner-seeing-more-flatly",
+      "pb-119-hewitt-image-construction",
+      "pb-175-mcphee-getting-lost",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-260-southam-site-excavation",
+      "pb-298-white-the-american-road-trip-the-ultimate-one-day-experience"
+    ]
+  },
+  "Materiality": {
+    "printedPages": [
+      47,
+      107,
+      124,
+      129,
+      224,
+      325
+    ],
+    "assignments": [
+      "pb-037-carlsen-photography-as-sculpture",
+      "pb-085-fink-photographing-atmosphere",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-103-gottlund-inside-out",
+      "pb-178-meister-on-close-inspection",
+      "pb-260-southam-site-excavation"
+    ]
+  },
+  "Memory": {
+    "printedPages": [
+      12,
+      15,
+      44,
+      57,
+      58,
+      93,
+      97,
+      146,
+      175,
+      228,
+      239,
+      318,
+      325,
+      340,
+      367
+    ],
+    "assignments": [
+      "pb-010-badger-what-cannot-be-seen",
+      "pb-012-ballen-inside-out",
+      "pb-035-callanan-cameras-dont-take-pictures",
+      "pb-047-chiara-taking-stock",
+      "pb-048-colberg-letters-to-yourself",
+      "pb-075-elmaleh-cyanotype-and-the-blue-world",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-117-heiferman-family-trees",
+      "pb-141-kereszi-all-things-large-and-small",
+      "pb-181-moakley-begin-at-the-beginning",
+      "pb-189-nakadate-time-capsule",
+      "pb-254-siskind-a-story-by-thomas-barrow",
+      "pb-260-southam-site-excavation",
+      "pb-274-terpstra-photos-not-taken",
+      "pb-293-weber-empathy-and-a-full-stomach"
+    ]
+  },
+  "Mentorship": {
+    "printedPages": [
+      52,
+      70,
+      125,
+      132,
+      239,
+      247,
+      302,
+      318
+    ],
+    "assignments": [
+      "pb-042-carucci-a-thousand-pictures",
+      "pb-057-cuomo-sister-coritas-rules",
+      "pb-101-gordon-three-assignments-and-a-thought",
+      "pb-106-gremmen-based-on-a-conversation-which-took-place-in-amsterdam-in-september-2012-between-a-student-and-his-former-teacher",
+      "pb-189-nakadate-time-capsule",
+      "pb-194-nolan-on-john-szarkowski",
+      "pb-239-scheinbaum-crushed",
+      "pb-254-siskind-a-story-by-thomas-barrow"
+    ]
+  },
+  "Metaphor": {
+    "printedPages": [
+      6,
+      7,
+      12,
+      23,
+      93,
+      95,
+      117,
+      123,
+      141,
+      164,
+      186,
+      206,
+      227,
+      255,
+      259,
+      261,
+      301,
+      327,
+      333
+    ],
+    "assignments": [
+      "pb-005-arbus-not-necessarily-to-be-taken-literally",
+      "pb-006-armstrong-auras",
+      "pb-010-badger-what-cannot-be-seen",
+      "pb-020-benning-an-assignment",
+      "pb-075-elmaleh-cyanotype-and-the-blue-world",
+      "pb-076-engman-practicing-fashion-photography",
+      "pb-094-frazier-metaphor-and-meaning",
+      "pb-099-gilden-photograph-who-you-are",
+      "pb-113-harvey-ideas-into-pictures-a-two-part-assignment",
+      "pb-131-johnson-your-own-invisible-city",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-164-malasauskas-assignment",
+      "pb-180-mickey-adventures-in-the-skin-trade",
+      "pb-199-onorato-krebs-the-white-mouse",
+      "pb-203-ou-photograph-something-invisible",
+      "pb-204-paglen-imaging-systems",
+      "pb-238-scheeren-secrets-and-obstacles",
+      "pb-262-steacy-float-like-a-butterfly",
+      "pb-268-sullivan-prison-break"
+    ]
+  },
+  "Mistakes": {
+    "printedPages": [
+      56,
+      69,
+      70,
+      110,
+      130,
+      140,
+      321,
+      362
+    ],
+    "assignments": [
+      "pb-046-chaplin-lessons-learned-from-a-failed-attempt",
+      "pb-056-crane-some-of-my-beliefs-about-photography-and-teaching",
+      "pb-057-cuomo-sister-coritas-rules",
+      "pb-088-fitch-feedback-loop",
+      "pb-104-grannan-discomfort",
+      "pb-112-harris-exquisite-corpse",
+      "pb-256-slota-four-pieces",
+      "pb-289-vitali-mistakes"
+    ]
+  },
+  "Money": {
+    "printedPages": [
+      20,
+      21,
+      31,
+      84,
+      124,
+      142,
+      178,
+      217,
+      295
+    ],
+    "assignments": [
+      "pb-017-behrend-the-coal-thieves",
+      "pb-018-bell-failing-to-succeed",
+      "pb-027-bright-practical-advice",
+      "pb-067-dicorcia-something-real",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-114-hassink-depicting-consumption",
+      "pb-144-killip-sustainability",
+      "pb-173-mccaw-feast-or-famine",
+      "pb-233-rubin-one-hundred-dollars"
+    ]
+  },
+  "Mood": {
+    "printedPages": [
+      44,
+      66,
+      97,
+      108,
+      167,
+      205,
+      211,
+      327,
+      348
+    ],
+    "assignments": [
+      "pb-035-callanan-cameras-dont-take-pictures",
+      "pb-054-cowin-beautiful",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-086-finke-trust-the-gut",
+      "pb-134-july-mother-s-nightmare",
+      "pb-163-maddock-small-ideas",
+      "pb-168-marcopoulos-daily-destination",
+      "pb-262-steacy-float-like-a-butterfly",
+      "pb-280-tucker-lessons-for-a-curator"
+    ]
+  },
+  "Moon": {
+    "printedPages": [
+      3
+    ],
+    "assignments": [
+      "pb-002-abeles-watching-the-moon"
+    ]
+  },
+  "Motion": {
+    "printedPages": [
+      98,
+      141,
+      281
+    ],
+    "assignments": [
+      "pb-078-estrin-the-basics",
+      "pb-113-harvey-ideas-into-pictures-a-two-part-assignment",
+      "pb-221-reas-expanded-cinema"
+    ]
+  },
+  "Multidisciplinary": {
+    "printedPages": [
+      8,
+      31,
+      147,
+      318,
+      335
+    ],
+    "assignments": [
+      "pb-007-ashkin-revealing-an-enigma",
+      "pb-027-bright-practical-advice",
+      "pb-118-hewitt-the-replica-and-its-mutation",
+      "pb-254-siskind-a-story-by-thomas-barrow",
+      "pb-270-sutherland-photography-through-filmmaking"
+    ]
+  },
+  "Multimedia": {
+    "printedPages": [
+      8,
+      251,
+      335,
+      375
+    ],
+    "assignments": [
+      "pb-007-ashkin-revealing-an-enigma",
+      "pb-197-novak-sketching-for-computer-based-projects",
+      "pb-270-sutherland-photography-through-filmmaking",
+      "pb-300-winokur-expansive-and-deeper"
+    ]
+  },
+  "Muse": {
+    "printedPages": [
+      25,
+      66,
+      244,
+      255,
+      298,
+      327
+    ],
+    "assignments": [
+      "pb-022-blalock-audience",
+      "pb-054-cowin-beautiful",
+      "pb-192-nixon-flirtation",
+      "pb-199-onorato-krebs-the-white-mouse",
+      "pb-235-sanguinetti-something-out-of-nothing",
+      "pb-262-steacy-float-like-a-butterfly"
+    ]
+  },
+  "Museum": {
+    "printedPages": [
+      30,
+      112,
+      132,
+      224,
+      318,
+      365
+    ],
+    "assignments": [
+      "pb-026-brandt-step-out-of-your-shoes",
+      "pb-090-fletcher-through-a-childs-eyes",
+      "pb-106-gremmen-based-on-a-conversation-which-took-place-in-amsterdam-in-september-2012-between-a-student-and-his-former-teacher",
+      "pb-178-meister-on-close-inspection",
+      "pb-254-siskind-a-story-by-thomas-barrow",
+      "pb-291-wassinklundgren-chinese-whispers"
+    ]
+  },
+  "Music": {
+    "printedPages": [
+      53,
+      80,
+      130,
+      239,
+      282,
+      285,
+      291,
+      372,
+      374
+    ],
+    "assignments": [
+      "pb-043-cases-spanish-recipe",
+      "pb-064-de-middel-the-de-middel-three-step-guide-to-photographic-storytelling",
+      "pb-104-grannan-discomfort",
+      "pb-189-nakadate-time-capsule",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-224-reinfurt-wonder-what-to-do-in-it",
+      "pb-229-ritchin-the-meta-photographer",
+      "pb-298-white-the-american-road-trip-the-ultimate-one-day-experience",
+      "pb-299-willing-rhythm-and-melody"
+    ]
+  },
+  "Mystery": {
+    "printedPages": [
+      6,
+      8,
+      41,
+      164,
+      206,
+      218,
+      221,
+      239,
+      288,
+      305,
+      327
+    ],
+    "assignments": [
+      "pb-005-arbus-not-necessarily-to-be-taken-literally",
+      "pb-007-ashkin-revealing-an-enigma",
+      "pb-033-butler-two-approaches",
+      "pb-131-johnson-your-own-invisible-city",
+      "pb-164-malasauskas-assignment",
+      "pb-174-mcfarland-create-an-event",
+      "pb-176-meeks-complete-surrender",
+      "pb-189-nakadate-time-capsule",
+      "pb-226-ribas-a-state-of-transition-or-boiling-water",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-262-steacy-float-like-a-butterfly"
+    ]
+  },
+  "Narrative": {
+    "printedPages": [
+      9,
+      20,
+      35,
+      39,
+      44,
+      54,
+      80,
+      83,
+      144,
+      153,
+      164,
+      166,
+      167,
+      174,
+      177,
+      205,
+      212,
+      218,
+      226,
+      227,
+      232,
+      233,
+      249,
+      256,
+      262,
+      265,
+      281,
+      305,
+      324,
+      329,
+      330,
+      340,
+      349,
+      352,
+      355,
+      357,
+      371,
+      374,
+      375,
+      377
+    ],
+    "assignments": [
+      "pb-008-atwood-storytelling-with-pictures",
+      "pb-017-behrend-the-coal-thieves",
+      "pb-030-brown-rockaway-beach",
+      "pb-031-brown-the-last-seven-pictures",
+      "pb-035-callanan-cameras-dont-take-pictures",
+      "pb-044-catanese-the-arrangement-game",
+      "pb-064-de-middel-the-de-middel-three-step-guide-to-photographic-storytelling",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-131-johnson-your-own-invisible-city",
+      "pb-133-jude-the-convincing-lie",
+      "pb-134-july-mother-s-nightmare",
+      "pb-140-kelsey-captions",
+      "pb-143-kessmann-ninety-nine-pictures",
+      "pb-163-maddock-small-ideas",
+      "pb-169-martin-reading-the-tea-leaves",
+      "pb-174-mcfarland-create-an-event",
+      "pb-179-menjivar-local-news",
+      "pb-180-mickey-adventures-in-the-skin-trade",
+      "pb-184-morley-tell-me-a-story",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-195-nordstrom-the-emigrants",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-205-palacio-blue-velvet",
+      "pb-208-patton-sequential-or-serial",
+      "pb-221-reas-expanded-cinema",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-259-soth-words-and-photographs",
+      "pb-264-storm-interview-as-guide",
+      "pb-265-stuke-sieber-teaching-antifoto",
+      "pb-274-terpstra-photos-not-taken",
+      "pb-281-turyn-telephone-game",
+      "pb-283-umbrico-an-exercise-in-travel-choice-narrative-contingency-and-eisensteins-idea-of-collision-versus-collusion",
+      "pb-284-van-de-roer-sum-of-the-parts",
+      "pb-286-ventura-the-depths",
+      "pb-297-white-the-entirety-of-a-problem",
+      "pb-299-willing-rhythm-and-melody",
+      "pb-300-winokur-expansive-and-deeper",
+      "pb-302-wiseman-chance-luck-and-good-judgment"
+    ]
+  },
+  "Natural light": {
+    "printedPages": [
+      254,
+      308
+    ],
+    "assignments": [
+      "pb-198-ogden-natural-vs-artificial",
+      "pb-244-schneider-interpreting-light"
+    ]
+  },
+  "Nature": {
+    "printedPages": [
+      35,
+      50,
+      89,
+      120,
+      179,
+      221,
+      266,
+      273,
+      288,
+      318,
+      376
+    ],
+    "assignments": [
+      "pb-030-brown-rockaway-beach",
+      "pb-040-carter-garden-of-earthly-delights",
+      "pb-072-duffy-exercises-in-photography",
+      "pb-096-gearon-how-to-take-a-perfectly-fantastic-shot-in-less-than-five-minutes-or-a-masterpiece-in-a-couple-of-hours",
+      "pb-145-kinsman-solargraphy",
+      "pb-176-meeks-complete-surrender",
+      "pb-209-perkis-exercise-6-watching-light",
+      "pb-216-porter-from-the-images-of-man-audiovisual-series-mornings-of-creation-eliot-porter-1973",
+      "pb-226-ribas-a-state-of-transition-or-boiling-water",
+      "pb-254-siskind-a-story-by-thomas-barrow",
+      "pb-301-winokur-odd-assignment"
+    ]
+  },
+  "New Age": {
+    "printedPages": [
+      7,
+      23,
+      40,
+      92,
+      206
+    ],
+    "assignments": [
+      "pb-006-armstrong-auras",
+      "pb-020-benning-an-assignment",
+      "pb-032-bunnell-assignment-two-from-twentieth-century-photography-seminar",
+      "pb-074-elkins-two-challenges",
+      "pb-164-malasauskas-assignment"
+    ]
+  },
+  "Newspaper": {
+    "printedPages": [
+      153,
+      249,
+      256,
+      291
+    ],
+    "assignments": [
+      "pb-124-hornstra-the-best-whatever",
+      "pb-195-nordstrom-the-emigrants",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-229-ritchin-the-meta-photographer"
+    ]
+  },
+  "Night": {
+    "printedPages": [
+      3
+    ],
+    "assignments": [
+      "pb-002-abeles-watching-the-moon"
+    ]
+  },
+  "Nightmare": {
+    "printedPages": [
+      15,
+      103,
+      167,
+      296,
+      304,
+      314,
+      376
+    ],
+    "assignments": [
+      "pb-012-ballen-inside-out",
+      "pb-082-falls-death",
+      "pb-134-july-mother-s-nightmare",
+      "pb-234-rudensky-clockwork-orange",
+      "pb-240-schiek-dead-end-scenario",
+      "pb-250-shapton-doing-laps",
+      "pb-301-winokur-odd-assignment"
+    ]
+  },
+  "Nonsense": {
+    "printedPages": [
+      8,
+      14,
+      41,
+      45,
+      81,
+      95,
+      296,
+      370
+    ],
+    "assignments": [
+      "pb-007-ashkin-revealing-an-enigma",
+      "pb-011-baldessari-assignment-96",
+      "pb-033-butler-two-approaches",
+      "pb-036-campany-what-to-photograph",
+      "pb-065-de-rita-alphabet-of-assignments",
+      "pb-076-engman-practicing-fashion-photography",
+      "pb-234-rudensky-clockwork-orange",
+      "pb-296-whitaker-fruit-first"
+    ]
+  },
+  "Nostalgia": {
+    "printedPages": [
+      93,
+      239,
+      309,
+      312
+    ],
+    "assignments": [
+      "pb-075-elmaleh-cyanotype-and-the-blue-world",
+      "pb-189-nakadate-time-capsule",
+      "pb-245-schuman-nostalgia",
+      "pb-248-shafran-thoughts"
+    ]
+  },
+  "Nudes": {
+    "printedPages": [
+      41,
+      64,
+      78,
+      156,
+      293,
+      347
+    ],
+    "assignments": [
+      "pb-033-butler-two-approaches",
+      "pb-053-cotton-how-to-make-ideas-better",
+      "pb-063-delaney-the-self-portrait",
+      "pb-126-imboden-photographing-the-human-form",
+      "pb-231-roma-what-matters",
+      "pb-279-traub-the-don-ts"
+    ]
+  },
+  "Objects": {
+    "printedPages": [
+      8,
+      61,
+      76,
+      85,
+      95,
+      147,
+      207,
+      224,
+      263,
+      313
+    ],
+    "assignments": [
+      "pb-007-ashkin-revealing-an-enigma",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-061-defibaugh-beautiful-from-nothing",
+      "pb-068-diederix-extract-the-magic",
+      "pb-076-engman-practicing-fashion-photography",
+      "pb-118-hewitt-the-replica-and-its-mutation",
+      "pb-165-maloney-disrupting-the-process",
+      "pb-178-meister-on-close-inspection",
+      "pb-206-palmer-flea-market",
+      "pb-249-shank-one-hour-photo-project"
+    ]
+  },
+  "Observation": {
+    "printedPages": [
+      19,
+      22,
+      23,
+      34,
+      35,
+      45,
+      51,
+      63,
+      73,
+      91,
+      98,
+      104,
+      149,
+      172,
+      184,
+      224,
+      245,
+      262,
+      263,
+      266,
+      320,
+      327,
+      331,
+      340,
+      341,
+      356,
+      366,
+      375,
+      377
+    ],
+    "assignments": [
+      "pb-016-beasley-excerpts-from-vision-quest-assignment-cards",
+      "pb-019-bell-points-of-intersection",
+      "pb-020-benning-an-assignment",
+      "pb-029-brouws-our-relationship-to-the-windshield",
+      "pb-030-brown-rockaway-beach",
+      "pb-036-campany-what-to-photograph",
+      "pb-041-cartier-bresson-from-the-images-of-man-audiovisual-series-the-decisive-moment-henri-cartier-bresson-1973",
+      "pb-052-cost-drones",
+      "pb-059-cyr-limitation-routine-and-repetition",
+      "pb-073-ebner-seeing-more-flatly",
+      "pb-078-estrin-the-basics",
+      "pb-083-feininger-the-real-nature-of-space",
+      "pb-120-hido-expose-yourself",
+      "pb-138-keeley-the-greatness-assignment",
+      "pb-149-knight-confronting-expectations",
+      "pb-178-meister-on-close-inspection",
+      "pb-193-nolan-an-altogether-different-lesson",
+      "pb-205-palacio-blue-velvet",
+      "pb-206-palmer-flea-market",
+      "pb-209-perkis-exercise-6-watching-light",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-262-steacy-float-like-a-butterfly",
+      "pb-266-sturges-what-is-simply-true",
+      "pb-274-terpstra-photos-not-taken",
+      "pb-275-terry-composing-in-color",
+      "pb-285-van-manen-blending-in",
+      "pb-292-webb-triggering-town",
+      "pb-300-winokur-expansive-and-deeper",
+      "pb-302-wiseman-chance-luck-and-good-judgment"
+    ]
+  },
+  "Obsession": {
+    "printedPages": [
+      170,
+      186,
+      244,
+      357
+    ],
+    "assignments": [
+      "pb-136-kashi-be-passionate",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-192-nixon-flirtation",
+      "pb-286-ventura-the-depths"
+    ]
+  },
+  "Obstacle": {
+    "printedPages": [
+      35,
+      48,
+      132,
+      197,
+      271,
+      301,
+      333
+    ],
+    "assignments": [
+      "pb-030-brown-rockaway-beach",
+      "pb-038-carrier-five-obstructions",
+      "pb-106-gremmen-based-on-a-conversation-which-took-place-in-amsterdam-in-september-2012-between-a-student-and-his-former-teacher",
+      "pb-159-leiter-as-remembered-by-jason-fulford",
+      "pb-214-pilson-shameless",
+      "pb-238-scheeren-secrets-and-obstacles",
+      "pb-268-sullivan-prison-break"
+    ]
+  },
+  "Ordinary": {
+    "printedPages": [
+      85,
+      113,
+      154,
+      247,
+      263,
+      298
+    ],
+    "assignments": [
+      "pb-068-diederix-extract-the-magic",
+      "pb-091-foglia-make-it-seem",
+      "pb-125-hurn-giving-the-mundane-its-beautiful-due",
+      "pb-194-nolan-on-john-szarkowski",
+      "pb-206-palmer-flea-market",
+      "pb-235-sanguinetti-something-out-of-nothing"
+    ]
+  },
+  "Party": {
+    "printedPages": [
+      55,
+      116,
+      120,
+      130
+    ],
+    "assignments": [
+      "pb-045-ceschel-shooting-happiness",
+      "pb-093-frame-la-dolce-vita",
+      "pb-096-gearon-how-to-take-a-perfectly-fantastic-shot-in-less-than-five-minutes-or-a-masterpiece-in-a-couple-of-hours",
+      "pb-104-grannan-discomfort"
+    ]
+  },
+  "Past": {
+    "printedPages": [
+      102,
+      126,
+      146,
+      209,
+      239,
+      292,
+      309,
+      312,
+      330
+    ],
+    "assignments": [
+      "pb-081-faldt-kallstrom-now-in-relation-to-the-past",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-117-heiferman-family-trees",
+      "pb-166-mandel-research-and-invention",
+      "pb-189-nakadate-time-capsule",
+      "pb-230-rogan-time-travel",
+      "pb-245-schuman-nostalgia",
+      "pb-248-shafran-thoughts",
+      "pb-265-stuke-sieber-teaching-antifoto"
+    ]
+  },
+  "Perception": {
+    "printedPages": [
+      15,
+      26,
+      31,
+      34,
+      41,
+      44,
+      49,
+      58,
+      91,
+      97,
+      104,
+      117,
+      139,
+      149,
+      152,
+      161,
+      165,
+      173,
+      189,
+      200,
+      221,
+      276,
+      305,
+      310,
+      341
+    ],
+    "assignments": [
+      "pb-012-ballen-inside-out",
+      "pb-023-bonajo-perspective",
+      "pb-027-bright-practical-advice",
+      "pb-029-brouws-our-relationship-to-the-windshield",
+      "pb-033-butler-two-approaches",
+      "pb-035-callanan-cameras-dont-take-pictures",
+      "pb-039-carroll-chicken",
+      "pb-048-colberg-letters-to-yourself",
+      "pb-073-ebner-seeing-more-flatly",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-083-feininger-the-real-nature-of-space",
+      "pb-094-frazier-metaphor-and-meaning",
+      "pb-111-harper-the-body-as-a-site-of-perception",
+      "pb-120-hido-expose-yourself",
+      "pb-123-homma-the-boundaries-of-imitation",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-132-johnston-the-empowered-portrait",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-152-ladd-insecurity",
+      "pb-161-lipper-alter-ego",
+      "pb-176-meeks-complete-surrender",
+      "pb-218-pratt-shared-history",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-246-schwabsky-an-exercise-in-photography",
+      "pb-275-terry-composing-in-color"
+    ]
+  },
+  "Perfection": {
+    "printedPages": [
+      186,
+      321
+    ],
+    "assignments": [
+      "pb-151-kurland-suggested-suggestions",
+      "pb-256-slota-four-pieces"
+    ]
+  },
+  "Performance": {
+    "printedPages": [
+      41,
+      75,
+      77,
+      111,
+      114,
+      173,
+      176,
+      195,
+      200,
+      235,
+      255,
+      295,
+      300,
+      369
+    ],
+    "assignments": [
+      "pb-033-butler-two-approaches",
+      "pb-060-davis-dont-do-anything-subversive",
+      "pb-062-de-groot-devils-advocate",
+      "pb-089-fleming-ventriloquism",
+      "pb-092-fox-staging-the-real",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-142-kessels-hot-or-not",
+      "pb-158-lehr-the-envelope-project",
+      "pb-161-lipper-alter-ego",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-199-onorato-krebs-the-white-mouse",
+      "pb-233-rubin-one-hundred-dollars",
+      "pb-237-schechter-unintended-consequences",
+      "pb-295-wei-hotel-self-portrait"
+    ]
+  },
+  "Personal": {
+    "printedPages": [
+      26,
+      97,
+      125,
+      356
+    ],
+    "assignments": [
+      "pb-023-bonajo-perspective",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-101-gordon-three-assignments-and-a-thought",
+      "pb-285-van-manen-blending-in"
+    ]
+  },
+  "Perspective": {
+    "printedPages": [
+      15,
+      33,
+      50,
+      51,
+      59,
+      63,
+      66,
+      70,
+      77,
+      104,
+      112,
+      113,
+      122,
+      148,
+      154,
+      161,
+      165,
+      167,
+      169,
+      173,
+      184,
+      192,
+      197,
+      198,
+      219,
+      226,
+      237,
+      271,
+      273,
+      276,
+      283,
+      287,
+      292,
+      302,
+      308,
+      343,
+      351,
+      355,
+      366,
+      375
+    ],
+    "assignments": [
+      "pb-012-ballen-inside-out",
+      "pb-028-broomberg-chanarin-alias-an-exercise-for-five-students-or-more",
+      "pb-040-carter-garden-of-earthly-delights",
+      "pb-041-cartier-bresson-from-the-images-of-man-audiovisual-series-the-decisive-moment-henri-cartier-bresson-1973",
+      "pb-049-conner-rules-for-students-in-introduction-to-photography",
+      "pb-052-cost-drones",
+      "pb-054-cowin-beautiful",
+      "pb-057-cuomo-sister-coritas-rules",
+      "pb-062-de-groot-devils-advocate",
+      "pb-083-feininger-the-real-nature-of-space",
+      "pb-090-fletcher-through-a-childs-eyes",
+      "pb-091-foglia-make-it-seem",
+      "pb-098-gibson-lose-an-eye",
+      "pb-119-hewitt-image-construction",
+      "pb-125-hurn-giving-the-mundane-its-beautiful-due",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-132-johnston-the-empowered-portrait",
+      "pb-134-july-mother-s-nightmare",
+      "pb-135-kander-making-not-taking",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-149-knight-confronting-expectations",
+      "pb-155-lancaster-two-assignments",
+      "pb-159-leiter-as-remembered-by-jason-fulford",
+      "pb-160-letinsky-still-life",
+      "pb-175-mcphee-getting-lost",
+      "pb-179-menjivar-local-news",
+      "pb-188-murphy-notable-intersections",
+      "pb-214-pilson-shameless",
+      "pb-216-porter-from-the-images-of-man-audiovisual-series-mornings-of-creation-eliot-porter-1973",
+      "pb-218-pratt-shared-history",
+      "pb-223-records-out-of-your-head",
+      "pb-225-renaldi-turning-the-tables",
+      "pb-230-rogan-time-travel",
+      "pb-239-scheinbaum-crushed",
+      "pb-244-schneider-interpreting-light",
+      "pb-276-thall-pictures-within-pictures",
+      "pb-282-ulrich-shadows-and-trades",
+      "pb-284-van-de-roer-sum-of-the-parts",
+      "pb-292-webb-triggering-town",
+      "pb-300-winokur-expansive-and-deeper"
+    ]
+  },
+  "Photogenic": {
+    "printedPages": [
+      191,
+      283
+    ],
+    "assignments": [
+      "pb-154-lampert-shoot-me",
+      "pb-223-records-out-of-your-head"
+    ]
+  },
+  "Photograms": {
+    "printedPages": [
+      93,
+      175
+    ],
+    "assignments": [
+      "pb-075-elmaleh-cyanotype-and-the-blue-world",
+      "pb-141-kereszi-all-things-large-and-small"
+    ]
+  },
+  "Photoshop": {
+    "printedPages": [
+      47,
+      95,
+      179,
+      251
+    ],
+    "assignments": [
+      "pb-037-carlsen-photography-as-sculpture",
+      "pb-076-engman-practicing-fashion-photography",
+      "pb-145-kinsman-solargraphy",
+      "pb-197-novak-sketching-for-computer-based-projects"
+    ]
+  },
+  "Picnic": {
+    "printedPages": [
+      120
+    ],
+    "assignments": [
+      "pb-096-gearon-how-to-take-a-perfectly-fantastic-shot-in-less-than-five-minutes-or-a-masterpiece-in-a-couple-of-hours"
+    ]
+  },
+  "Place": {
+    "printedPages": [
+      22,
+      23,
+      31,
+      34,
+      40,
+      53,
+      63,
+      92,
+      102,
+      120,
+      121,
+      131,
+      149,
+      153,
+      154,
+      161,
+      178,
+      191,
+      205,
+      209,
+      219,
+      230,
+      237,
+      266,
+      269,
+      273,
+      274,
+      298,
+      304,
+      305,
+      320,
+      328,
+      343,
+      356,
+      366,
+      369
+    ],
+    "assignments": [
+      "pb-019-bell-points-of-intersection",
+      "pb-020-benning-an-assignment",
+      "pb-027-bright-practical-advice",
+      "pb-029-brouws-our-relationship-to-the-windshield",
+      "pb-032-bunnell-assignment-two-from-twentieth-century-photography-seminar",
+      "pb-043-cases-spanish-recipe",
+      "pb-052-cost-drones",
+      "pb-074-elkins-two-challenges",
+      "pb-081-faldt-kallstrom-now-in-relation-to-the-past",
+      "pb-096-gearon-how-to-take-a-perfectly-fantastic-shot-in-less-than-five-minutes-or-a-masterpiece-in-a-couple-of-hours",
+      "pb-097-georgiou-stop-and-return",
+      "pb-105-gregory-find-a-space-make-a-show",
+      "pb-120-hido-expose-yourself",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-125-hurn-giving-the-mundane-its-beautiful-due",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-144-killip-sustainability",
+      "pb-154-lampert-shoot-me",
+      "pb-163-maddock-small-ideas",
+      "pb-166-mandel-research-and-invention",
+      "pb-175-mcphee-getting-lost",
+      "pb-183-moore-shadows-and-stories",
+      "pb-188-murphy-notable-intersections",
+      "pb-209-perkis-exercise-6-watching-light",
+      "pb-212-phillips-imagine-a-country",
+      "pb-216-porter-from-the-images-of-man-audiovisual-series-mornings-of-creation-eliot-porter-1973",
+      "pb-217-powell-six-street-exercises",
+      "pb-235-sanguinetti-something-out-of-nothing",
+      "pb-240-schiek-dead-end-scenario",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-263-steinmetz-photograph-somewhere-you-are-very-uncomfortable",
+      "pb-276-thall-pictures-within-pictures",
+      "pb-285-van-manen-blending-in",
+      "pb-292-webb-triggering-town",
+      "pb-295-wei-hotel-self-portrait"
+    ]
+  },
+  "Plants": {
+    "printedPages": [
+      14,
+      35,
+      318
+    ],
+    "assignments": [
+      "pb-011-baldessari-assignment-96",
+      "pb-030-brown-rockaway-beach",
+      "pb-254-siskind-a-story-by-thomas-barrow"
+    ]
+  },
+  "Poetry": {
+    "printedPages": [
+      8,
+      12,
+      109,
+      163,
+      219,
+      239,
+      247,
+      293,
+      334,
+      336
+    ],
+    "assignments": [
+      "pb-007-ashkin-revealing-an-enigma",
+      "pb-010-badger-what-cannot-be-seen",
+      "pb-087-fisher-visualizing-poetry",
+      "pb-130-jakschik-follow-your-heart",
+      "pb-175-mcphee-getting-lost",
+      "pb-189-nakadate-time-capsule",
+      "pb-194-nolan-on-john-szarkowski",
+      "pb-231-roma-what-matters",
+      "pb-269-sultan-as-remembered-by-kelly-sultan",
+      "pb-271-sutton-synesthesia"
+    ]
+  },
+  "Politics": {
+    "printedPages": [
+      12,
+      75,
+      142,
+      161,
+      186,
+      269,
+      318
+    ],
+    "assignments": [
+      "pb-010-badger-what-cannot-be-seen",
+      "pb-060-davis-dont-do-anything-subversive",
+      "pb-114-hassink-depicting-consumption",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-212-phillips-imagine-a-country",
+      "pb-254-siskind-a-story-by-thomas-barrow"
+    ]
+  },
+  "Pornography": {
+    "printedPages": [
+      146,
+      243
+    ],
+    "assignments": [
+      "pb-117-heiferman-family-trees",
+      "pb-191-nelson-find-fifty-eight-names-tools-and-institutions-and-maybe-some-other-words-as-well"
+    ]
+  },
+  "Portraiture": {
+    "printedPages": [
+      4,
+      18,
+      27,
+      35,
+      41,
+      44,
+      49,
+      51,
+      61,
+      83,
+      92,
+      114,
+      120,
+      125,
+      143,
+      165,
+      185,
+      186,
+      190,
+      191,
+      197,
+      228,
+      229,
+      244,
+      256,
+      287,
+      328,
+      329,
+      331,
+      356,
+      358,
+      361,
+      367
+    ],
+    "assignments": [
+      "pb-003-adams-find-your-reflection",
+      "pb-015-barney-slow-down",
+      "pb-024-boot-a-test",
+      "pb-030-brown-rockaway-beach",
+      "pb-033-butler-two-approaches",
+      "pb-035-callanan-cameras-dont-take-pictures",
+      "pb-039-carroll-chicken",
+      "pb-041-cartier-bresson-from-the-images-of-man-audiovisual-series-the-decisive-moment-henri-cartier-bresson-1973",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-074-elkins-two-challenges",
+      "pb-092-fox-staging-the-real",
+      "pb-096-gearon-how-to-take-a-perfectly-fantastic-shot-in-less-than-five-minutes-or-a-masterpiece-in-a-couple-of-hours",
+      "pb-101-gordon-three-assignments-and-a-thought",
+      "pb-115-hau-important-people",
+      "pb-132-johnston-the-empowered-portrait",
+      "pb-150-kulok-learning-to-act",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-153-lambrou-arms-length",
+      "pb-154-lampert-shoot-me",
+      "pb-159-leiter-as-remembered-by-jason-fulford",
+      "pb-181-moakley-begin-at-the-beginning",
+      "pb-182-modica-weekend-portraiture",
+      "pb-192-nixon-flirtation",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-225-renaldi-turning-the-tables",
+      "pb-263-steinmetz-photograph-somewhere-you-are-very-uncomfortable",
+      "pb-264-storm-interview-as-guide",
+      "pb-266-sturges-what-is-simply-true",
+      "pb-285-van-manen-blending-in",
+      "pb-287-verene-the-intimate-portrait",
+      "pb-288-visser-white-walls",
+      "pb-293-weber-empathy-and-a-full-stomach"
+    ]
+  },
+  "Presentation": {
+    "printedPages": [
+      131,
+      218,
+      258,
+      265,
+      281,
+      291,
+      300,
+      310,
+      325,
+      338,
+      355,
+      371
+    ],
+    "assignments": [
+      "pb-105-gregory-find-a-space-make-a-show",
+      "pb-174-mcfarland-create-an-event",
+      "pb-202-otoole-scale",
+      "pb-208-patton-sequential-or-serial",
+      "pb-221-reas-expanded-cinema",
+      "pb-229-ritchin-the-meta-photographer",
+      "pb-237-schechter-unintended-consequences",
+      "pb-246-schwabsky-an-exercise-in-photography",
+      "pb-260-southam-site-excavation",
+      "pb-272-tamm-personal-library",
+      "pb-284-van-de-roer-sum-of-the-parts",
+      "pb-297-white-the-entirety-of-a-problem"
+    ]
+  },
+  "Print": {
+    "printedPages": [
+      45,
+      69,
+      129,
+      153,
+      192,
+      207,
+      224,
+      258,
+      272,
+      321,
+      330,
+      381
+    ],
+    "assignments": [
+      "pb-036-campany-what-to-photograph",
+      "pb-056-crane-some-of-my-beliefs-about-photography-and-teaching",
+      "pb-103-gottlund-inside-out",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-155-lancaster-two-assignments",
+      "pb-165-maloney-disrupting-the-process",
+      "pb-178-meister-on-close-inspection",
+      "pb-202-otoole-scale",
+      "pb-215-plademunt-manual-to-make-a-good-photographic-project-part-one",
+      "pb-256-slota-four-pieces",
+      "pb-265-stuke-sieber-teaching-antifoto",
+      "pb-305-xoubanova-manual-to-make-a-good-photographic-project-part-two"
+    ]
+  },
+  "Process": {
+    "printedPages": [
+      18,
+      39,
+      40,
+      43,
+      47,
+      49,
+      54,
+      56,
+      58,
+      61,
+      69,
+      72,
+      73,
+      76,
+      83,
+      89,
+      91,
+      98,
+      100,
+      110,
+      116,
+      121,
+      129,
+      130,
+      139,
+      147,
+      152,
+      153,
+      159,
+      163,
+      173,
+      175,
+      177,
+      179,
+      181,
+      186,
+      189,
+      190,
+      193,
+      195,
+      206,
+      207,
+      210,
+      212,
+      213,
+      221,
+      224,
+      232,
+      251,
+      254,
+      257,
+      258,
+      259,
+      261,
+      268,
+      272,
+      274,
+      282,
+      308,
+      310,
+      320,
+      321,
+      343,
+      347,
+      381
+    ],
+    "assignments": [
+      "pb-015-barney-slow-down",
+      "pb-031-brown-the-last-seven-pictures",
+      "pb-032-bunnell-assignment-two-from-twentieth-century-photography-seminar",
+      "pb-034-calisch-offer-your-services",
+      "pb-037-carlsen-photography-as-sculpture",
+      "pb-039-carroll-chicken",
+      "pb-044-catanese-the-arrangement-game",
+      "pb-046-chaplin-lessons-learned-from-a-failed-attempt",
+      "pb-048-colberg-letters-to-yourself",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-056-crane-some-of-my-beliefs-about-photography-and-teaching",
+      "pb-058-cwynar-object-lesson",
+      "pb-059-cyr-limitation-routine-and-repetition",
+      "pb-061-defibaugh-beautiful-from-nothing",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-072-duffy-exercises-in-photography",
+      "pb-073-ebner-seeing-more-flatly",
+      "pb-078-estrin-the-basics",
+      "pb-080-ezawa-make-a-photograph",
+      "pb-088-fitch-feedback-loop",
+      "pb-093-frame-la-dolce-vita",
+      "pb-097-georgiou-stop-and-return",
+      "pb-103-gottlund-inside-out",
+      "pb-104-grannan-discomfort",
+      "pb-111-harper-the-body-as-a-site-of-perception",
+      "pb-118-hewitt-the-replica-and-its-mutation",
+      "pb-123-homma-the-boundaries-of-imitation",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-128-ivis-twenty-four-hours",
+      "pb-130-jakschik-follow-your-heart",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-141-kereszi-all-things-large-and-small",
+      "pb-143-kessmann-ninety-nine-pictures",
+      "pb-145-kinsman-solargraphy",
+      "pb-147-klein-what-is-a-photograph",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-152-ladd-insecurity",
+      "pb-153-lambrou-arms-length",
+      "pb-156-la-spina-24-24-24",
+      "pb-158-lehr-the-envelope-project",
+      "pb-164-malasauskas-assignment",
+      "pb-165-maloney-disrupting-the-process",
+      "pb-167-marcoci-the-logic-of-photography",
+      "pb-169-martin-reading-the-tea-leaves",
+      "pb-170-mater-a-beautiful-mistake",
+      "pb-176-meeks-complete-surrender",
+      "pb-178-meister-on-close-inspection",
+      "pb-184-morley-tell-me-a-story",
+      "pb-197-novak-sketching-for-computer-based-projects",
+      "pb-198-ogden-natural-vs-artificial",
+      "pb-201-osterman-book-as",
+      "pb-202-otoole-scale",
+      "pb-203-ou-photograph-something-invisible",
+      "pb-204-paglen-imaging-systems",
+      "pb-211-phelps-photograph-in-context",
+      "pb-215-plademunt-manual-to-make-a-good-photographic-project-part-one",
+      "pb-217-powell-six-street-exercises",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-244-schneider-interpreting-light",
+      "pb-246-schwabsky-an-exercise-in-photography",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-256-slota-four-pieces",
+      "pb-276-thall-pictures-within-pictures",
+      "pb-279-traub-the-don-ts",
+      "pb-305-xoubanova-manual-to-make-a-good-photographic-project-part-two"
+    ]
+  },
+  "Project": {
+    "printedPages": [
+      54,
+      142,
+      154,
+      233,
+      271
+    ],
+    "assignments": [
+      "pb-044-catanese-the-arrangement-game",
+      "pb-114-hassink-depicting-consumption",
+      "pb-125-hurn-giving-the-mundane-its-beautiful-due",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-214-pilson-shameless"
+    ]
+  },
+  "Props": {
+    "printedPages": [
+      61,
+      72,
+      114,
+      235,
+      257,
+      283,
+      304,
+      313,
+      358
+    ],
+    "assignments": [
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-058-cwynar-object-lesson",
+      "pb-092-fox-staging-the-real",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-201-osterman-book-as",
+      "pb-223-records-out-of-your-head",
+      "pb-240-schiek-dead-end-scenario",
+      "pb-249-shank-one-hour-photo-project",
+      "pb-287-verene-the-intimate-portrait"
+    ]
+  },
+  "Psychology": {
+    "printedPages": [
+      7,
+      11,
+      12,
+      15,
+      17,
+      25,
+      41,
+      61,
+      75,
+      97,
+      103,
+      108,
+      123,
+      144,
+      148,
+      165,
+      200,
+      244,
+      264,
+      269,
+      276,
+      277,
+      309,
+      322,
+      333,
+      344,
+      366
+    ],
+    "assignments": [
+      "pb-006-armstrong-auras",
+      "pb-009-baart-my-uncle",
+      "pb-010-badger-what-cannot-be-seen",
+      "pb-012-ballen-inside-out",
+      "pb-014-barnes-collaborating-across-disciplines",
+      "pb-022-blalock-audience",
+      "pb-033-butler-two-approaches",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-060-davis-dont-do-anything-subversive",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-082-falls-death",
+      "pb-086-finke-trust-the-gut",
+      "pb-099-gilden-photograph-who-you-are",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-119-hewitt-image-construction",
+      "pb-132-johnston-the-empowered-portrait",
+      "pb-161-lipper-alter-ego",
+      "pb-192-nixon-flirtation",
+      "pb-207-parlato-hibernation",
+      "pb-212-phillips-imagine-a-country",
+      "pb-218-pratt-shared-history",
+      "pb-219-pushinsky-the-human-condition",
+      "pb-245-schuman-nostalgia",
+      "pb-257-smithson-words-and-ideas",
+      "pb-268-sullivan-prison-break",
+      "pb-277-thomas-dear-me",
+      "pb-292-webb-triggering-town"
+    ]
+  },
+  "Quantity": {
+    "printedPages": [
+      45,
+      49,
+      52,
+      56,
+      73,
+      136,
+      158,
+      177,
+      183,
+      193,
+      214,
+      229,
+      232,
+      272,
+      314,
+      315,
+      320,
+      381
+    ],
+    "assignments": [
+      "pb-036-campany-what-to-photograph",
+      "pb-039-carroll-chicken",
+      "pb-042-carucci-a-thousand-pictures",
+      "pb-046-chaplin-lessons-learned-from-a-failed-attempt",
+      "pb-059-cyr-limitation-routine-and-repetition",
+      "pb-108-hamada-grocery-list",
+      "pb-127-ingram-roll-a-day",
+      "pb-143-kessmann-ninety-nine-pictures",
+      "pb-148-klett-daily-practice",
+      "pb-156-la-spina-24-24-24",
+      "pb-171-mayes-youre-a-publisher-now",
+      "pb-182-modica-weekend-portraiture",
+      "pb-184-morley-tell-me-a-story",
+      "pb-215-plademunt-manual-to-make-a-good-photographic-project-part-one",
+      "pb-250-shapton-doing-laps",
+      "pb-251-shaw-create-an-image-virus",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-305-xoubanova-manual-to-make-a-good-photographic-project-part-two"
+    ]
+  },
+  "Questioning": {
+    "printedPages": [
+      20,
+      26,
+      57,
+      110,
+      161,
+      170,
+      171,
+      209,
+      210,
+      242,
+      291,
+      301,
+      307,
+      310,
+      322,
+      333,
+      379
+    ],
+    "assignments": [
+      "pb-017-behrend-the-coal-thieves",
+      "pb-023-bonajo-perspective",
+      "pb-047-chiara-taking-stock",
+      "pb-088-fitch-feedback-loop",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-136-kashi-be-passionate",
+      "pb-137-keegan-questions-for-the-archivist",
+      "pb-166-mandel-research-and-invention",
+      "pb-167-marcoci-the-logic-of-photography",
+      "pb-190-natal-no-answers-allowed",
+      "pb-229-ritchin-the-meta-photographer",
+      "pb-238-scheeren-secrets-and-obstacles",
+      "pb-243-schmid-in-praise-of-confusion",
+      "pb-246-schwabsky-an-exercise-in-photography",
+      "pb-257-smithson-words-and-ideas",
+      "pb-268-sullivan-prison-break",
+      "pb-304-wolff-notes-to-self"
+    ]
+  },
+  "Reading": {
+    "printedPages": [
+      59,
+      91,
+      117,
+      164,
+      185,
+      227,
+      249,
+      250,
+      277,
+      289,
+      311,
+      325,
+      334,
+      346
+    ],
+    "assignments": [
+      "pb-049-conner-rules-for-students-in-introduction-to-photography",
+      "pb-073-ebner-seeing-more-flatly",
+      "pb-094-frazier-metaphor-and-meaning",
+      "pb-131-johnson-your-own-invisible-city",
+      "pb-150-kulok-learning-to-act",
+      "pb-180-mickey-adventures-in-the-skin-trade",
+      "pb-195-nordstrom-the-emigrants",
+      "pb-196-northrup-skipreading",
+      "pb-219-pushinsky-the-human-condition",
+      "pb-227-rice-inspired-by-arnheim",
+      "pb-247-sealy-forget-berger-and-read-fanon",
+      "pb-260-southam-site-excavation",
+      "pb-269-sultan-as-remembered-by-kelly-sultan",
+      "pb-278-tonnard-the-death-of-the-photographer"
+    ]
+  },
+  "Reality": {
+    "printedPages": [
+      8,
+      84,
+      104,
+      114,
+      378
+    ],
+    "assignments": [
+      "pb-007-ashkin-revealing-an-enigma",
+      "pb-067-dicorcia-something-real",
+      "pb-083-feininger-the-real-nature-of-space",
+      "pb-092-fox-staging-the-real",
+      "pb-303-wolf-real-and-possible"
+    ]
+  },
+  "Recipe": {
+    "printedPages": [
+      53
+    ],
+    "assignments": [
+      "pb-043-cases-spanish-recipe"
+    ]
+  },
+  "Reflection": {
+    "printedPages": [
+      4,
+      18,
+      57,
+      97,
+      175,
+      180,
+      228,
+      239,
+      293,
+      306,
+      344
+    ],
+    "assignments": [
+      "pb-003-adams-find-your-reflection",
+      "pb-015-barney-slow-down",
+      "pb-047-chiara-taking-stock",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-141-kereszi-all-things-large-and-small",
+      "pb-146-kippenberger-excerpt-from-an-interview-in-starship-magazine",
+      "pb-181-moakley-begin-at-the-beginning",
+      "pb-189-nakadate-time-capsule",
+      "pb-231-roma-what-matters",
+      "pb-242-schmelling-preconceived-notions",
+      "pb-277-thomas-dear-me"
+    ]
+  },
+  "Relationship": {
+    "printedPages": [
+      11,
+      12,
+      25,
+      55,
+      61,
+      66,
+      72,
+      97,
+      131,
+      144,
+      167,
+      170,
+      191,
+      229,
+      255,
+      281,
+      287,
+      293,
+      300,
+      331,
+      348,
+      356,
+      358,
+      366,
+      367
+    ],
+    "assignments": [
+      "pb-009-baart-my-uncle",
+      "pb-010-badger-what-cannot-be-seen",
+      "pb-022-blalock-audience",
+      "pb-045-ceschel-shooting-happiness",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-054-cowin-beautiful",
+      "pb-058-cwynar-object-lesson",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-105-gregory-find-a-space-make-a-show",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-134-july-mother-s-nightmare",
+      "pb-136-kashi-be-passionate",
+      "pb-154-lampert-shoot-me",
+      "pb-182-modica-weekend-portraiture",
+      "pb-199-onorato-krebs-the-white-mouse",
+      "pb-221-reas-expanded-cinema",
+      "pb-225-renaldi-turning-the-tables",
+      "pb-231-roma-what-matters",
+      "pb-237-schechter-unintended-consequences",
+      "pb-266-sturges-what-is-simply-true",
+      "pb-280-tucker-lessons-for-a-curator",
+      "pb-285-van-manen-blending-in",
+      "pb-287-verene-the-intimate-portrait",
+      "pb-292-webb-triggering-town",
+      "pb-293-weber-empathy-and-a-full-stomach"
+    ]
+  },
+  "Repetition": {
+    "printedPages": [
+      3,
+      22,
+      48,
+      52,
+      73,
+      121,
+      161,
+      167,
+      177,
+      183,
+      195,
+      211,
+      213,
+      274,
+      281,
+      285,
+      298,
+      312,
+      314,
+      315,
+      341,
+      358
+    ],
+    "assignments": [
+      "pb-002-abeles-watching-the-moon",
+      "pb-019-bell-points-of-intersection",
+      "pb-038-carrier-five-obstructions",
+      "pb-042-carucci-a-thousand-pictures",
+      "pb-059-cyr-limitation-routine-and-repetition",
+      "pb-097-georgiou-stop-and-return",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-134-july-mother-s-nightmare",
+      "pb-143-kessmann-ninety-nine-pictures",
+      "pb-148-klett-daily-practice",
+      "pb-158-lehr-the-envelope-project",
+      "pb-168-marcopoulos-daily-destination",
+      "pb-170-mater-a-beautiful-mistake",
+      "pb-217-powell-six-street-exercises",
+      "pb-221-reas-expanded-cinema",
+      "pb-224-reinfurt-wonder-what-to-do-in-it",
+      "pb-235-sanguinetti-something-out-of-nothing",
+      "pb-248-shafran-thoughts",
+      "pb-250-shapton-doing-laps",
+      "pb-251-shaw-create-an-image-virus",
+      "pb-275-terry-composing-in-color",
+      "pb-287-verene-the-intimate-portrait"
+    ]
+  },
+  "Research": {
+    "printedPages": [
+      57,
+      60,
+      102,
+      105,
+      154,
+      170,
+      209,
+      224,
+      233,
+      256,
+      262,
+      263,
+      268,
+      289,
+      290,
+      325,
+      334,
+      365,
+      372,
+      377
+    ],
+    "assignments": [
+      "pb-047-chiara-taking-stock",
+      "pb-050-connor-visual-source-binder",
+      "pb-081-faldt-kallstrom-now-in-relation-to-the-past",
+      "pb-084-fessler-mock-proposal",
+      "pb-125-hurn-giving-the-mundane-its-beautiful-due",
+      "pb-136-kashi-be-passionate",
+      "pb-166-mandel-research-and-invention",
+      "pb-178-meister-on-close-inspection",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-205-palacio-blue-velvet",
+      "pb-206-palmer-flea-market",
+      "pb-211-phelps-photograph-in-context",
+      "pb-227-rice-inspired-by-arnheim",
+      "pb-228-rickard-editing-is-everything",
+      "pb-260-southam-site-excavation",
+      "pb-269-sultan-as-remembered-by-kelly-sultan",
+      "pb-291-wassinklundgren-chinese-whispers",
+      "pb-298-white-the-american-road-trip-the-ultimate-one-day-experience",
+      "pb-302-wiseman-chance-luck-and-good-judgment"
+    ]
+  },
+  "Resources": {
+    "printedPages": [
+      60,
+      171,
+      304,
+      335,
+      372,
+      376
+    ],
+    "assignments": [
+      "pb-050-connor-visual-source-binder",
+      "pb-137-keegan-questions-for-the-archivist",
+      "pb-240-schiek-dead-end-scenario",
+      "pb-270-sutherland-photography-through-filmmaking",
+      "pb-298-white-the-american-road-trip-the-ultimate-one-day-experience",
+      "pb-301-winokur-odd-assignment"
+    ]
+  },
+  "Rhythm": {
+    "printedPages": [
+      109,
+      221,
+      265,
+      282
+    ],
+    "assignments": [
+      "pb-087-fisher-visualizing-poetry",
+      "pb-176-meeks-complete-surrender",
+      "pb-208-patton-sequential-or-serial",
+      "pb-222-reas-the-discipline-of-music"
+    ]
+  },
+  "Risk": {
+    "printedPages": [
+      20,
+      21,
+      27,
+      35,
+      41,
+      67,
+      78,
+      83,
+      89,
+      111,
+      130,
+      137,
+      144,
+      178,
+      191,
+      227,
+      235,
+      244,
+      293,
+      295,
+      304,
+      328,
+      333,
+      335,
+      361,
+      368
+    ],
+    "assignments": [
+      "pb-017-behrend-the-coal-thieves",
+      "pb-018-bell-failing-to-succeed",
+      "pb-024-boot-a-test",
+      "pb-030-brown-rockaway-beach",
+      "pb-033-butler-two-approaches",
+      "pb-055-cox-a-dozen-to-gnaw-on",
+      "pb-063-delaney-the-self-portrait",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-072-duffy-exercises-in-photography",
+      "pb-089-fleming-ventriloquism",
+      "pb-104-grannan-discomfort",
+      "pb-109-hampton-being-there",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-144-killip-sustainability",
+      "pb-154-lampert-shoot-me",
+      "pb-180-mickey-adventures-in-the-skin-trade",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-192-nixon-flirtation",
+      "pb-231-roma-what-matters",
+      "pb-233-rubin-one-hundred-dollars",
+      "pb-240-schiek-dead-end-scenario",
+      "pb-263-steinmetz-photograph-somewhere-you-are-very-uncomfortable",
+      "pb-268-sullivan-prison-break",
+      "pb-270-sutherland-photography-through-filmmaking",
+      "pb-288-visser-white-walls",
+      "pb-294-weegee-from-the-candid-recordings-audio-series-famous-photographers-tell-how-1958"
+    ]
+  },
+  "Road trip": {
+    "printedPages": [
+      34,
+      283,
+      320,
+      372
+    ],
+    "assignments": [
+      "pb-029-brouws-our-relationship-to-the-windshield",
+      "pb-223-records-out-of-your-head",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-298-white-the-american-road-trip-the-ultimate-one-day-experience"
+    ]
+  },
+  "Romance": {
+    "printedPages": [
+      3,
+      61,
+      126,
+      163,
+      176,
+      205,
+      244,
+      305,
+      364
+    ],
+    "assignments": [
+      "pb-002-abeles-watching-the-moon",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-130-jakschik-follow-your-heart",
+      "pb-142-kessels-hot-or-not",
+      "pb-163-maddock-small-ideas",
+      "pb-192-nixon-flirtation",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-290-walker-its-all-about-love"
+    ]
+  },
+  "Romantic": {
+    "printedPages": [
+      293,
+      309,
+      316
+    ],
+    "assignments": [
+      "pb-231-roma-what-matters",
+      "pb-245-schuman-nostalgia",
+      "pb-252-shimabuku-see-what-is-happening"
+    ]
+  },
+  "Rules": {
+    "printedPages": [
+      5,
+      49,
+      59,
+      70,
+      126,
+      213,
+      314,
+      343,
+      384
+    ],
+    "assignments": [
+      "pb-004-anderson-parameters",
+      "pb-039-carroll-chicken",
+      "pb-049-conner-rules-for-students-in-introduction-to-photography",
+      "pb-057-cuomo-sister-coritas-rules",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-170-mater-a-beautiful-mistake",
+      "pb-250-shapton-doing-laps",
+      "pb-276-thall-pictures-within-pictures",
+      "pb-307-young-u-turn-rule"
+    ]
+  },
+  "Scale": {
+    "printedPages": [
+      258,
+      325
+    ],
+    "assignments": [
+      "pb-202-otoole-scale",
+      "pb-260-southam-site-excavation"
+    ]
+  },
+  "Scavenger hunt": {
+    "printedPages": [
+      45,
+      150,
+      237
+    ],
+    "assignments": [
+      "pb-036-campany-what-to-photograph",
+      "pb-121-hill-scavenger-hunt",
+      "pb-188-murphy-notable-intersections"
+    ]
+  },
+  "Science": {
+    "printedPages": [
+      14,
+      17,
+      51,
+      61,
+      104,
+      110,
+      179,
+      194,
+      209,
+      261,
+      376
+    ],
+    "assignments": [
+      "pb-011-baldessari-assignment-96",
+      "pb-014-barnes-collaborating-across-disciplines",
+      "pb-041-cartier-bresson-from-the-images-of-man-audiovisual-series-the-decisive-moment-henri-cartier-bresson-1973",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-083-feininger-the-real-nature-of-space",
+      "pb-088-fitch-feedback-loop",
+      "pb-145-kinsman-solargraphy",
+      "pb-157-lazarus-impossible-pictures",
+      "pb-166-mandel-research-and-invention",
+      "pb-204-paglen-imaging-systems",
+      "pb-301-winokur-odd-assignment"
+    ]
+  },
+  "Sculpture": {
+    "printedPages": [
+      47,
+      147,
+      181,
+      257,
+      310,
+      330
+    ],
+    "assignments": [
+      "pb-037-carlsen-photography-as-sculpture",
+      "pb-118-hewitt-the-replica-and-its-mutation",
+      "pb-147-klein-what-is-a-photograph",
+      "pb-201-osterman-book-as",
+      "pb-246-schwabsky-an-exercise-in-photography",
+      "pb-265-stuke-sieber-teaching-antifoto"
+    ]
+  },
+  "Secret": {
+    "printedPages": [
+      6,
+      33,
+      205,
+      301
+    ],
+    "assignments": [
+      "pb-005-arbus-not-necessarily-to-be-taken-literally",
+      "pb-028-broomberg-chanarin-alias-an-exercise-for-five-students-or-more",
+      "pb-163-maddock-small-ideas",
+      "pb-238-scheeren-secrets-and-obstacles"
+    ]
+  },
+  "Self-portrait": {
+    "printedPages": [
+      7,
+      39,
+      78,
+      97,
+      123,
+      165,
+      176,
+      235,
+      287,
+      299,
+      316,
+      322,
+      369
+    ],
+    "assignments": [
+      "pb-006-armstrong-auras",
+      "pb-031-brown-the-last-seven-pictures",
+      "pb-063-delaney-the-self-portrait",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-099-gilden-photograph-who-you-are",
+      "pb-132-johnston-the-empowered-portrait",
+      "pb-142-kessels-hot-or-not",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-225-renaldi-turning-the-tables",
+      "pb-236-saville-shadow-diary",
+      "pb-252-shimabuku-see-what-is-happening",
+      "pb-257-smithson-words-and-ideas",
+      "pb-295-wei-hotel-self-portrait"
+    ]
+  },
+  "Sensory": {
+    "printedPages": [
+      107,
+      207,
+      235,
+      301,
+      341
+    ],
+    "assignments": [
+      "pb-085-fink-photographing-atmosphere",
+      "pb-165-maloney-disrupting-the-process",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-238-scheeren-secrets-and-obstacles",
+      "pb-275-terry-composing-in-color"
+    ]
+  },
+  "Sequence": {
+    "printedPages": [
+      9,
+      91,
+      151,
+      164,
+      186,
+      201,
+      212,
+      223,
+      232,
+      250,
+      262,
+      265,
+      281,
+      290,
+      291,
+      299,
+      300,
+      348,
+      352,
+      374
+    ],
+    "assignments": [
+      "pb-008-atwood-storytelling-with-pictures",
+      "pb-073-ebner-seeing-more-flatly",
+      "pb-122-himes-sequencing-and-bookmaking",
+      "pb-131-johnson-your-own-invisible-city",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-162-lyons-sequence-and-series",
+      "pb-169-martin-reading-the-tea-leaves",
+      "pb-177-meiselas-alphabetography",
+      "pb-184-morley-tell-me-a-story",
+      "pb-196-northrup-skipreading",
+      "pb-205-palacio-blue-velvet",
+      "pb-208-patton-sequential-or-serial",
+      "pb-221-reas-expanded-cinema",
+      "pb-228-rickard-editing-is-everything",
+      "pb-229-ritchin-the-meta-photographer",
+      "pb-236-saville-shadow-diary",
+      "pb-237-schechter-unintended-consequences",
+      "pb-280-tucker-lessons-for-a-curator",
+      "pb-283-umbrico-an-exercise-in-travel-choice-narrative-contingency-and-eisensteins-idea-of-collision-versus-collusion",
+      "pb-299-willing-rhythm-and-melody"
+    ]
+  },
+  "Sex": {
+    "printedPages": [
+      55,
+      84,
+      124,
+      176,
+      244
+    ],
+    "assignments": [
+      "pb-045-ceschel-shooting-happiness",
+      "pb-067-dicorcia-something-real",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-142-kessels-hot-or-not",
+      "pb-192-nixon-flirtation"
+    ]
+  },
+  "Shadow": {
+    "printedPages": [
+      76,
+      173,
+      223,
+      230,
+      254,
+      308
+    ],
+    "assignments": [
+      "pb-061-defibaugh-beautiful-from-nothing",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-177-meiselas-alphabetography",
+      "pb-183-moore-shadows-and-stories",
+      "pb-198-ogden-natural-vs-artificial",
+      "pb-244-schneider-interpreting-light"
+    ]
+  },
+  "Slowing down": {
+    "printedPages": [
+      18,
+      34,
+      57,
+      159,
+      221,
+      239,
+      264,
+      334,
+      356,
+      369,
+      371,
+      379
+    ],
+    "assignments": [
+      "pb-015-barney-slow-down",
+      "pb-029-brouws-our-relationship-to-the-windshield",
+      "pb-047-chiara-taking-stock",
+      "pb-128-ivis-twenty-four-hours",
+      "pb-176-meeks-complete-surrender",
+      "pb-189-nakadate-time-capsule",
+      "pb-207-parlato-hibernation",
+      "pb-269-sultan-as-remembered-by-kelly-sultan",
+      "pb-285-van-manen-blending-in",
+      "pb-295-wei-hotel-self-portrait",
+      "pb-297-white-the-entirety-of-a-problem",
+      "pb-304-wolff-notes-to-self"
+    ]
+  },
+  "Snapshot": {
+    "printedPages": [
+      51,
+      146
+    ],
+    "assignments": [
+      "pb-041-cartier-bresson-from-the-images-of-man-audiovisual-series-the-decisive-moment-henri-cartier-bresson-1973",
+      "pb-117-heiferman-family-trees"
+    ]
+  },
+  "Social media": {
+    "printedPages": [
+      176,
+      214,
+      287,
+      291,
+      330
+    ],
+    "assignments": [
+      "pb-142-kessels-hot-or-not",
+      "pb-171-mayes-youre-a-publisher-now",
+      "pb-225-renaldi-turning-the-tables",
+      "pb-229-ritchin-the-meta-photographer",
+      "pb-265-stuke-sieber-teaching-antifoto"
+    ]
+  },
+  "Social practice": {
+    "printedPages": [
+      43,
+      61,
+      83,
+      112,
+      165,
+      184,
+      226,
+      276,
+      291,
+      295,
+      368
+    ],
+    "assignments": [
+      "pb-034-calisch-offer-your-services",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-090-fletcher-through-a-childs-eyes",
+      "pb-132-johnston-the-empowered-portrait",
+      "pb-149-knight-confronting-expectations",
+      "pb-179-menjivar-local-news",
+      "pb-218-pratt-shared-history",
+      "pb-229-ritchin-the-meta-photographer",
+      "pb-233-rubin-one-hundred-dollars",
+      "pb-294-weegee-from-the-candid-recordings-audio-series-famous-photographers-tell-how-1958"
+    ]
+  },
+  "Space": {
+    "printedPages": [
+      104,
+      107,
+      121,
+      138,
+      153,
+      161,
+      173,
+      194,
+      251,
+      285,
+      343,
+      361
+    ],
+    "assignments": [
+      "pb-083-feininger-the-real-nature-of-space",
+      "pb-085-fink-photographing-atmosphere",
+      "pb-097-georgiou-stop-and-return",
+      "pb-110-harbutt-the-spaceship",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-157-lazarus-impossible-pictures",
+      "pb-197-novak-sketching-for-computer-based-projects",
+      "pb-224-reinfurt-wonder-what-to-do-in-it",
+      "pb-276-thall-pictures-within-pictures",
+      "pb-288-visser-white-walls"
+    ]
+  },
+  "Still life": {
+    "printedPages": [
+      72,
+      76,
+      85,
+      95,
+      198,
+      313
+    ],
+    "assignments": [
+      "pb-058-cwynar-object-lesson",
+      "pb-061-defibaugh-beautiful-from-nothing",
+      "pb-068-diederix-extract-the-magic",
+      "pb-076-engman-practicing-fashion-photography",
+      "pb-160-letinsky-still-life",
+      "pb-249-shank-one-hour-photo-project"
+    ]
+  },
+  "Strangers": {
+    "printedPages": [
+      4,
+      27,
+      35,
+      43,
+      49,
+      61,
+      83,
+      92,
+      125,
+      144,
+      149,
+      159,
+      176,
+      190,
+      191,
+      226,
+      229,
+      244,
+      274,
+      287,
+      316,
+      328,
+      347,
+      356,
+      361,
+      367,
+      368
+    ],
+    "assignments": [
+      "pb-003-adams-find-your-reflection",
+      "pb-024-boot-a-test",
+      "pb-030-brown-rockaway-beach",
+      "pb-034-calisch-offer-your-services",
+      "pb-039-carroll-chicken",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-074-elkins-two-challenges",
+      "pb-101-gordon-three-assignments-and-a-thought",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-120-hido-expose-yourself",
+      "pb-128-ivis-twenty-four-hours",
+      "pb-142-kessels-hot-or-not",
+      "pb-153-lambrou-arms-length",
+      "pb-154-lampert-shoot-me",
+      "pb-179-menjivar-local-news",
+      "pb-182-modica-weekend-portraiture",
+      "pb-192-nixon-flirtation",
+      "pb-217-powell-six-street-exercises",
+      "pb-225-renaldi-turning-the-tables",
+      "pb-252-shimabuku-see-what-is-happening",
+      "pb-263-steinmetz-photograph-somewhere-you-are-very-uncomfortable",
+      "pb-279-traub-the-don-ts",
+      "pb-285-van-manen-blending-in",
+      "pb-288-visser-white-walls",
+      "pb-293-weber-empathy-and-a-full-stomach",
+      "pb-294-weegee-from-the-candid-recordings-audio-series-famous-photographers-tell-how-1958"
+    ]
+  },
+  "Street": {
+    "printedPages": [
+      22,
+      23,
+      27,
+      34,
+      53,
+      61,
+      63,
+      91,
+      92,
+      121,
+      142,
+      173,
+      186,
+      190,
+      205,
+      219,
+      226,
+      229,
+      274,
+      287,
+      294,
+      298,
+      328,
+      341,
+      343,
+      366,
+      368,
+      372
+    ],
+    "assignments": [
+      "pb-019-bell-points-of-intersection",
+      "pb-020-benning-an-assignment",
+      "pb-024-boot-a-test",
+      "pb-029-brouws-our-relationship-to-the-windshield",
+      "pb-043-cases-spanish-recipe",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-052-cost-drones",
+      "pb-073-ebner-seeing-more-flatly",
+      "pb-074-elkins-two-challenges",
+      "pb-097-georgiou-stop-and-return",
+      "pb-114-hassink-depicting-consumption",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-153-lambrou-arms-length",
+      "pb-163-maddock-small-ideas",
+      "pb-175-mcphee-getting-lost",
+      "pb-179-menjivar-local-news",
+      "pb-182-modica-weekend-portraiture",
+      "pb-217-powell-six-street-exercises",
+      "pb-225-renaldi-turning-the-tables",
+      "pb-232-rome-street-or-setup",
+      "pb-235-sanguinetti-something-out-of-nothing",
+      "pb-263-steinmetz-photograph-somewhere-you-are-very-uncomfortable",
+      "pb-275-terry-composing-in-color",
+      "pb-276-thall-pictures-within-pictures",
+      "pb-292-webb-triggering-town",
+      "pb-294-weegee-from-the-candid-recordings-audio-series-famous-photographers-tell-how-1958",
+      "pb-298-white-the-american-road-trip-the-ultimate-one-day-experience"
+    ]
+  },
+  "Studio": {
+    "printedPages": [
+      47,
+      49,
+      76,
+      85,
+      185,
+      197,
+      254,
+      285,
+      294,
+      313,
+      330,
+      358,
+      361
+    ],
+    "assignments": [
+      "pb-037-carlsen-photography-as-sculpture",
+      "pb-039-carroll-chicken",
+      "pb-061-defibaugh-beautiful-from-nothing",
+      "pb-068-diederix-extract-the-magic",
+      "pb-150-kulok-learning-to-act",
+      "pb-159-leiter-as-remembered-by-jason-fulford",
+      "pb-198-ogden-natural-vs-artificial",
+      "pb-224-reinfurt-wonder-what-to-do-in-it",
+      "pb-232-rome-street-or-setup",
+      "pb-249-shank-one-hour-photo-project",
+      "pb-265-stuke-sieber-teaching-antifoto",
+      "pb-287-verene-the-intimate-portrait",
+      "pb-288-visser-white-walls"
+    ]
+  },
+  "Subconscious": {
+    "printedPages": [
+      97,
+      141,
+      148,
+      193,
+      250,
+      341
+    ],
+    "assignments": [
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-113-harvey-ideas-into-pictures-a-two-part-assignment",
+      "pb-119-hewitt-image-construction",
+      "pb-156-la-spina-24-24-24",
+      "pb-196-northrup-skipreading",
+      "pb-275-terry-composing-in-color"
+    ]
+  },
+  "Subject": {
+    "printedPages": [
+      51,
+      59,
+      66,
+      150,
+      161,
+      197,
+      210,
+      255,
+      283,
+      298,
+      314,
+      358,
+      368,
+      379
+    ],
+    "assignments": [
+      "pb-041-cartier-bresson-from-the-images-of-man-audiovisual-series-the-decisive-moment-henri-cartier-bresson-1973",
+      "pb-049-conner-rules-for-students-in-introduction-to-photography",
+      "pb-054-cowin-beautiful",
+      "pb-121-hill-scavenger-hunt",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-159-leiter-as-remembered-by-jason-fulford",
+      "pb-167-marcoci-the-logic-of-photography",
+      "pb-199-onorato-krebs-the-white-mouse",
+      "pb-223-records-out-of-your-head",
+      "pb-235-sanguinetti-something-out-of-nothing",
+      "pb-250-shapton-doing-laps",
+      "pb-287-verene-the-intimate-portrait",
+      "pb-294-weegee-from-the-candid-recordings-audio-series-famous-photographers-tell-how-1958",
+      "pb-304-wolff-notes-to-self"
+    ]
+  },
+  "Subversion": {
+    "printedPages": [
+      17,
+      75,
+      84,
+      113,
+      153,
+      212,
+      264,
+      271,
+      288,
+      311,
+      315,
+      321
+    ],
+    "assignments": [
+      "pb-014-barnes-collaborating-across-disciplines",
+      "pb-060-davis-dont-do-anything-subversive",
+      "pb-067-dicorcia-something-real",
+      "pb-091-foglia-make-it-seem",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-169-martin-reading-the-tea-leaves",
+      "pb-207-parlato-hibernation",
+      "pb-214-pilson-shameless",
+      "pb-226-ribas-a-state-of-transition-or-boiling-water",
+      "pb-247-sealy-forget-berger-and-read-fanon",
+      "pb-251-shaw-create-an-image-virus",
+      "pb-256-slota-four-pieces"
+    ]
+  },
+  "Success": {
+    "printedPages": [
+      84,
+      172,
+      180,
+      344,
+      362
+    ],
+    "assignments": [
+      "pb-067-dicorcia-something-real",
+      "pb-138-keeley-the-greatness-assignment",
+      "pb-146-kippenberger-excerpt-from-an-interview-in-starship-magazine",
+      "pb-277-thomas-dear-me",
+      "pb-289-vitali-mistakes"
+    ]
+  },
+  "Sun": {
+    "printedPages": [
+      93,
+      179,
+      266,
+      273,
+      299,
+      316
+    ],
+    "assignments": [
+      "pb-075-elmaleh-cyanotype-and-the-blue-world",
+      "pb-145-kinsman-solargraphy",
+      "pb-209-perkis-exercise-6-watching-light",
+      "pb-216-porter-from-the-images-of-man-audiovisual-series-mornings-of-creation-eliot-porter-1973",
+      "pb-236-saville-shadow-diary",
+      "pb-252-shimabuku-see-what-is-happening"
+    ]
+  },
+  "Surrealism": {
+    "printedPages": [
+      15,
+      167,
+      250,
+      296
+    ],
+    "assignments": [
+      "pb-012-ballen-inside-out",
+      "pb-134-july-mother-s-nightmare",
+      "pb-196-northrup-skipreading",
+      "pb-234-rudensky-clockwork-orange"
+    ]
+  },
+  "Taboo": {
+    "printedPages": [
+      144,
+      197,
+      293,
+      306,
+      309,
+      347
+    ],
+    "assignments": [
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-159-leiter-as-remembered-by-jason-fulford",
+      "pb-231-roma-what-matters",
+      "pb-242-schmelling-preconceived-notions",
+      "pb-245-schuman-nostalgia",
+      "pb-279-traub-the-don-ts"
+    ]
+  },
+  "Tacos": {
+    "printedPages": [
+      150
+    ],
+    "assignments": [
+      "pb-121-hill-scavenger-hunt"
+    ]
+  },
+  "Tea": {
+    "printedPages": [
+      136,
+      212
+    ],
+    "assignments": [
+      "pb-108-hamada-grocery-list",
+      "pb-169-martin-reading-the-tea-leaves"
+    ]
+  },
+  "Technical": {
+    "printedPages": [
+      76,
+      321
+    ],
+    "assignments": [
+      "pb-061-defibaugh-beautiful-from-nothing",
+      "pb-256-slota-four-pieces"
+    ]
+  },
+  "Technology": {
+    "printedPages": [
+      63,
+      179,
+      261,
+      290
+    ],
+    "assignments": [
+      "pb-052-cost-drones",
+      "pb-145-kinsman-solargraphy",
+      "pb-204-paglen-imaging-systems",
+      "pb-228-rickard-editing-is-everything"
+    ]
+  },
+  "Theory": {
+    "printedPages": [
+      60,
+      104,
+      181,
+      210,
+      265,
+      309,
+      346
+    ],
+    "assignments": [
+      "pb-050-connor-visual-source-binder",
+      "pb-083-feininger-the-real-nature-of-space",
+      "pb-147-klein-what-is-a-photograph",
+      "pb-167-marcoci-the-logic-of-photography",
+      "pb-208-patton-sequential-or-serial",
+      "pb-245-schuman-nostalgia",
+      "pb-278-tonnard-the-death-of-the-photographer"
+    ]
+  },
+  "Time travel": {
+    "printedPages": [
+      138,
+      161,
+      239,
+      268,
+      292
+    ],
+    "assignments": [
+      "pb-110-harbutt-the-spaceship",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-189-nakadate-time-capsule",
+      "pb-211-phelps-photograph-in-context",
+      "pb-230-rogan-time-travel"
+    ]
+  },
+  "Timing": {
+    "printedPages": [
+      49,
+      221,
+      267,
+      273,
+      279
+    ],
+    "assignments": [
+      "pb-039-carroll-chicken",
+      "pb-176-meeks-complete-surrender",
+      "pb-210-pfahl-five-rules",
+      "pb-216-porter-from-the-images-of-man-audiovisual-series-mornings-of-creation-eliot-porter-1973",
+      "pb-220-qiao-missing-the-boat"
+    ]
+  },
+  "Tone": {
+    "printedPages": [
+      86,
+      109,
+      163
+    ],
+    "assignments": [
+      "pb-069-donovan-sound-photographs",
+      "pb-087-fisher-visualizing-poetry",
+      "pb-130-jakschik-follow-your-heart"
+    ]
+  },
+  "Travel": {
+    "printedPages": [
+      31,
+      53,
+      89,
+      118,
+      124,
+      138,
+      142,
+      149,
+      161,
+      219,
+      239,
+      283,
+      292,
+      302,
+      320,
+      347,
+      357,
+      369
+    ],
+    "assignments": [
+      "pb-027-bright-practical-advice",
+      "pb-043-cases-spanish-recipe",
+      "pb-072-duffy-exercises-in-photography",
+      "pb-095-frelin-the-excuse",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-110-harbutt-the-spaceship",
+      "pb-114-hassink-depicting-consumption",
+      "pb-120-hido-expose-yourself",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-175-mcphee-getting-lost",
+      "pb-189-nakadate-time-capsule",
+      "pb-223-records-out-of-your-head",
+      "pb-230-rogan-time-travel",
+      "pb-239-scheinbaum-crushed",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-279-traub-the-don-ts",
+      "pb-286-ventura-the-depths",
+      "pb-295-wei-hotel-self-portrait"
+    ]
+  },
+  "Trends": {
+    "printedPages": [
+      45,
+      292,
+      333,
+      383
+    ],
+    "assignments": [
+      "pb-036-campany-what-to-photograph",
+      "pb-230-rogan-time-travel",
+      "pb-268-sullivan-prison-break",
+      "pb-306-yeoman-keywords"
+    ]
+  },
+  "Truth": {
+    "printedPages": [
+      49,
+      113,
+      135,
+      166,
+      176,
+      200,
+      218,
+      226,
+      256,
+      270,
+      294,
+      330,
+      364,
+      378
+    ],
+    "assignments": [
+      "pb-039-carroll-chicken",
+      "pb-091-foglia-make-it-seem",
+      "pb-107-halpern-truth-or-dare",
+      "pb-133-jude-the-convincing-lie",
+      "pb-142-kessels-hot-or-not",
+      "pb-161-lipper-alter-ego",
+      "pb-174-mcfarland-create-an-event",
+      "pb-179-menjivar-local-news",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-213-pickering-the-camera-never-lies",
+      "pb-232-rome-street-or-setup",
+      "pb-265-stuke-sieber-teaching-antifoto",
+      "pb-290-walker-its-all-about-love",
+      "pb-303-wolf-real-and-possible"
+    ]
+  },
+  "Typology": {
+    "printedPages": [
+      73
+    ],
+    "assignments": [
+      "pb-059-cyr-limitation-routine-and-repetition"
+    ]
+  },
+  "Uncertainty": {
+    "printedPages": [
+      21,
+      26,
+      50,
+      130,
+      132,
+      144,
+      159,
+      178,
+      189,
+      218,
+      279,
+      306,
+      368,
+      377
+    ],
+    "assignments": [
+      "pb-018-bell-failing-to-succeed",
+      "pb-023-bonajo-perspective",
+      "pb-040-carter-garden-of-earthly-delights",
+      "pb-104-grannan-discomfort",
+      "pb-106-gremmen-based-on-a-conversation-which-took-place-in-amsterdam-in-september-2012-between-a-student-and-his-former-teacher",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-128-ivis-twenty-four-hours",
+      "pb-144-killip-sustainability",
+      "pb-152-ladd-insecurity",
+      "pb-174-mcfarland-create-an-event",
+      "pb-220-qiao-missing-the-boat",
+      "pb-242-schmelling-preconceived-notions",
+      "pb-294-weegee-from-the-candid-recordings-audio-series-famous-photographers-tell-how-1958",
+      "pb-302-wiseman-chance-luck-and-good-judgment"
+    ]
+  },
+  "Urban": {
+    "printedPages": [
+      22,
+      23,
+      142,
+      164,
+      173,
+      219,
+      230,
+      287,
+      343,
+      366
+    ],
+    "assignments": [
+      "pb-019-bell-points-of-intersection",
+      "pb-020-benning-an-assignment",
+      "pb-114-hassink-depicting-consumption",
+      "pb-131-johnson-your-own-invisible-city",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-175-mcphee-getting-lost",
+      "pb-183-moore-shadows-and-stories",
+      "pb-225-renaldi-turning-the-tables",
+      "pb-276-thall-pictures-within-pictures",
+      "pb-292-webb-triggering-town"
+    ]
+  },
+  "Video": {
+    "printedPages": [
+      116,
+      146,
+      335,
+      347,
+      375
+    ],
+    "assignments": [
+      "pb-093-frame-la-dolce-vita",
+      "pb-117-heiferman-family-trees",
+      "pb-270-sutherland-photography-through-filmmaking",
+      "pb-279-traub-the-don-ts",
+      "pb-300-winokur-expansive-and-deeper"
+    ]
+  },
+  "Viewpoint": {
+    "printedPages": [
+      15,
+      77,
+      83,
+      99,
+      167,
+      172,
+      184,
+      195,
+      197,
+      268,
+      273,
+      274,
+      276,
+      292,
+      310,
+      317
+    ],
+    "assignments": [
+      "pb-012-ballen-inside-out",
+      "pb-062-de-groot-devils-advocate",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-079-ewald-assignment-dreams",
+      "pb-134-july-mother-s-nightmare",
+      "pb-138-keeley-the-greatness-assignment",
+      "pb-149-knight-confronting-expectations",
+      "pb-158-lehr-the-envelope-project",
+      "pb-159-leiter-as-remembered-by-jason-fulford",
+      "pb-211-phelps-photograph-in-context",
+      "pb-216-porter-from-the-images-of-man-audiovisual-series-mornings-of-creation-eliot-porter-1973",
+      "pb-217-powell-six-street-exercises",
+      "pb-218-pratt-shared-history",
+      "pb-230-rogan-time-travel",
+      "pb-246-schwabsky-an-exercise-in-photography",
+      "pb-253-shore-intentionality"
+    ]
+  },
+  "Vision": {
+    "printedPages": [
+      22,
+      26,
+      34,
+      51,
+      66,
+      83,
+      91,
+      97,
+      111,
+      117,
+      165,
+      169,
+      189,
+      198,
+      282,
+      285,
+      305,
+      333,
+      340,
+      371
+    ],
+    "assignments": [
+      "pb-019-bell-points-of-intersection",
+      "pb-023-bonajo-perspective",
+      "pb-029-brouws-our-relationship-to-the-windshield",
+      "pb-041-cartier-bresson-from-the-images-of-man-audiovisual-series-the-decisive-moment-henri-cartier-bresson-1973",
+      "pb-054-cowin-beautiful",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-073-ebner-seeing-more-flatly",
+      "pb-077-ess-tell-us-something-about-yourself",
+      "pb-089-fleming-ventriloquism",
+      "pb-094-frazier-metaphor-and-meaning",
+      "pb-132-johnston-the-empowered-portrait",
+      "pb-135-kander-making-not-taking",
+      "pb-152-ladd-insecurity",
+      "pb-160-letinsky-still-life",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-224-reinfurt-wonder-what-to-do-in-it",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-268-sullivan-prison-break",
+      "pb-274-terpstra-photos-not-taken",
+      "pb-297-white-the-entirety-of-a-problem"
+    ]
+  },
+  "Voice": {
+    "printedPages": [
+      30,
+      33,
+      109,
+      111,
+      123,
+      150,
+      152,
+      163,
+      165,
+      169,
+      172,
+      184,
+      192,
+      232,
+      256,
+      264,
+      287,
+      305,
+      322,
+      333,
+      344,
+      368,
+      371
+    ],
+    "assignments": [
+      "pb-026-brandt-step-out-of-your-shoes",
+      "pb-028-broomberg-chanarin-alias-an-exercise-for-five-students-or-more",
+      "pb-087-fisher-visualizing-poetry",
+      "pb-089-fleming-ventriloquism",
+      "pb-099-gilden-photograph-who-you-are",
+      "pb-121-hill-scavenger-hunt",
+      "pb-123-homma-the-boundaries-of-imitation",
+      "pb-130-jakschik-follow-your-heart",
+      "pb-132-johnston-the-empowered-portrait",
+      "pb-135-kander-making-not-taking",
+      "pb-138-keeley-the-greatness-assignment",
+      "pb-149-knight-confronting-expectations",
+      "pb-155-lancaster-two-assignments",
+      "pb-184-morley-tell-me-a-story",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-207-parlato-hibernation",
+      "pb-225-renaldi-turning-the-tables",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-257-smithson-words-and-ideas",
+      "pb-268-sullivan-prison-break",
+      "pb-277-thomas-dear-me",
+      "pb-294-weegee-from-the-candid-recordings-audio-series-famous-photographers-tell-how-1958",
+      "pb-297-white-the-entirety-of-a-problem"
+    ]
+  },
+  "Walking": {
+    "printedPages": [
+      19,
+      22,
+      23,
+      34,
+      53,
+      56,
+      61,
+      161,
+      175,
+      211,
+      219,
+      274,
+      283,
+      320,
+      328
+    ],
+    "assignments": [
+      "pb-016-beasley-excerpts-from-vision-quest-assignment-cards",
+      "pb-019-bell-points-of-intersection",
+      "pb-020-benning-an-assignment",
+      "pb-029-brouws-our-relationship-to-the-windshield",
+      "pb-043-cases-spanish-recipe",
+      "pb-046-chaplin-lessons-learned-from-a-failed-attempt",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-141-kereszi-all-things-large-and-small",
+      "pb-168-marcopoulos-daily-destination",
+      "pb-175-mcphee-getting-lost",
+      "pb-217-powell-six-street-exercises",
+      "pb-223-records-out-of-your-head",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-263-steinmetz-photograph-somewhere-you-are-very-uncomfortable"
+    ]
+  },
+  "Water": {
+    "printedPages": [
+      6,
+      45,
+      107,
+      235,
+      288,
+      372
+    ],
+    "assignments": [
+      "pb-005-arbus-not-necessarily-to-be-taken-literally",
+      "pb-036-campany-what-to-photograph",
+      "pb-085-fink-photographing-atmosphere",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-226-ribas-a-state-of-transition-or-boiling-water",
+      "pb-298-white-the-american-road-trip-the-ultimate-one-day-experience"
+    ]
+  },
+  "Words": {
+    "printedPages": [
+      136,
+      148,
+      150,
+      243,
+      250,
+      352
+    ],
+    "assignments": [
+      "pb-108-hamada-grocery-list",
+      "pb-119-hewitt-image-construction",
+      "pb-121-hill-scavenger-hunt",
+      "pb-191-nelson-find-fifty-eight-names-tools-and-institutions-and-maybe-some-other-words-as-well",
+      "pb-196-northrup-skipreading",
+      "pb-283-umbrico-an-exercise-in-travel-choice-narrative-contingency-and-eisensteins-idea-of-collision-versus-collusion"
+    ]
+  },
+  "Working fast": {
+    "printedPages": [
+      138,
+      141,
+      193,
+      205,
+      313,
+      320
+    ],
+    "assignments": [
+      "pb-110-harbutt-the-spaceship",
+      "pb-113-harvey-ideas-into-pictures-a-two-part-assignment",
+      "pb-156-la-spina-24-24-24",
+      "pb-163-maddock-small-ideas",
+      "pb-249-shank-one-hour-photo-project",
+      "pb-255-slack-the-seven-minute-game"
+    ]
+  },
+  "Work-in-progress": {
+    "printedPages": [
+      54,
+      285
+    ],
+    "assignments": [
+      "pb-044-catanese-the-arrangement-game",
+      "pb-224-reinfurt-wonder-what-to-do-in-it"
+    ]
+  },
+  "Writing": {
+    "printedPages": [
+      17,
+      29,
+      40,
+      57,
+      58,
+      64,
+      78,
+      81,
+      83,
+      91,
+      99,
+      102,
+      141,
+      148,
+      174,
+      175,
+      219,
+      226,
+      264,
+      289,
+      299,
+      324,
+      336,
+      340,
+      346,
+      347,
+      349
+    ],
+    "assignments": [
+      "pb-014-barnes-collaborating-across-disciplines",
+      "pb-025-bouillis-olof-rejection-letter",
+      "pb-032-bunnell-assignment-two-from-twentieth-century-photography-seminar",
+      "pb-047-chiara-taking-stock",
+      "pb-048-colberg-letters-to-yourself",
+      "pb-053-cotton-how-to-make-ideas-better",
+      "pb-063-delaney-the-self-portrait",
+      "pb-065-de-rita-alphabet-of-assignments",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-073-ebner-seeing-more-flatly",
+      "pb-079-ewald-assignment-dreams",
+      "pb-081-faldt-kallstrom-now-in-relation-to-the-past",
+      "pb-113-harvey-ideas-into-pictures-a-two-part-assignment",
+      "pb-119-hewitt-image-construction",
+      "pb-140-kelsey-captions",
+      "pb-141-kereszi-all-things-large-and-small",
+      "pb-175-mcphee-getting-lost",
+      "pb-179-menjivar-local-news",
+      "pb-207-parlato-hibernation",
+      "pb-227-rice-inspired-by-arnheim",
+      "pb-236-saville-shadow-diary",
+      "pb-259-soth-words-and-photographs",
+      "pb-271-sutton-synesthesia",
+      "pb-274-terpstra-photos-not-taken",
+      "pb-278-tonnard-the-death-of-the-photographer",
+      "pb-279-traub-the-don-ts",
+      "pb-281-turyn-telephone-game"
+    ]
+  },
+  "Zen": {
+    "printedPages": [
+      23,
+      40,
+      92,
+      206,
+      378
+    ],
+    "assignments": [
+      "pb-020-benning-an-assignment",
+      "pb-032-bunnell-assignment-two-from-twentieth-century-photography-seminar",
+      "pb-074-elkins-two-challenges",
+      "pb-164-malasauskas-assignment",
+      "pb-303-wolf-real-and-possible"
+    ]
+  },
+  "Fun": {
+    "see": "Humor",
+    "printedPages": [],
+    "assignments": [
+      "pb-011-baldessari-assignment-96",
+      "pb-025-bouillis-olof-rejection-letter",
+      "pb-033-butler-two-approaches",
+      "pb-036-campany-what-to-photograph",
+      "pb-045-ceschel-shooting-happiness",
+      "pb-053-cotton-how-to-make-ideas-better",
+      "pb-060-davis-dont-do-anything-subversive",
+      "pb-065-de-rita-alphabet-of-assignments",
+      "pb-071-dubois-fits-and-starts",
+      "pb-072-duffy-exercises-in-photography",
+      "pb-076-engman-practicing-fashion-photography",
+      "pb-091-foglia-make-it-seem",
+      "pb-093-frame-la-dolce-vita",
+      "pb-095-frelin-the-excuse",
+      "pb-096-gearon-how-to-take-a-perfectly-fantastic-shot-in-less-than-five-minutes-or-a-masterpiece-in-a-couple-of-hours",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-104-grannan-discomfort",
+      "pb-108-hamada-grocery-list",
+      "pb-154-lampert-shoot-me",
+      "pb-159-leiter-as-remembered-by-jason-fulford",
+      "pb-163-maddock-small-ideas",
+      "pb-173-mccaw-feast-or-famine",
+      "pb-177-meiselas-alphabetography",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-191-nelson-find-fifty-eight-names-tools-and-institutions-and-maybe-some-other-words-as-well",
+      "pb-224-reinfurt-wonder-what-to-do-in-it",
+      "pb-233-rubin-one-hundred-dollars",
+      "pb-249-shank-one-hour-photo-project",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-281-turyn-telephone-game",
+      "pb-298-white-the-american-road-trip-the-ultimate-one-day-experience",
+      "pb-304-wolff-notes-to-self"
+    ]
+  },
+  "Life experience": {
+    "see": "Advice",
+    "printedPages": [],
+    "assignments": [
+      "pb-015-barney-slow-down",
+      "pb-017-behrend-the-coal-thieves",
+      "pb-018-bell-failing-to-succeed",
+      "pb-020-benning-an-assignment",
+      "pb-024-boot-a-test",
+      "pb-026-brandt-step-out-of-your-shoes",
+      "pb-027-bright-practical-advice",
+      "pb-030-brown-rockaway-beach",
+      "pb-031-brown-the-last-seven-pictures",
+      "pb-032-bunnell-assignment-two-from-twentieth-century-photography-seminar",
+      "pb-040-carter-garden-of-earthly-delights",
+      "pb-045-ceschel-shooting-happiness",
+      "pb-049-conner-rules-for-students-in-introduction-to-photography",
+      "pb-050-connor-visual-source-binder",
+      "pb-055-cox-a-dozen-to-gnaw-on",
+      "pb-057-cuomo-sister-coritas-rules",
+      "pb-067-dicorcia-something-real",
+      "pb-070-dow-blind-jury",
+      "pb-071-dubois-fits-and-starts",
+      "pb-078-estrin-the-basics",
+      "pb-082-falls-death",
+      "pb-084-fessler-mock-proposal",
+      "pb-086-finke-trust-the-gut",
+      "pb-093-frame-la-dolce-vita",
+      "pb-095-frelin-the-excuse",
+      "pb-099-gilden-photograph-who-you-are",
+      "pb-100-goldberg-conversation-with-gregory-halpern",
+      "pb-101-gordon-three-assignments-and-a-thought",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-103-gottlund-inside-out",
+      "pb-104-grannan-discomfort",
+      "pb-109-hampton-being-there",
+      "pb-111-harper-the-body-as-a-site-of-perception",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-117-heiferman-family-trees",
+      "pb-135-kander-making-not-taking",
+      "pb-136-kashi-be-passionate",
+      "pb-141-kereszi-all-things-large-and-small",
+      "pb-144-killip-sustainability",
+      "pb-146-kippenberger-excerpt-from-an-interview-in-starship-magazine",
+      "pb-150-kulok-learning-to-act",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-169-martin-reading-the-tea-leaves",
+      "pb-173-mccaw-feast-or-famine",
+      "pb-176-meeks-complete-surrender",
+      "pb-180-mickey-adventures-in-the-skin-trade",
+      "pb-181-moakley-begin-at-the-beginning",
+      "pb-189-nakadate-time-capsule",
+      "pb-194-nolan-on-john-szarkowski",
+      "pb-197-novak-sketching-for-computer-based-projects",
+      "pb-202-otoole-scale",
+      "pb-210-pfahl-five-rules",
+      "pb-214-pilson-shameless",
+      "pb-215-plademunt-manual-to-make-a-good-photographic-project-part-one",
+      "pb-216-porter-from-the-images-of-man-audiovisual-series-mornings-of-creation-eliot-porter-1973",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-233-rubin-one-hundred-dollars",
+      "pb-239-scheinbaum-crushed",
+      "pb-240-schiek-dead-end-scenario",
+      "pb-242-schmelling-preconceived-notions",
+      "pb-247-sealy-forget-berger-and-read-fanon",
+      "pb-248-shafran-thoughts",
+      "pb-253-shore-intentionality",
+      "pb-254-siskind-a-story-by-thomas-barrow",
+      "pb-257-smithson-words-and-ideas",
+      "pb-258-soren-advice",
+      "pb-262-steacy-float-like-a-butterfly",
+      "pb-263-steinmetz-photograph-somewhere-you-are-very-uncomfortable",
+      "pb-266-sturges-what-is-simply-true",
+      "pb-269-sultan-as-remembered-by-kelly-sultan",
+      "pb-273-taylor-a-topical-drinking-game",
+      "pb-277-thomas-dear-me",
+      "pb-286-ventura-the-depths",
+      "pb-290-walker-its-all-about-love",
+      "pb-293-weber-empathy-and-a-full-stomach",
+      "pb-294-weegee-from-the-candid-recordings-audio-series-famous-photographers-tell-how-1958",
+      "pb-301-winokur-odd-assignment",
+      "pb-302-wiseman-chance-luck-and-good-judgment",
+      "pb-304-wolff-notes-to-self",
+      "pb-305-xoubanova-manual-to-make-a-good-photographic-project-part-two",
+      "pb-307-young-u-turn-rule"
+    ]
+  },
+  "Location": {
+    "see": "Place",
+    "printedPages": [],
+    "assignments": [
+      "pb-019-bell-points-of-intersection",
+      "pb-020-benning-an-assignment",
+      "pb-027-bright-practical-advice",
+      "pb-029-brouws-our-relationship-to-the-windshield",
+      "pb-032-bunnell-assignment-two-from-twentieth-century-photography-seminar",
+      "pb-043-cases-spanish-recipe",
+      "pb-052-cost-drones",
+      "pb-074-elkins-two-challenges",
+      "pb-081-faldt-kallstrom-now-in-relation-to-the-past",
+      "pb-096-gearon-how-to-take-a-perfectly-fantastic-shot-in-less-than-five-minutes-or-a-masterpiece-in-a-couple-of-hours",
+      "pb-097-georgiou-stop-and-return",
+      "pb-105-gregory-find-a-space-make-a-show",
+      "pb-120-hido-expose-yourself",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-125-hurn-giving-the-mundane-its-beautiful-due",
+      "pb-129-jacobson-where-do-you-stand",
+      "pb-144-killip-sustainability",
+      "pb-154-lampert-shoot-me",
+      "pb-163-maddock-small-ideas",
+      "pb-166-mandel-research-and-invention",
+      "pb-175-mcphee-getting-lost",
+      "pb-183-moore-shadows-and-stories",
+      "pb-188-murphy-notable-intersections",
+      "pb-209-perkis-exercise-6-watching-light",
+      "pb-212-phillips-imagine-a-country",
+      "pb-216-porter-from-the-images-of-man-audiovisual-series-mornings-of-creation-eliot-porter-1973",
+      "pb-217-powell-six-street-exercises",
+      "pb-235-sanguinetti-something-out-of-nothing",
+      "pb-240-schiek-dead-end-scenario",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-263-steinmetz-photograph-somewhere-you-are-very-uncomfortable",
+      "pb-276-thall-pictures-within-pictures",
+      "pb-285-van-manen-blending-in",
+      "pb-292-webb-triggering-town",
+      "pb-295-wei-hotel-self-portrait"
+    ]
+  },
+  "Play": {
+    "see": "Games",
+    "printedPages": [],
+    "assignments": [
+      "pb-001-abbe-forgetting-the-game",
+      "pb-011-baldessari-assignment-96",
+      "pb-028-broomberg-chanarin-alias-an-exercise-for-five-students-or-more",
+      "pb-039-carroll-chicken",
+      "pb-044-catanese-the-arrangement-game",
+      "pb-046-chaplin-lessons-learned-from-a-failed-attempt",
+      "pb-048-colberg-letters-to-yourself",
+      "pb-053-cotton-how-to-make-ideas-better",
+      "pb-062-de-groot-devils-advocate",
+      "pb-072-duffy-exercises-in-photography",
+      "pb-102-gossage-assignment-to-be-completed-before-commencing-to-photograph",
+      "pb-110-harbutt-the-spaceship",
+      "pb-170-mater-a-beautiful-mistake",
+      "pb-177-meiselas-alphabetography",
+      "pb-183-moore-shadows-and-stories",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-186-mulligan-the-abatement-of-shame",
+      "pb-188-murphy-notable-intersections",
+      "pb-191-nelson-find-fifty-eight-names-tools-and-institutions-and-maybe-some-other-words-as-well",
+      "pb-221-reas-expanded-cinema",
+      "pb-223-records-out-of-your-head",
+      "pb-249-shank-one-hour-photo-project",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-256-slota-four-pieces",
+      "pb-273-taylor-a-topical-drinking-game",
+      "pb-281-turyn-telephone-game",
+      "pb-291-wassinklundgren-chinese-whispers"
+    ]
+  },
+  "Storytelling": {
+    "see": "Narrative",
+    "printedPages": [],
+    "assignments": [
+      "pb-008-atwood-storytelling-with-pictures",
+      "pb-017-behrend-the-coal-thieves",
+      "pb-030-brown-rockaway-beach",
+      "pb-031-brown-the-last-seven-pictures",
+      "pb-035-callanan-cameras-dont-take-pictures",
+      "pb-044-catanese-the-arrangement-game",
+      "pb-064-de-middel-the-de-middel-three-step-guide-to-photographic-storytelling",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-116-haviv-some-thoughts-about-making-images-in-the-chaos-of-conflict",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-131-johnson-your-own-invisible-city",
+      "pb-133-jude-the-convincing-lie",
+      "pb-134-july-mother-s-nightmare",
+      "pb-140-kelsey-captions",
+      "pb-143-kessmann-ninety-nine-pictures",
+      "pb-163-maddock-small-ideas",
+      "pb-169-martin-reading-the-tea-leaves",
+      "pb-174-mcfarland-create-an-event",
+      "pb-179-menjivar-local-news",
+      "pb-180-mickey-adventures-in-the-skin-trade",
+      "pb-184-morley-tell-me-a-story",
+      "pb-185-muellner-the-land-speed-record",
+      "pb-195-nordstrom-the-emigrants",
+      "pb-200-opton-inspired-by-the-news",
+      "pb-205-palacio-blue-velvet",
+      "pb-208-patton-sequential-or-serial",
+      "pb-221-reas-expanded-cinema",
+      "pb-241-schles-invent-the-world-for-me",
+      "pb-259-soth-words-and-photographs",
+      "pb-264-storm-interview-as-guide",
+      "pb-265-stuke-sieber-teaching-antifoto",
+      "pb-274-terpstra-photos-not-taken",
+      "pb-281-turyn-telephone-game",
+      "pb-283-umbrico-an-exercise-in-travel-choice-narrative-contingency-and-eisensteins-idea-of-collision-versus-collusion",
+      "pb-284-van-de-roer-sum-of-the-parts",
+      "pb-286-ventura-the-depths",
+      "pb-297-white-the-entirety-of-a-problem",
+      "pb-299-willing-rhythm-and-melody",
+      "pb-300-winokur-expansive-and-deeper",
+      "pb-302-wiseman-chance-luck-and-good-judgment"
+    ]
+  },
+  "Technique": {
+    "see": "Process",
+    "printedPages": [],
+    "assignments": [
+      "pb-015-barney-slow-down",
+      "pb-031-brown-the-last-seven-pictures",
+      "pb-032-bunnell-assignment-two-from-twentieth-century-photography-seminar",
+      "pb-034-calisch-offer-your-services",
+      "pb-037-carlsen-photography-as-sculpture",
+      "pb-039-carroll-chicken",
+      "pb-044-catanese-the-arrangement-game",
+      "pb-046-chaplin-lessons-learned-from-a-failed-attempt",
+      "pb-048-colberg-letters-to-yourself",
+      "pb-051-connors-a-short-list-of-remedies-for-photographer-s-block",
+      "pb-056-crane-some-of-my-beliefs-about-photography-and-teaching",
+      "pb-058-cwynar-object-lesson",
+      "pb-059-cyr-limitation-routine-and-repetition",
+      "pb-061-defibaugh-beautiful-from-nothing",
+      "pb-066-deveney-a-guide-to-the-neighborhood",
+      "pb-072-duffy-exercises-in-photography",
+      "pb-073-ebner-seeing-more-flatly",
+      "pb-078-estrin-the-basics",
+      "pb-080-ezawa-make-a-photograph",
+      "pb-088-fitch-feedback-loop",
+      "pb-093-frame-la-dolce-vita",
+      "pb-097-georgiou-stop-and-return",
+      "pb-103-gottlund-inside-out",
+      "pb-104-grannan-discomfort",
+      "pb-111-harper-the-body-as-a-site-of-perception",
+      "pb-118-hewitt-the-replica-and-its-mutation",
+      "pb-123-homma-the-boundaries-of-imitation",
+      "pb-124-hornstra-the-best-whatever",
+      "pb-128-ivis-twenty-four-hours",
+      "pb-130-jakschik-follow-your-heart",
+      "pb-139-kelly-the-street-as-a-theatrical-tableau",
+      "pb-141-kereszi-all-things-large-and-small",
+      "pb-143-kessmann-ninety-nine-pictures",
+      "pb-145-kinsman-solargraphy",
+      "pb-147-klein-what-is-a-photograph",
+      "pb-151-kurland-suggested-suggestions",
+      "pb-152-ladd-insecurity",
+      "pb-153-lambrou-arms-length",
+      "pb-156-la-spina-24-24-24",
+      "pb-158-lehr-the-envelope-project",
+      "pb-164-malasauskas-assignment",
+      "pb-165-maloney-disrupting-the-process",
+      "pb-167-marcoci-the-logic-of-photography",
+      "pb-169-martin-reading-the-tea-leaves",
+      "pb-170-mater-a-beautiful-mistake",
+      "pb-176-meeks-complete-surrender",
+      "pb-178-meister-on-close-inspection",
+      "pb-184-morley-tell-me-a-story",
+      "pb-197-novak-sketching-for-computer-based-projects",
+      "pb-198-ogden-natural-vs-artificial",
+      "pb-201-osterman-book-as",
+      "pb-202-otoole-scale",
+      "pb-203-ou-photograph-something-invisible",
+      "pb-204-paglen-imaging-systems",
+      "pb-211-phelps-photograph-in-context",
+      "pb-215-plademunt-manual-to-make-a-good-photographic-project-part-one",
+      "pb-217-powell-six-street-exercises",
+      "pb-222-reas-the-discipline-of-music",
+      "pb-244-schneider-interpreting-light",
+      "pb-246-schwabsky-an-exercise-in-photography",
+      "pb-255-slack-the-seven-minute-game",
+      "pb-256-slota-four-pieces",
+      "pb-276-thall-pictures-within-pictures",
+      "pb-279-traub-the-don-ts",
+      "pb-305-xoubanova-manual-to-make-a-good-photographic-project-part-two"
+    ]
+  }
+}

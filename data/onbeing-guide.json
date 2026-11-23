@@ -22,7 +22,16 @@
         ]
       }
     ],
-    "tryNext": []
+    "tryNext": [
+      {
+        "assignment": "pb-253-shore-intentionality",
+        "why": "Compare Shore’s experience as a teacher with the two authors’ reasons for talking about practice."
+      },
+      {
+        "assignment": "pb-088-fitch-feedback-loop",
+        "why": "Try Fitch’s cycle of making and looking, then bring one discovery to a conversation with another photographer."
+      }
+    ]
   },
   "ob-02": {
     "segments": [
@@ -87,7 +96,16 @@
         ]
       }
     ],
-    "tryNext": []
+    "tryNext": [
+      {
+        "assignment": "pb-125-hurn-giving-the-mundane-its-beautiful-due",
+        "why": "Return to Hurn’s own Welsh village project after reading how he came to work close to home."
+      },
+      {
+        "assignment": "pb-109-hampton-being-there",
+        "why": "Use access through family or friends to spend time with a subject you can revisit."
+      }
+    ]
   },
   "ob-03": {
     "segments": [
@@ -122,7 +140,16 @@
         ]
       }
     ],
-    "tryNext": []
+    "tryNext": [
+      {
+        "assignment": "pb-010-badger-what-cannot-be-seen",
+        "why": "Choose something invisible and decide what evidence a photograph could offer a viewer."
+      },
+      {
+        "assignment": "pb-213-pickering-the-camera-never-lies",
+        "why": "Change a caption or crop and examine how the same photograph can support a different reading."
+      }
+    ]
   },
   "ob-04": {
     "segments": [
@@ -177,7 +204,20 @@
         ]
       }
     ],
-    "tryNext": []
+    "tryNext": [
+      {
+        "assignment": "pb-004-anderson-parameters",
+        "why": "Draw a boundary around a nearby area and see which subjects keep drawing you back."
+      },
+      {
+        "assignment": "pb-059-cyr-limitation-routine-and-repetition",
+        "why": "Choose one subject from your list and use a recurring appointment to test your interest."
+      },
+      {
+        "assignment": "pb-125-hurn-giving-the-mundane-its-beautiful-due",
+        "why": "Study Hurn’s village project before choosing a familiar subject you could photograph for years."
+      }
+    ]
   },
   "ob-05": {
     "segments": [
@@ -232,7 +272,16 @@
         ]
       }
     ],
-    "tryNext": []
+    "tryNext": [
+      {
+        "assignment": "pb-129-jacobson-where-do-you-stand",
+        "why": "Test Hurn’s questions about position and timing through Jacobson’s exercise."
+      },
+      {
+        "assignment": "pb-276-thall-pictures-within-pictures",
+        "why": "Move the camera within a layered scene and compare how its edges arrange the elements."
+      }
+    ]
   },
   "ob-06": {
     "segments": [
@@ -277,7 +326,20 @@
         ]
       }
     ],
-    "tryNext": []
+    "tryNext": [
+      {
+        "assignment": "pb-088-fitch-feedback-loop",
+        "why": "Review one shoot to decide what to try during the next one."
+      },
+      {
+        "assignment": "pb-152-ladd-insecurity",
+        "why": "Compare neighboring exposures later and notice what the camera screen encouraged you to dismiss."
+      },
+      {
+        "assignment": "pb-047-chiara-taking-stock",
+        "why": "Revisit earlier photographs and identify choices that change when you edit with distance."
+      }
+    ]
   },
   "ob-07": {
     "segments": [
@@ -322,7 +384,20 @@
         ]
       }
     ],
-    "tryNext": []
+    "tryNext": [
+      {
+        "assignment": "pb-184-morley-tell-me-a-story",
+        "why": "Build a five-to-seven-picture story and test whether each image contributes something new."
+      },
+      {
+        "assignment": "pb-208-patton-sequential-or-serial",
+        "why": "Change the order of related photographs and see which relationships survive the edit."
+      },
+      {
+        "assignment": "pb-066-deveney-a-guide-to-the-neighborhood",
+        "why": "Invite a resident to guide you through a neighborhood before shaping its story in pictures."
+      }
+    ]
   },
   "ob-08": {
     "segments": [
@@ -377,7 +452,16 @@
         ]
       }
     ],
-    "tryNext": []
+    "tryNext": [
+      {
+        "assignment": "pb-078-estrin-the-basics",
+        "why": "Rehearse technical choices until you can pay attention to what unfolds in front of the camera."
+      },
+      {
+        "assignment": "pb-148-klett-daily-practice",
+        "why": "Keep a camera within reach and see how that practical decision changes when you photograph."
+      }
+    ]
   },
   "ob-09": {
     "segments": [
@@ -442,7 +526,20 @@
         ]
       }
     ],
-    "tryNext": []
+    "tryNext": [
+      {
+        "assignment": "pb-213-pickering-the-camera-never-lies",
+        "why": "Use framing and captions to test how much trust a single photograph deserves."
+      },
+      {
+        "assignment": "pb-171-mayes-youre-a-publisher-now",
+        "why": "Publish a sequence and examine how direct contact with viewers changes your editorial decisions."
+      },
+      {
+        "assignment": "pb-229-ritchin-the-meta-photographer",
+        "why": "Consider what editorial responsibilities arise when you work with photographs already in circulation."
+      }
+    ]
   },
   "ob-10": {
     "segments": [
@@ -507,7 +604,20 @@
         ]
       }
     ],
-    "tryNext": []
+    "tryNext": [
+      {
+        "assignment": "pb-144-killip-sustainability",
+        "why": "Compare the cost of living in a place with the time you need to photograph it."
+      },
+      {
+        "assignment": "pb-071-dubois-fits-and-starts",
+        "why": "Bring a failed project to critique and identify a decision worth trying again."
+      },
+      {
+        "assignment": "pb-258-soren-advice",
+        "why": "Test one piece of professional advice against your own circumstances."
+      }
+    ]
   },
   "ob-11": {
     "segments": [
@@ -542,6 +652,15 @@
         ]
       }
     ],
-    "tryNext": []
+    "tryNext": [
+      {
+        "assignment": "pb-125-hurn-giving-the-mundane-its-beautiful-due",
+        "why": "Read Hurn’s own assignment alongside his biography and identify the project he was still pursuing."
+      },
+      {
+        "assignment": "pb-129-jacobson-where-do-you-stand",
+        "why": "Trace Hurn’s influence on another photographer’s teaching through a practical question about camera position."
+      }
+    ]
   }
 }
